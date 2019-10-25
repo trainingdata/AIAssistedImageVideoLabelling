@@ -1,18 +1,18 @@
-# Documentation
+# TrainingData.io: AI Assisted Image & Video Training Data Labeling @ Scale
 
-+ [AI Assisted Annotation](#ai-assisted-annotation)
-  + [Segmentation of Liver](#segmentation-of-liver)
-  + [Segmentation of Spleen](#segmentation-of-spleen)
-+ [Collaborators](#collaborators)
-  + [Add Collaborators to a Specific Project](#add-collaborators-to-a-specific-project)
-  + [Add a Collaborator](#add-a-collaborator)
-  + [Collaborators](#collaborators)
-+ [DataSet](#dataset)
-  + [Create a Dataset](#create-a-dataset)
-  + [Delete a Dataset](#delete-a-dataset)
-+ [Labeling Instructions](#labeling-instructions)
-  + [KeyBoard Shortcuts: Productivity](#keyboard-shortcuts:-productivity)
-  + [Labeling Instruction Builder](#labeling-instruction-builder)
+# Table Of Contents
+
++ [Overview](#overview)
+  + [Complete Feature Set](#complete-feature-set)
+  + [Overview](#overview)
+  + [Quality Management](#quality-management)
+  + [Security and Privacy](#security-and-privacy)
+  + [FAQ](#faq)
++ [Quality Management Workflow](#quality-management-workflow)
+  + [Annotator Performance Management](#annotator-performance-management)
+  + [Roles: Admin](#roles:-admin)
+  + [Roles: Annotator](#roles:-annotator)
+  + [Roles: Reviewer](#roles:-reviewer)
 + [On Premises Infrastructure](#on-premises-infrastructure)
   + [Cloud Hosted Datasets](#cloud-hosted-datasets)
   + [Docker and VPN for Secure Training Data](#docker-and-vpn-for-secure-training-data)
@@ -25,336 +25,393 @@
   + [Magnify](#magnify)
   + [Polygon Tool](#polygon-tool)
   + [Segmentation with Brush & Eraser](#segmentation-with-brush-&-eraser)
++ [Labeling Instructions](#labeling-instructions)
+  + [KeyBoard Shortcuts: Productivity](#keyboard-shortcuts:-productivity)
+  + [Labeling Instruction Builder](#labeling-instruction-builder)
++ [AI Assisted Annotation](#ai-assisted-annotation)
+  + [Segmentation of Liver](#segmentation-of-liver)
+  + [Segmentation of Spleen](#segmentation-of-spleen)
++ [DataSet](#dataset)
+  + [Create a Dataset](#create-a-dataset)
+  + [Delete a Dataset](#delete-a-dataset)
 + [Projects](#projects)
   + [Add New Project](#add-new-project)
   + [Start Annotation](#start-annotation)
-+ [Quality Management Workflow](#quality-management-workflow)
-  + [Annotator Performance Management](#annotator-performance-management)
-  + [Roles: Admin](#roles:-admin)
-  + [Roles: Annotator](#roles:-annotator)
-  + [Roles: Reviewer](#roles:-reviewer)
-+ [Terms and Conditions](#terms-and-conditions)
-  + [Privacy Policy](#privacy-policy)
-  + [Terms of Use](#terms-of-use)
++ [Collaborators](#collaborators)
+  + [Add Collaborators to a Specific Project](#add-collaborators-to-a-specific-project)
+  + [Add a Collaborator](#add-a-collaborator)
+  + [Collaborators](#collaborators)
 + [Workspace](#workspace)
   + [Active Viewport Image ()](#active-viewport-image-middle)
   + [Folder Navigation ()](#folder-navigation-left)
   + [Label Data ()](#label-data-right)
   + [ToolBar ()](#toolbar-top)
++ [Terms and Conditions](#terms-and-conditions)
+  + [Privacy Policy](#privacy-policy)
+  + [Terms of Use](#terms-of-use)
+
+
+# Overview
+TrainingData.io application provides high precision training data labeling for Visual AI. Our SaaS solution uses AI assisted features to give machine learning engineers speed up of several orders of magnitude. Our goal is to "empower data scientists to control quality of training data"
+
+## Key Benefits
+
+1. High precision labeling tool with Superpixel segmentation, AI-assisted labeling, and active-learning.
+2. Custom labeling instructions for every task - delivers productivity enhancing user-experience for annotators.
+3. Data security and privacy protection using On-premises, In-cloud or hybrid hosting. (using Docker and VPN)
+4. Collaboration with multiple annotator's on same task.
+5. Annotator performance and quality management workflow.
+6. AI-Assisted annotation using existing ML models.
+7. Out of the box support for medical imaging (DICOM).
+
+
+![Key Benefits of TrainingData.io](https://files.readme.io/2020847-NewWorkflow.png)
 
 
 
-# AI Assisted Annotation
+![Old Workflow](https://files.readme.io/39f6721-CurrentWorkflow.png)
 
 
-# Segmentation of Liver
-
-## Segmentation of Liver using NVIDIA Clara Backend
-
-
-
-[![AI Assisted Liver Segmentation](https://i.ytimg.com/vi/t3rXegVVTE4/hqdefault.jpg)](https://www.youtube.com/watch?v=t3rXegVVTE4&feature=youtu.be)
-
-# Segmentation of Spleen
-
-## Segmentation of Spleen using NVIDIA Clara
-
-
-
-[![AI Assisted Spleen Segmentation](https://i.ytimg.com/vi/giFBUSsmJyE/hqdefault.jpg)](https://www.youtube.com/watch?v=giFBUSsmJyE&feature=youtu.be)
-
-# Collaborators
-
-
-# Add Collaborators to a Specific Project
-Select a project from the Projects tab. This will open project settings. Under "Collaborators" sub tab, click "Add a Collaborator". Enter email address of new collaborator, enter role of new collaborator. Role of a collaborator can be "Admin", "Annotator", or "Reviewer".
-
-Click "Add" to finish.
-
-[!['fixtitle']('https://i.ytimg.com/vi/'2ZUXOUe30n0'/hqdefault.jpg')]('https://www.youtube.com/embed/'2ZUXOUe30n0)
-
-# Add a Collaborator
-A Collaborator is an individual who works on your labeling task. Collaborators can be your teammates at work, or people in other teams like data-science team, product team, devops team, legal team. Collaborators can also be individuals outside your organization like freelance annotators who would do annotation-work requiring skills not available in your organization.
-
-## How do I Add a New Collaborator to My Organization?
-
-Login to your account
-
-Select "Collaborator" tab
-
-Select "Add Collaborator"
-
-Enter email address of new collaborator
-
-Select Roles as "Project Based"
-
-List of all your projects will populate
-
-Now set role of this new collaborator for each individual project
-
-[!['fixtitle']('https://i.ytimg.com/vi/'IfDn_GWWQ1w'/hqdefault.jpg')]('https://www.youtube.com/embed/'IfDn_GWWQ1w)
-
-
-
-## How do I Add Collaborator With Same Role for All Projects?
-
-Login to your account
-
-Select "Collaborator" tab
-
-Select "Add Collaborator"
-
-Enter email address of new collaborator
-
-Select Role as "Admin" or "Annotator" or "Reviewer"
-
-This new user will have same role for all projects.
-
-## How to Remove a Collaborator?
-
-Login to your account
-
-Select "Collaborator" tab
-
-For the collaborator to be removed, set role to "Select Role"
-
-This collaborator will no more have access to your projects.
-# Collaborators
-
-## Why do you need collaborators?
-
-Deep learning requires millions of images as input. Task of labeling millions of images requires many individuals. These individuals might be freelancers, and they might be located in distant locations. A data-science team needs to engage freelance workforce to complete their tasks.
-
-The Collaborator feature allows data-science team to invite individuals to help with a labeling project. If multiple users are collaborating on an annotating project, TrainingData.io application distributes all of the data attached to a project to the collaborators with access. Collaborators will only get unique data, meaning there will not be multiple annotators annotating the same data.
-
-## Roles
-
-**Annotator**
-The Annotator role can annotate queued data and view their own work from the Activity Table. An annotator cannot view annotators performance or view/modify any aspect of the project configuration or data sources.
-
-**Reviewer**
-The Reviewer role extends the annotator role by being able to see and review all annotated data in the project.
-
-**Admin**
-The Admin role can add and edit projects, data and Annotators. By default, the user that signs up for an account has the role of Admin.
-
-**Project Based Roles**
- When a user is given a project based role, they don't have access to projects by default. However, the user is granted access to each project with a specific role and the role of each project can be changed. The benefit of this is that you can limit the access and the role of a user depending on the project at your discretion.
 
 ## 
 
-# DataSet
+#[Click Here For Complete Feature Set](https://trainingdata.readme.io/docs/full-feature-set)
 
 
-# Create a Dataset
-Datasets can be hosted in multiple locations. Location of datasets can be following:
-1. A dataset can be local to your intranet (accessible to outside world over a VPN connection) 
-2. A dataset can be hosted on your cloud, or your AWS S3, your Google Firebase storage, your Azure account.
-3. A dataset can be uploaded to TrainingData.io's cloud storage. We use AWS S3.
+# Complete Feature Set
+At TrainingData.io, we believe quality of the machine learning model is dependent on the quality of labelling. We empower data-scientists to control the quality of data labelling in the following ways:
 
-## 1. Add New On-Prem Dataset with CSV File Upload
+## Segmentation and Classification
 
-Prepare a CSV file with a list of URLs as shown below: 
-1. login to your TrainingData.io account. 
-2. Select "Data" tab. 
-3. Select "Add New Dataset".
-4. Enter name for new Dataset
-5. Select "Remote"
-6. Upload a csv file that arranges URLs like this
-[block:html]
-{
-  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vS0sq3VtQGLMokOyrEuh6sDEnVAkZJeBzFvzsriNSqWZByjFJOgHFp0luJfWEPGqjQYhwOVPhEGo8vk/pubhtml?gid=14120895&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
-}
-[/block]
+TD.io's application supports following types of annotation work:
+1. Segmentation only
+2. Classification only
+3. Segmentation with Classification.
 
+## Pixel Accurate Tools
 
-[![Local Dataset using CSV File Upload - Edited](https://i.ytimg.com/vi/rJK58Ed3kAg/hqdefault.jpg)](https://www.youtube.com/watch?v=rJK58Ed3kAg&feature=youtu.be)
+We use advanced image processing to provide pixel accurate tools like
+1. [Superpixel-segmentation](https://trainingdata.readme.io/docs/segmentation-tool) with brush and eraser,
+2. [Polygon](https://trainingdata.readme.io/docs/polygon-tool) with advanced editing, bounding box, 
+3. [Freehand-draw with sculpter](https://trainingdata.readme.io/docs/freehand-draw), and
+4. Region of Interest (ROI) growth tool.
 
 
+## AI Assisted Annotation
 
-## 2. Add New On-Prem Dataset with Folder Upload
+1. AI Assisted Annotation using Data-scientist's ML model
+2. AI Assisted Annotation using NVIDIA Clara
 
-A dataset can be created using "Upload Folder" if the folder is:
-a) mounted as a disk (local disk or network storage),
-AND
-b) root of webserver serving dataset is same as the uploaded folder
 
-1. Add new dataset
-2. Select "Local"
-3. Enter a name for the dataset
-4. Click "Upload Folder"
-5. Select a folder that is root of webserver
-6. In video below root of webserver is folder name "imageserver"
-7. Enter "File System Path" as base URL: example http://localhost:8000/
-8. Select "Submit"  
+## Data Security and Privacy Controls
 
-[![Create Local Dataset using "Upload Folder" Local - Edited](https://i.ytimg.com/vi/dPe4nCOB9Y4/hqdefault.jpg)](https://www.youtube.com/watch?v=dPe4nCOB9Y4&feature=youtu.be)
+On-premises hosting of datasets and annotation tools using Docker and VPN.
 
+## Collaboration: Annotator's Performance Management
 
+1. Measure, record and analyze annotator's performance on every individual task, asset and label.
+2. Compare performance of multiple annotators on same task.
+3. Distribute labeling work among multiple labelers and observe consensus among their work.
+4. Seed annotation tasks with golden data set. Report performance of annotator on golden data set.
 
-## 3. Upload Archive: zip or tar to TD.io's Cloud Storage
+## Labeling Instruction Builder
 
-Alternatively, you can upload an archive:
-1. Add new dataset
-2. Select "Remote"
-3. Enter a name for the dataset
-4. Click "Upload Files"
-5. Select an archive of files and folders (recursive folder structure preserved with image files)
-6. Select "Submit"
-Individual image files will be uploaded to TD.io's cloud storage. Folder structure will be preserved exactly as given in archive.
+[Labeling instruction builder](https://trainingdata.readme.io/docs/define-json) empowers data scientist to define user experience of annotators in fine-detail:
+1. Labeling classes and ontology can be defined in fine-detail.
+2. WYSIWYG instruction builder enables  data-scientist to view how labeling interface appears to the annotator.
 
-[![Archive (zip) Dataset - Edited](https://i.ytimg.com/vi/WbTMiDM2b2M/hqdefault.jpg)](https://www.youtube.com/watch?v=WbTMiDM2b2M&feature=youtu.be)
+We believe the quality of work performed by annotators depends on the quality of user experience in annotation tools. We build intuitive user experience for annotators.
 
+## WorkForce: Humans-in-the-Loop
 
+We partner with highest quality workforce from around the world.
 
-## 4. Upload Individual Files and Folders to TD.io's Cloud
+# Security and Privacy
+At TrainingData.io we take data security and privacy very seriously. 
 
-Alternatively, you can upload individual files and Folders to TD.io's Cloud:
-1. Add new dataset
-2. Select "Remote"
-3. Enter a name for the dataset
-4. Click "Upload Files"
-5. Select "Upload Files" and select individual files 
-6. Select "Upload Folder" and select individual folder
-7. Inspect individual files
-8. Select "Submit"
-Individual image files will be uploaded to TD.io's cloud storage. (Folder structure will be preserved exactly as that of selected folder)
+We allow you to log in to TrainingData.io application using the same identity provider that you use for other services.
 
-## 5. Upload Video Files to TD.io's Cloud
+# Data Security
+We allow data owners to control who accesses their data. Each annotator's (internal or external) activity is recorded and they are not allowed to download training data. We allow data owners to see complete access log of every collaborator's activity. 
 
-Alternatively, you can upload video files to TD.io's Cloud:
-1. Add new dataset
-2. Select "Remote"
-3. Enter a name for the dataset
-4. Click "Upload Files"
-5. Select "Upload Files" and select individual video files (mov, avi) 
-6. Inspect video files to be uploaded
-8. Select "Submit"
-Video files will be broken down into individual frames by TD.io's cloud system
+# Single Sign-On
+TrainingData.io supports single sign-on (SSO), which allows you to log in to TrainingData.io application using the same identity provider that you use for other services.
 
-[![Video File Upload](https://i.ytimg.com/vi/Dvd2DtY1j9s/hqdefault.jpg)](https://www.youtube.com/watch?v=Dvd2DtY1j9s&feature=youtu.be)
+# On Premises Solution
+We  provide our labeling software as Docker image, it can run as hosted solution in your network. Hosted version of annotation tool can access images that are hosted on local machine, images hosted on local web-server or images hosted in cloud. All training data and resulting labels are saved on local infrastructure. Only project definition sits in cloud.
 
 
+![On-Prem Solution using Docker Container and VPN](https://files.readme.io/819bde1-Docker.png)
 
-## 6. Upload CSV File with Self Hosted-Cloud URLs
+# Cloud Hosted Solution
+You can upload your assets (images and videos) to our cloud. Our cloud is secure with equivalent of HIPAA compliance. (We sign BAA agreement if needed).
 
-Prepare a CSV file with a list of URLs as shown below: 
-1. login to your TrainingData.io account. 
-2. Select "Data" tab. 
-3. Select "Add New Dataset".
-4. Enter name for new Dataset
-5. Select "Remote"
-6. Upload a csv file that arranges URLs like this
-7. Select "Submit"
-8. Inspect new dataset
-[block:html]
-{
-  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
-}
-[/block]
+# Hybrid Solution
+We offer hybrid solution where annotation tool is installed on local infrastructure as Docker instance. Training data is hosted in cloud.
 
+# Quality Management
+At TrainingData.io, we believe, quality of the machine learning model is entirely dependent on the quality of labeling for training data. We help you control quality of data labeling in following ways:
 
-[![Self Hosted Cloud Dataset](https://i.ytimg.com/vi/p8wubMrjpKw/hqdefault.jpg)](https://www.youtube.com/watch?v=p8wubMrjpKw&feature=youtu.be)
+## Annotator's Performance Management
 
+1. Measure, record and analyze annotator's performance on every individual task, asset and label.
+2. Compare performance of multiple annotators on same task.
+3. Distribute labeling work among multiple labelers and observe consensus among their work.
+4. Seed annotation tasks with golden data set. Report performance of annotator on golden data set.
 
+## Pixel Accurate tools
 
-## Supported File Formats
+1. We use advanced image processing to build pixel accurate tools like segmentation, freehand, growth tools.
+2. Build high quality user experience for annotators that allows then to do high quality work at fast pace.
+3. Enable smooth collaboration between annotators and data-scientists.
 
-TrainingData.io application standard image annotating interface supports the following image file formats.
-PNG
-JPEG
-BMP
-DCM
-TAR
-ZIP
-GZ
-# Delete a Dataset
-Click on the three dots at right end of the Dataset and you will get delete option. Click on same to delete dataset
+## State of the art User Experience (UX)
 
-![undefined](https://files.readme.io/ef68532-DeleteDataset.png)
+1. TD.io believes quality of work performed by annotators depends on quality of user experience in annotation tools
+2. We build intuitive user experience for annotators.
 
-# Labeling Instructions
+## Labeling Instruction Builder
 
+1. Empowering data scientist to take control user experience of annotators.
+2. Labeling classes and ontology needs to be defined in detail.
+3. Data scientist needs precise view of how labeling interface appears to the annotator.
 
-# KeyBoard Shortcuts: Productivity
+# FAQ
+**General Questions**
+**What is TrainingData.io?**
+TrainingData.io application is a AI training-data management platform. Our goal is to  empower data science team to control the training data management workflow.
 
-## Why do you need shortcuts?
+**What is Data annotation?**
+In order to train machines to make decisions on behalf of humans, they must learn to make those decisions. In order to learn about the world around us, machines take input in form of images and text that is labeled for representative features. A label in an image is clearly marked bounding region that represents a real world entity or object. Managing data labeling at very large scale is time consuming and requires special software.
 
-Keyboard shortcuts can enhance productivity of annotators very significantly. Annotation tasks are very repetitive in nature, requiring same actions to be performed again and again. Keyboard shortcuts help human-labelers reach actions to be performed very fast.
+**What can I annotate with TrainingData.io application?**
+With our labeling solution you can label any visual dataset including images and videos. We support medical imaging format - DICOM. 
 
-## How to add Keyboard Shortcuts?
+**What kind of data formats are supported by TrainingData.io? **
+Our annotation tools support JPEG, PNG, DICOM, mov, avi, mp4, zip, tar, gz
 
-Here is how you add keyboard shortcuts:
-1. Select "Label Configuration"
-2. Create new or Edit a Labeling Interface
-3. Click on Text entry "Assign Keyboard shortcut"
-4. Enter keyboard shortcut on you keyboard (for example SHIFT+N)
+**How Trainingdata.io application will help my data science team deploy Machine Learning/Artificial Intelligence?**
+Trainingdata.io is a place where you can start small and scale-up your data management operations with time. We help you manage early-stage AI projects with internal stakeholders. Once your are ready to scale operations we connect you with human-labelers outside your organization. We help you control quality of work produced by third-party human labelers. This helps you improve quality of your machine learning models at fast pace and at fraction of cost. 
 
-![How to Add Keyboard Shortcuts](https://files.readme.io/a33ce0c-KeyBoardShortcuts.gif)
+****
 
+**How is Trainingdata.io different from managed labeling services?**
+Managed Labeling services produce error rates as high as 65%. This is due to low quality and inconsistency of labeling tools. Quality of labels produced by workforce depends on quality of user experience for the human labelers. We empower data science team to control user-experience of human labelers. 
 
+What sets us apart is our focus on:
+1. Pixel accurate annotation tools
+2. Customizable labeling interface for every task
+3. Quality and performance management
+4. Data security and privacy protection with on-premises solution.
 
-## For Annotators: How to View Keyboard Shortcuts?
+Compare the two workflows in image below:
 
-Click "Information" icon on top right corner of the screen (as shown in image below).
+**Old (current) Work Flow**
 
-![How to view keyboard ShortCuts.](https://files.readme.io/28c108d-KeyboardShortcuts.png)
+![Old Work Flow](https://files.readme.io/4108b7a-CurrentWorkflow.png)
 
-# Labeling Instruction Builder
+**New Work Flow**
 
-## What is a Labeling Instruction?
+![New Work Flow](https://files.readme.io/2bbda76-NewWorkflow.png)
 
-In order to give labeling task to freelance annotators, data science team needs to define specifications of a labeling task. Those specifications need to be converted to a user-experience. In TrainingData.io application specification builder is called labeling instruction. Labeling instruction is a list of objects that a data-scientist wants human-labelers to find in an image. Objects can have properties like color, size, shape etc. Data-scientist wants to present these properties in question-and-answer HTML form to the annotator.
+**How do I get started with Trainingdata.io application?**
+You can sign up at [login page](https://app.trainingdata.io/v1/td/login).
 
-Labeling instruction has two parts to it. Left panel and right panel. The left panel shows list of classes, their attributes and image-attributes. The right-panel shows how annotation-user-experience appear to the annotator (exactly). 
+**Does Trainingdata.io provide support?**
+Trainingdata.io provides support to all users. 
 
-![Sample Labeling Instruction](https://files.readme.io/4413682-LabelingInstruction1.png)
+**Does TrainingData.io have a discount for academic users?**
+Yes, we do
 
+**I have my data annotated by a service. Why would I use TrainingData.io?**
+With TrainingData.io you can still outsource your annotating projects as well as leverage your internal team on those same projects. The big differentiator is that with TrainingData.io you can manage the quality and performance of your entire annotating team whether they are outsourced or internal, all in one place.
 
+TrainingData.io does not provide in-house annotating services but we do work with several annotating companies (BPO Firms) that we have vetted and currently work with many of our customers in TrainingData.io. We simply recommend them as a third party to help our customers so you are always free to choose any annotating services company that meets your requirements.
 
-## How to create a new Labeling Instruction?
+**My company built an internal labeling tool that seems to work okay. Why would I use TrainingData.io?**
+It's quick and easy to start annotating data using locally installed tools. For most simple annotation tasks being performed by a single annotator, this solution architecture annotates well. As data annotation needs scale, data management and quality control processes are needed to produce accurate and consistent training data. A common cause of under performing AI systems is low accuracy training data.
 
-As you add a class or an attribute on left panel, you will observe same class and attributes will show up on the right panel in real time. 
+**When building data labeling infrastructure, consider the following:**
 
-[![LabelingInterface Example](https://i.ytimg.com/vi/Z1ZYpmFLaRc/hqdefault.jpg)](https://www.youtube.com/watch?v=Z1ZYpmFLaRc&feature=youtu.be)
+  * Total Cost of Ownership
+Homegrown tools are built to exist and serve a particular function, but with new business, demands come to the cost of upgrades. There is a high cost of ongoing maintenance, both in time and money. Technical debt accrues over time due to engineer turn-over, product neglect, and evolving product demands.
 
+  * Unknown and Evolving Scope
+Developing an internal product requires planning, resource allocation, and preparing for the unknown. Because feature flagging platforms are relatively new, it can be difficult to accurately define the scope and construct a solution for needs across engineering and product groups.
 
+  * Minimum Viable Functionality
+Internal tools are generally not built for usability, scalability, or cross-team support. They are built to solve an immediate pain point or provide minimum viable functionality as quickly as possible.
 
-## Step 1: Creating First Class-Type
+  * Data Labeling is Cross Functional
+Turning raw data into accurate and consistent training data is a team effort. Engineers, domain experts (annotators), and managers must work together while playing different roles. Data annotation infrastructure must facilitate this by providing information and interfaces unique to these roles.
 
-Classes are abstract-representation of real world objects that machine learning model learns about. Each class can have a:
-1. Name: Associated real world object-class (like a car)
-2. Color
-3. Tool to be used to draw each object-instance belonging to that class
-4. Sub-attributes are the properties of that class type
+  * Enterprise Readiness
+Productizing AI systems takes fast, reliable, and scaled infrastructure across raw data collection, data labeling, and compute.
 
-![New Class-type](https://files.readme.io/bea51e7-CarPolygon.png)
+**Will TrainingData.io improve the quality and consistency of my labeled data?**
+This is one of our core competencies and one of the main reasons we decided to build TrainingData.io application. We saw that all the available options for annotating made it extremely difficult to ensure our training data was high enough in quality for a production-ready machine learning model and it cost us valuable time and money in the end. We developed a world-class quality and performance management interface within our platform to address this.
 
+**Annotation Questions**
+**How do I setup a project?**
+You can set up a project in three steps:
+1. Click “Add Project” and give the project a name.
+2. Attach your data set to the project.
+3. Customize your labeling interface.
+4. Start Labeling!
 
+**Does TrainingData.io work with Cloud buckets data such as Amazon S3 or Google Cloud Storage?**
+Check out our guide for Connecting Cloud Data.
 
-[!['fixtitle']('https://i.ytimg.com/vi/'wc6oD7ZWCVo'/hqdefault.jpg')]('https://www.youtube.com/embed/'wc6oD7ZWCVo)
+**How do I revisit skipped or submitted labels?**
+You can do this by Re-Enqueuing them from the Activity Tab. For a guide on Re-Enqueuing labels click here
 
+**Does TrainingData.io work with on-premises data?**
+TrainingData.io works with source data hosted on-premises or on a private cloud. The source data is accessed directly from the client computer and never shared (or accessible) by TrainingData.io. Check out our guide here.
 
+**Does TrainingData.io work on mobile devices?**
+We do not currently support mobile devices, although we are working on adding this in the future.
 
-## Step 2: Adding Attributes to Class-Type
+**Can I annotate on an iPad?**
+Yes .
 
-Attributes define properties of real world objects. A simple example is color of car is a property of that car. Data scientists would want to know these properties, so that they can use it to train machines that make decision.  
+**Does Trainingdata.io work in all countries?**
+Yes, unless your network has a restrictive firewall, or you have internet connectivity issues. We currently only support the English language on our platform.
 
-An attribute is a question that you ask an annotator. There are four different data-types of an attribute:
-1. Text: alphanumeric data entry
-2. Multi-select Checkbox: a list of check boxes with multi-select functionality
-3. Single-select Drop down list: with single select functionality
-4. Single-select Radio button: with single selection functionality
+**Does Trainingdata.io application work without an internet connection?**
+No, you must have an internet connection to use trainingdata.io application.
 
-[!['fixtitle']('https://i.ytimg.com/vi/'3glJI8KxZng'/hqdefault.jpg')]('https://www.youtube.com/embed/'3glJI8KxZng)
+**What browser do you recommend for trainingdata.io application?**
+We recommend Chrome. We do not recommend Internet Explorer or Safari due to compatibility issues.
 
+**What formats can I export my annotated data?**
+Your annotated data can be exported in JSON, Mask and PNG which should allow  you to import it into any machine learning framework.
 
+**How does Auto Consensus work?**
+Auto Consensus ensures consistency and accuracy of the labeled data. When turned on, some or all of the images are labeled by more than one labeler so that a consensus among labelers for each labeled datum can be calculated and ultimately managed. You can configure the percentage of your dataset in a project that will be randomly selected to be labeled more than once by distinct collaborators. You can also configure the number of times this percentage of labels will be labeled. Check out our docs here for more detail.
 
-## Step 3: Final Labeling Interface
+**Will other labelers see the same data that I'm labeling?**
+If Auto Consensus is turned on and configured then yes, otherwise no.
 
-After adding all classes and attributes to a labelling interface, a complete labelling interface will look like this:
+**Does TrainingData.io have an API?**
+Yes, we have a fully featured API. Everything you can do with our interface, you can do programmatically through our API. The API is available on our Enterprise tier. You may contact sales at https://trainingdata.io/contact.
 
-![New Attribute](https://files.readme.io/de94b8b-LabelingInterface.png)
+If you are a paid user you may request an API key from our support team via the Chat icon (preferred method) or by sending an email to info@trainingdata.io, and title it "API Request".*
+
+**I already have training data. Can I import it into Trainingdata.io application?**
+Yes, it can be imported. Simply send us the annotated data and we will reformat it and upload it for you.
+
+**How do I delete a project?**
+Open your project then go to settings > Other, and click on the delete button.*
+
+# Quality Management Workflow
+
+
+# Annotator Performance Management
+
+## Annotator Performance Management
+
+Analyze performance of every annotator for every image or video-frame. Following statistics are available:
+1. Number of labels created by an annotator.
+2. Time spent per label (average) in seconds.
+3. Total time spent on the project in seconds.
+4. Last activity by every annotator.
+5. Reviewers can accept or reject annotations of every annotator. Reviewer acceptance rate is a percentage that is calculated by aggregating reviewer's acceptance count.  
+6. Reviewers can optionally give a score for every image. Reviewer's average score (between 0 and 10) is calculated 
+7. Consensus using IOU
+
+
+![Annotator Performance](https://files.readme.io/da2f882-AfterReview1.png)
+
+
+
+## Review Mode: How to review a task performed by Annotators
+
+In Review mode performance of an annotator can be reviewed for every image or video-frame. As seen in video below reviewers can
+1. "Accept" "Reject" an annotation: Mandatory 
+2. Give a score between 0 and 10, (optional).
+3. Leave a comment for the annotator (optional).
+
+[!['fixtitle']('https://i.ytimg.com/vi/'UEjkveN3hFg'/hqdefault.jpg')]('https://www.youtube.com/embed/'UEjkveN3hFg)
+
+
+
+![Graphical User Interface for Reviews](https://files.readme.io/8ec6485-Review.png)
+
+
+
+## Annotation Mode: How to create annotations
+
+From project settings page select button "Start Annotating". 
+1. Select classes on right panel
+2. When a class is selected, corresponding tool is activated.
+3. Draw annotation with respective tool
+4. Enter questionnaire related to the annotations
+5. Press Button:"Save" to save annotation
+6. Press Button:"Delete" to delete an annotation.
+7. Press left button or right button to move left and right.
+
+[!['fixtitle']('https://i.ytimg.com/vi/'bHrd55nISzY'/hqdefault.jpg')]('https://www.youtube.com/embed/'bHrd55nISzY)
+
+# Roles: Admin
+
+## What is Admin's Role?
+
+1. Admin can create annotations. 
+2. Admin can review annotations.
+
+Image below shows admin's view of a task with ability to annotate and review-annotations.
+
+
+![Admin's view to project settings](https://files.readme.io/2ecdb5f-Admin.png)
+
+
+
+## Admin Mode: How to create annotations
+
+
+
+[!['fixtitle']('https://i.ytimg.com/vi/'bHrd55nISzY'/hqdefault.jpg')]('https://www.youtube.com/embed/'bHrd55nISzY)
+
+
+
+## Admin Mode: How to review annotations
+
+
+
+[!['fixtitle']('https://i.ytimg.com/vi/'UEjkveN3hFg'/hqdefault.jpg')]('https://www.youtube.com/embed/'UEjkveN3hFg)
+
+# Roles: Annotator
+
+## What is Annotator's Role?
+
+Every project can have multiple collaborators. A collaborator can be an admin, annotator or reviewer. An admin can annotate and review. An annotator can only annotate, not review. A reviewer is usually a subject matter expert, they can review annotations (and add modifications to annotations)
+
+Annotator can only add or modify annotations. They will also see reviews from reviewers.
+
+Image below shows annotator seeing reviews by a reviewer.
+
+![Review Comments Visible to Annotator](https://files.readme.io/25655db-AnnotatorReviewComments.png)
+
+
+
+## Annotation Mode: How to create annotations
+
+
+
+[!['fixtitle']('https://i.ytimg.com/vi/'bHrd55nISzY'/hqdefault.jpg')]('https://www.youtube.com/embed/'bHrd55nISzY)
+
+# Roles: Reviewer
+
+## What is Reviewer's Role?
+
+Every project can have multiple collaborators. A collaborator can be an admin, annotator or reviewer. An admin can annotate and review. An annotator can only annotate, not review. A reviewer is usually a subject matter expert, they can review annotations (and add modifications to annotations)
+
+In Review mode performance of an annotator can be reviewed for every image or video-frame. Review mode gives reviewer to:
+1. "Accept" or "Reject" an annotation. 
+2. Enter a score between 0 and 10.
+3. Leave a comment for the annotator.
+
+[!['fixtitle']('https://i.ytimg.com/vi/'UEjkveN3hFg'/hqdefault.jpg')]('https://www.youtube.com/embed/'UEjkveN3hFg)
 
 # On Premises Infrastructure
 
@@ -823,6 +880,246 @@ Brush Settings:
 
 ![Accuracy of Segmentation Tool](https://files.readme.io/4a708b3-Ptch2.gif)
 
+# Labeling Instructions
+
+
+# KeyBoard Shortcuts: Productivity
+
+## Why do you need shortcuts?
+
+Keyboard shortcuts can enhance productivity of annotators very significantly. Annotation tasks are very repetitive in nature, requiring same actions to be performed again and again. Keyboard shortcuts help human-labelers reach actions to be performed very fast.
+
+## How to add Keyboard Shortcuts?
+
+Here is how you add keyboard shortcuts:
+1. Select "Label Configuration"
+2. Create new or Edit a Labeling Interface
+3. Click on Text entry "Assign Keyboard shortcut"
+4. Enter keyboard shortcut on you keyboard (for example SHIFT+N)
+
+![How to Add Keyboard Shortcuts](https://files.readme.io/a33ce0c-KeyBoardShortcuts.gif)
+
+
+
+## For Annotators: How to View Keyboard Shortcuts?
+
+Click "Information" icon on top right corner of the screen (as shown in image below).
+
+![How to view keyboard ShortCuts.](https://files.readme.io/28c108d-KeyboardShortcuts.png)
+
+
+# Labeling Instruction Builder
+
+## What is a Labeling Instruction?
+
+In order to give labeling task to freelance annotators, data science team needs to define specifications of a labeling task. Those specifications need to be converted to a user-experience. In TrainingData.io application specification builder is called labeling instruction. Labeling instruction is a list of objects that a data-scientist wants human-labelers to find in an image. Objects can have properties like color, size, shape etc. Data-scientist wants to present these properties in question-and-answer HTML form to the annotator.
+
+Labeling instruction has two parts to it. Left panel and right panel. The left panel shows list of classes, their attributes and image-attributes. The right-panel shows how annotation-user-experience appear to the annotator (exactly). 
+
+![Sample Labeling Instruction](https://files.readme.io/4413682-LabelingInstruction1.png)
+
+
+
+## How to create a new Labeling Instruction?
+
+As you add a class or an attribute on left panel, you will observe same class and attributes will show up on the right panel in real time. 
+
+[![LabelingInterface Example](https://i.ytimg.com/vi/Z1ZYpmFLaRc/hqdefault.jpg)](https://www.youtube.com/watch?v=Z1ZYpmFLaRc&feature=youtu.be)
+
+
+
+## Step 1: Creating First Class-Type
+
+Classes are abstract-representation of real world objects that machine learning model learns about. Each class can have a:
+1. Name: Associated real world object-class (like a car)
+2. Color
+3. Tool to be used to draw each object-instance belonging to that class
+4. Sub-attributes are the properties of that class type
+
+![New Class-type](https://files.readme.io/bea51e7-CarPolygon.png)
+
+
+
+[!['fixtitle']('https://i.ytimg.com/vi/'wc6oD7ZWCVo'/hqdefault.jpg')]('https://www.youtube.com/embed/'wc6oD7ZWCVo)
+
+
+
+## Step 2: Adding Attributes to Class-Type
+
+Attributes define properties of real world objects. A simple example is color of car is a property of that car. Data scientists would want to know these properties, so that they can use it to train machines that make decision.  
+
+An attribute is a question that you ask an annotator. There are four different data-types of an attribute:
+1. Text: alphanumeric data entry
+2. Multi-select Checkbox: a list of check boxes with multi-select functionality
+3. Single-select Drop down list: with single select functionality
+4. Single-select Radio button: with single selection functionality
+
+[!['fixtitle']('https://i.ytimg.com/vi/'3glJI8KxZng'/hqdefault.jpg')]('https://www.youtube.com/embed/'3glJI8KxZng)
+
+
+
+## Step 3: Final Labeling Interface
+
+After adding all classes and attributes to a labelling interface, a complete labelling interface will look like this:
+
+![New Attribute](https://files.readme.io/de94b8b-LabelingInterface.png)
+
+# AI Assisted Annotation
+
+
+# Segmentation of Liver
+
+## Segmentation of Liver using NVIDIA Clara Backend
+
+
+
+[![AI Assisted Liver Segmentation](https://i.ytimg.com/vi/t3rXegVVTE4/hqdefault.jpg)](https://www.youtube.com/watch?v=t3rXegVVTE4&feature=youtu.be)
+
+# Segmentation of Spleen
+
+## Segmentation of Spleen using NVIDIA Clara
+
+
+
+[![AI Assisted Spleen Segmentation](https://i.ytimg.com/vi/giFBUSsmJyE/hqdefault.jpg)](https://www.youtube.com/watch?v=giFBUSsmJyE&feature=youtu.be)
+
+
+## 
+
+# DataSet
+
+
+# Create a Dataset
+Datasets can be hosted in multiple locations. Location of datasets can be following:
+1. A dataset can be local to your intranet (accessible to outside world over a VPN connection) 
+2. A dataset can be hosted on your cloud, or your AWS S3, your Google Firebase storage, your Azure account.
+3. A dataset can be uploaded to TrainingData.io's cloud storage. We use AWS S3.
+
+## 1. Add New On-Prem Dataset with CSV File Upload
+
+Prepare a CSV file with a list of URLs as shown below: 
+1. login to your TrainingData.io account. 
+2. Select "Data" tab. 
+3. Select "Add New Dataset".
+4. Enter name for new Dataset
+5. Select "Remote"
+6. Upload a csv file that arranges URLs like this
+[block:html]
+{
+  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vS0sq3VtQGLMokOyrEuh6sDEnVAkZJeBzFvzsriNSqWZByjFJOgHFp0luJfWEPGqjQYhwOVPhEGo8vk/pubhtml?gid=14120895&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
+}
+[/block]
+
+
+[![Local Dataset using CSV File Upload - Edited](https://i.ytimg.com/vi/rJK58Ed3kAg/hqdefault.jpg)](https://www.youtube.com/watch?v=rJK58Ed3kAg&feature=youtu.be)
+
+
+
+## 2. Add New On-Prem Dataset with Folder Upload
+
+A dataset can be created using "Upload Folder" if the folder is:
+a) mounted as a disk (local disk or network storage),
+AND
+b) root of webserver serving dataset is same as the uploaded folder
+
+1. Add new dataset
+2. Select "Local"
+3. Enter a name for the dataset
+4. Click "Upload Folder"
+5. Select a folder that is root of webserver
+6. In video below root of webserver is folder name "imageserver"
+7. Enter "File System Path" as base URL: example http://localhost:8000/
+8. Select "Submit"  
+
+[![Create Local Dataset using "Upload Folder" Local - Edited](https://i.ytimg.com/vi/dPe4nCOB9Y4/hqdefault.jpg)](https://www.youtube.com/watch?v=dPe4nCOB9Y4&feature=youtu.be)
+
+
+
+## 3. Upload Archive: zip or tar to TD.io's Cloud Storage
+
+Alternatively, you can upload an archive:
+1. Add new dataset
+2. Select "Remote"
+3. Enter a name for the dataset
+4. Click "Upload Files"
+5. Select an archive of files and folders (recursive folder structure preserved with image files)
+6. Select "Submit"
+Individual image files will be uploaded to TD.io's cloud storage. Folder structure will be preserved exactly as given in archive.
+
+[![Archive (zip) Dataset - Edited](https://i.ytimg.com/vi/WbTMiDM2b2M/hqdefault.jpg)](https://www.youtube.com/watch?v=WbTMiDM2b2M&feature=youtu.be)
+
+
+
+## 4. Upload Individual Files and Folders to TD.io's Cloud
+
+Alternatively, you can upload individual files and Folders to TD.io's Cloud:
+1. Add new dataset
+2. Select "Remote"
+3. Enter a name for the dataset
+4. Click "Upload Files"
+5. Select "Upload Files" and select individual files 
+6. Select "Upload Folder" and select individual folder
+7. Inspect individual files
+8. Select "Submit"
+Individual image files will be uploaded to TD.io's cloud storage. (Folder structure will be preserved exactly as that of selected folder)
+
+## 5. Upload Video Files to TD.io's Cloud
+
+Alternatively, you can upload video files to TD.io's Cloud:
+1. Add new dataset
+2. Select "Remote"
+3. Enter a name for the dataset
+4. Click "Upload Files"
+5. Select "Upload Files" and select individual video files (mov, avi) 
+6. Inspect video files to be uploaded
+8. Select "Submit"
+Video files will be broken down into individual frames by TD.io's cloud system
+
+[![Video File Upload](https://i.ytimg.com/vi/Dvd2DtY1j9s/hqdefault.jpg)](https://www.youtube.com/watch?v=Dvd2DtY1j9s&feature=youtu.be)
+
+
+
+## 6. Upload CSV File with Self Hosted-Cloud URLs
+
+Prepare a CSV file with a list of URLs as shown below: 
+1. login to your TrainingData.io account. 
+2. Select "Data" tab. 
+3. Select "Add New Dataset".
+4. Enter name for new Dataset
+5. Select "Remote"
+6. Upload a csv file that arranges URLs like this
+7. Select "Submit"
+8. Inspect new dataset
+[block:html]
+{
+  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
+}
+[/block]
+
+
+[![Self Hosted Cloud Dataset](https://i.ytimg.com/vi/p8wubMrjpKw/hqdefault.jpg)](https://www.youtube.com/watch?v=p8wubMrjpKw&feature=youtu.be)
+
+
+
+## Supported File Formats
+
+TrainingData.io application standard image annotating interface supports the following image file formats.
+PNG
+JPEG
+BMP
+DCM
+TAR
+ZIP
+GZ
+# Delete a Dataset
+Click on the three dots at right end of the Dataset and you will get delete option. Click on same to delete dataset
+
+![undefined](https://files.readme.io/ef68532-DeleteDataset.png)
+
+
+
+
+
 # Projects
 
 
@@ -859,116 +1156,181 @@ To start annotating click on any project entry. You will be taken to the workpla
 
 ![Start Labeling a Project](https://files.readme.io/4c5eeb2-StartLabeling.gif)
 
-# Quality Management Workflow
+# Collaborators
 
 
-# Annotator Performance Management
+# Add Collaborators to a Specific Project
+Select a project from the Projects tab. This will open project settings. Under "Collaborators" sub tab, click "Add a Collaborator". Enter email address of new collaborator, enter role of new collaborator. Role of a collaborator can be "Admin", "Annotator", or "Reviewer".
 
-## Annotator Performance Management
+Click "Add" to finish.
 
-Analyze performance of every annotator for every image or video-frame. Following statistics are available:
-1. Number of labels created by an annotator.
-2. Time spent per label (average) in seconds.
-3. Total time spent on the project in seconds.
-4. Last activity by every annotator.
-5. Reviewers can accept or reject annotations of every annotator. Reviewer acceptance rate is a percentage that is calculated by aggregating reviewer's acceptance count.  
-6. Reviewers can optionally give a score for every image. Reviewer's average score (between 0 and 10) is calculated 
-7. Consensus using IOU
+[!['fixtitle']('https://i.ytimg.com/vi/'2ZUXOUe30n0'/hqdefault.jpg')]('https://www.youtube.com/embed/'2ZUXOUe30n0)
 
+# Add a Collaborator
+A Collaborator is an individual who works on your labeling task. Collaborators can be your teammates at work, or people in other teams like data-science team, product team, devops team, legal team. Collaborators can also be individuals outside your organization like freelance annotators who would do annotation-work requiring skills not available in your organization.
 
-![Annotator Performance](https://files.readme.io/da2f882-AfterReview1.png)
+## How do I Add a New Collaborator to My Organization?
 
+Login to your account
 
+Select "Collaborator" tab
 
-## Review Mode: How to review a task performed by Annotators
+Select "Add Collaborator"
 
-In Review mode performance of an annotator can be reviewed for every image or video-frame. As seen in video below reviewers can
-1. "Accept" "Reject" an annotation: Mandatory 
-2. Give a score between 0 and 10, (optional).
-3. Leave a comment for the annotator (optional).
+Enter email address of new collaborator
 
-[!['fixtitle']('https://i.ytimg.com/vi/'UEjkveN3hFg'/hqdefault.jpg')]('https://www.youtube.com/embed/'UEjkveN3hFg)
+Select Roles as "Project Based"
 
+List of all your projects will populate
 
+Now set role of this new collaborator for each individual project
 
-![Graphical User Interface for Reviews](https://files.readme.io/8ec6485-Review.png)
+[!['fixtitle']('https://i.ytimg.com/vi/'IfDn_GWWQ1w'/hqdefault.jpg')]('https://www.youtube.com/embed/'IfDn_GWWQ1w)
 
 
 
-## Annotation Mode: How to create annotations
+## How do I Add Collaborator With Same Role for All Projects?
 
-From project settings page select button "Start Annotating". 
-1. Select classes on right panel
-2. When a class is selected, corresponding tool is activated.
-3. Draw annotation with respective tool
-4. Enter questionnaire related to the annotations
-5. Press Button:"Save" to save annotation
-6. Press Button:"Delete" to delete an annotation.
-7. Press left button or right button to move left and right.
+Login to your account
 
-[!['fixtitle']('https://i.ytimg.com/vi/'bHrd55nISzY'/hqdefault.jpg')]('https://www.youtube.com/embed/'bHrd55nISzY)
+Select "Collaborator" tab
 
-# Roles: Admin
+Select "Add Collaborator"
 
-## What is Admin's Role?
+Enter email address of new collaborator
 
-1. Admin can create annotations. 
-2. Admin can review annotations.
+Select Role as "Admin" or "Annotator" or "Reviewer"
 
-Image below shows admin's view of a task with ability to annotate and review-annotations.
+This new user will have same role for all projects.
 
+## How to Remove a Collaborator?
 
-![Admin's view to project settings](https://files.readme.io/2ecdb5f-Admin.png)
+Login to your account
 
+Select "Collaborator" tab
 
+For the collaborator to be removed, set role to "Select Role"
 
-## Admin Mode: How to create annotations
+This collaborator will no more have access to your projects.
+# Collaborators
 
+## Why do you need collaborators?
 
+Deep learning requires millions of images as input. Task of labeling millions of images requires many individuals. These individuals might be freelancers, and they might be located in distant locations. A data-science team needs to engage freelance workforce to complete their tasks.
 
-[!['fixtitle']('https://i.ytimg.com/vi/'bHrd55nISzY'/hqdefault.jpg')]('https://www.youtube.com/embed/'bHrd55nISzY)
+The Collaborator feature allows data-science team to invite individuals to help with a labeling project. If multiple users are collaborating on an annotating project, TrainingData.io application distributes all of the data attached to a project to the collaborators with access. Collaborators will only get unique data, meaning there will not be multiple annotators annotating the same data.
 
+## Roles
 
+**Annotator**
+The Annotator role can annotate queued data and view their own work from the Activity Table. An annotator cannot view annotators performance or view/modify any aspect of the project configuration or data sources.
 
-## Admin Mode: How to review annotations
+**Reviewer**
+The Reviewer role extends the annotator role by being able to see and review all annotated data in the project.
 
+**Admin**
+The Admin role can add and edit projects, data and Annotators. By default, the user that signs up for an account has the role of Admin.
 
+**Project Based Roles**
+ When a user is given a project based role, they don't have access to projects by default. However, the user is granted access to each project with a specific role and the role of each project can be changed. The benefit of this is that you can limit the access and the role of a user depending on the project at your discretion.
 
-[!['fixtitle']('https://i.ytimg.com/vi/'UEjkveN3hFg'/hqdefault.jpg')]('https://www.youtube.com/embed/'UEjkveN3hFg)
-
-# Roles: Annotator
-
-## What is Annotator's Role?
-
-Every project can have multiple collaborators. A collaborator can be an admin, annotator or reviewer. An admin can annotate and review. An annotator can only annotate, not review. A reviewer is usually a subject matter expert, they can review annotations (and add modifications to annotations)
-
-Annotator can only add or modify annotations. They will also see reviews from reviewers.
-
-Image below shows annotator seeing reviews by a reviewer.
-
-![Review Comments Visible to Annotator](https://files.readme.io/25655db-AnnotatorReviewComments.png)
+# Workspace
 
 
+# Active Viewport Image (middle)
+Active Viewport shows the current image on which a user is creating annotations.
 
-## Annotation Mode: How to create annotations
+![undefined](https://files.readme.io/38146cd-Viewport.png)
+
+# Folder Navigation (left)
+TrainingData.io workspace allows you to partition your dataset into folders for easy navigation. We advice you to have two levels of folders for easy navigation. As shown in image below, first image in the folder will be used for Thumbnail.
+
+![](https://files.readme.io/94a0873-Folders.png)
+
+# Label Data (right)
+Label settings include step-by-step walk through of questionnaire that annotator needs to answer for each label created.
+
+## Navigation
+
+Navigation includes left arrow and right arrow. Left arrow will change image in viewport to previous image in the selected folder. Right arrow will change image in view port  to the next image in the folder. 
+
+Counter shows current index of the image in folder.
+
+![Right Panel with Form](https://files.readme.io/221db3c-RightPanel.png)
 
 
 
-[!['fixtitle']('https://i.ytimg.com/vi/'bHrd55nISzY'/hqdefault.jpg')]('https://www.youtube.com/embed/'bHrd55nISzY)
+## Class Names and Count of Labels
 
-# Roles: Reviewer
+Each class name is represented by a box and a count of number of labels for that particular class.
 
-## What is Reviewer's Role?
+## Form Data for Classes and Their Attributes
 
-Every project can have multiple collaborators. A collaborator can be an admin, annotator or reviewer. An admin can annotate and review. An annotator can only annotate, not review. A reviewer is usually a subject matter expert, they can review annotations (and add modifications to annotations)
+Each class has associated form-data that needs to be populated by the annotator.
 
-In Review mode performance of an annotator can be reviewed for every image or video-frame. Review mode gives reviewer to:
-1. "Accept" or "Reject" an annotation. 
-2. Enter a score between 0 and 10.
-3. Leave a comment for the annotator.
+Some parts of form-data might be "required", i.e. they are mandatory.
 
-[!['fixtitle']('https://i.ytimg.com/vi/'UEjkveN3hFg'/hqdefault.jpg')]('https://www.youtube.com/embed/'UEjkveN3hFg)
+If annotator tries to save an annotation without entering "required" data entry, an error will be flashed as shown in image below:
 
+![Error Prompt when trying to save annotation with incomplete form data.](https://files.readme.io/119f6c3-Error.png)
+
+# ToolBar (top)
+Toolbar on the top has four sections.
+
+**Section One and Two: Image Placement**
+Following features allow easy accessibility of different sections of the image: Zoom in, Zoom out, Pan
+Following features allow you to pixel level detail of the image. In case of PNG or Jpeg you can see RGB values at each pixel, in case of DICOM image format you can see HU value.
+
+
+**Section Three: Annotation Tools**
+Draw tool allows free hand drawing as shown in image below
+
+![Draw Tool](https://files.readme.io/19a0433-DrawTool.gif)
+
+Rectangle tool can be used to create **bounding box** annotations.
+
+## Freehand Drawing Tool
+
+**Freehand Tool** can be used to create freehand annotations as shown in figure below
+
+![Freehand Tool](https://files.readme.io/03563da-FreeHand_Tool.gif)
+
+
+
+## Segmentation Tool
+
+ 
+**Pixel Level Accuracy**
+**PNG and JPEG**: Segmentation tool provides superpixel segmentation based on color. Segmentation tool works for JPG and PNG image formats.
+https://youtu.be/l8XL_b4SIyk
+
+[!['fixtitle']('https://i.ytimg.com/vi/'l8XL_b4SIyk'/hqdefault.jpg')]('https://www.youtube.com/embed/'l8XL_b4SIyk)
+
+
+
+[![undefined](undefined)](undefined)
+
+
+
+## 3D Growth Tool
+
+For **DICOM** format: 2D growth and 3D growth works based on HU value (Hounsfield Unit). It grows the region based on HU value within a specified pixel-radius. Video below shows how to create pixel-accurate annotations at very fast pace.
+https://youtu.be/EkKbQQctLfA
+
+[!['fixtitle']('https://i.ytimg.com/vi/'EkKbQQctLfA'/hqdefault.jpg')]('https://www.youtube.com/embed/'EkKbQQctLfA)
+
+**Section Four: Window Level**
+Contrast: Set contrast of image
+Brightness: Set brightness in the image
+Window level: Select one of the following presets: Abdominal soft tissue, Bone, Brain, Brain Marrow, Liver, Lung, Subdural Brain
+
+**Section Five: Layouts**
+TrianingData.io workspace allows upto 4 folders to be viewed at the same time. In "Layout" menu options user can select 1x2, 2x1 or 2x2 mode to view upto 4 folders in same viewport. This allows for easy comparison of images.
+
+**Stack Scroll**
+For DICOM image format if more than one folder is in viewport, stack scroll will be automatically enabled as shown in image below 
+
+![Stack Scroll](https://files.readme.io/8e61c3a-StackScroll.png)
 # Terms and Conditions
 
 
@@ -1226,100 +1588,3 @@ Miscellaneous. You will be responsible for paying, withholding, filing, and repo
 that the TrainingData may, in its sole discretion, do any of the foregoing on your behalf or for itself as it sees fit. The failure of either you or us to exercise, in any way, any right herein shall not be deemed a waiver of any further rights hereunder. If any provision of these Terms is found to be unenforceable or invalid, that provision will be limited or eliminated, to the minimum extent necessary, so that these Terms shall otherwise remain in full force and effect and enforceable. You and TrainingData agree that these Terms are the complete and exclusive statement of the mutual understanding between you and TrainingData, and that these Terms supersede and cancel all previous written and oral agreements, communications and other understandings relating to the subject matter of these Terms,. You hereby acknowledge and agree that you are not an employee, agent, partner, or joint venture of TrainingData, and you do not have any authority of any kind to bind TrainingData in any respect whatsoever.
 
 You and TrainingData agree there are no third party beneficiaries intended under these Terms.
-# Workspace
-
-
-# Active Viewport Image (middle)
-Active Viewport shows the current image on which a user is creating annotations.
-
-![undefined](https://files.readme.io/38146cd-Viewport.png)
-
-# Folder Navigation (left)
-TrainingData.io workspace allows you to partition your dataset into folders for easy navigation. We advice you to have two levels of folders for easy navigation. As shown in image below, first image in the folder will be used for Thumbnail.
-
-![](https://files.readme.io/94a0873-Folders.png)
-
-# Label Data (right)
-Label settings include step-by-step walk through of questionnaire that annotator needs to answer for each label created.
-
-## Navigation
-
-Navigation includes left arrow and right arrow. Left arrow will change image in viewport to previous image in the selected folder. Right arrow will change image in view port  to the next image in the folder. 
-
-Counter shows current index of the image in folder.
-
-![Right Panel with Form](https://files.readme.io/221db3c-RightPanel.png)
-
-
-
-## Class Names and Count of Labels
-
-Each class name is represented by a box and a count of number of labels for that particular class.
-
-## Form Data for Classes and Their Attributes
-
-Each class has associated form-data that needs to be populated by the annotator.
-
-Some parts of form-data might be "required", i.e. they are mandatory.
-
-If annotator tries to save an annotation without entering "required" data entry, an error will be flashed as shown in image below:
-
-![Error Prompt when trying to save annotation with incomplete form data.](https://files.readme.io/119f6c3-Error.png)
-
-# ToolBar (top)
-Toolbar on the top has four sections.
-
-**Section One and Two: Image Placement**
-Following features allow easy accessibility of different sections of the image: Zoom in, Zoom out, Pan
-Following features allow you to pixel level detail of the image. In case of PNG or Jpeg you can see RGB values at each pixel, in case of DICOM image format you can see HU value.
-
-
-**Section Three: Annotation Tools**
-Draw tool allows free hand drawing as shown in image below
-
-![Draw Tool](https://files.readme.io/19a0433-DrawTool.gif)
-
-Rectangle tool can be used to create **bounding box** annotations.
-
-## Freehand Drawing Tool
-
-**Freehand Tool** can be used to create freehand annotations as shown in figure below
-
-![Freehand Tool](https://files.readme.io/03563da-FreeHand_Tool.gif)
-
-
-
-## Segmentation Tool
-
- 
-**Pixel Level Accuracy**
-**PNG and JPEG**: Segmentation tool provides superpixel segmentation based on color. Segmentation tool works for JPG and PNG image formats.
-https://youtu.be/l8XL_b4SIyk
-
-[!['fixtitle']('https://i.ytimg.com/vi/'l8XL_b4SIyk'/hqdefault.jpg')]('https://www.youtube.com/embed/'l8XL_b4SIyk)
-
-
-
-[![undefined](undefined)](undefined)
-
-
-
-## 3D Growth Tool
-
-For **DICOM** format: 2D growth and 3D growth works based on HU value (Hounsfield Unit). It grows the region based on HU value within a specified pixel-radius. Video below shows how to create pixel-accurate annotations at very fast pace.
-https://youtu.be/EkKbQQctLfA
-
-[!['fixtitle']('https://i.ytimg.com/vi/'EkKbQQctLfA'/hqdefault.jpg')]('https://www.youtube.com/embed/'EkKbQQctLfA)
-
-**Section Four: Window Level**
-Contrast: Set contrast of image
-Brightness: Set brightness in the image
-Window level: Select one of the following presets: Abdominal soft tissue, Bone, Brain, Brain Marrow, Liver, Lung, Subdural Brain
-
-**Section Five: Layouts**
-TrianingData.io workspace allows upto 4 folders to be viewed at the same time. In "Layout" menu options user can select 1x2, 2x1 or 2x2 mode to view upto 4 folders in same viewport. This allows for easy comparison of images.
-
-**Stack Scroll**
-For DICOM image format if more than one folder is in viewport, stack scroll will be automatically enabled as shown in image below 
-
-![Stack Scroll](https://files.readme.io/8e61c3a-StackScroll.png)
