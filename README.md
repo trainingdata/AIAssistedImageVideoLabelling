@@ -14,60 +14,49 @@
 
 # Complete Feature Set
 At TrainingData.io, we believe quality of the machine learning model is dependent on the quality of labelling. We empower data-scientists to control the quality of data labelling in the following ways:
+
 ## Segmentation and Classification
-[/block]
+
 TD.io's application supports following types of annotation work:
 1. Segmentation only
 2. Classification only
 3. Segmentation with Classification.
-[block:api-header]
-{
-  "title": "Pixel Accurate Tools"
-}
-[/block]
+
+## Pixel Accurate Tools
+
 We use advanced image processing to provide pixel accurate tools like
 1. [Superpixel-segmentation](https://trainingdata.readme.io/docs/segmentation-tool) with brush and eraser,
 2. [Polygon](https://trainingdata.readme.io/docs/polygon-tool) with advanced editing, bounding box, 
 3. [Freehand-draw with sculpter](https://trainingdata.readme.io/docs/freehand-draw), and
 4. Region of Interest (ROI) growth tool.
-[block:api-header]
-{
-  "title": "AI Assisted Annotation"
-}
-[/block]
+
+## AI Assisted Annotation
+
 1. AI Assisted Annotation using Data-scientist's ML model
 2. AI Assisted Annotation using NVIDIA Clara
 
-[block:api-header]
-{
-  "title": "Data Security and Privacy Controls"
-}
-[/block]
+
+## Data Security and Privacy Controls
+
 On-premises hosting of datasets and annotation tools using Docker and VPN.
-[block:api-header]
-{
-  "title": "Collaboration: Annotator's Performance Management"
-}
-[/block]
+
+## Collaboration: Annotator's Performance Management
+
 1. Measure, record and analyze annotator's performance on every individual task, asset and label.
 2. Compare performance of multiple annotators on same task.
 3. Distribute labeling work among multiple labelers and observe consensus among their work.
 4. Seed annotation tasks with golden data set. Report performance of annotator on golden data set.
-[block:api-header]
-{
-  "title": "Labeling Instruction Builder"
-}
-[/block]
+
+## Labeling Instruction Builder
+
 [Labeling instruction builder](https://trainingdata.readme.io/docs/define-json) empowers data scientist to define user experience of annotators in fine-detail:
 1. Labeling classes and ontology can be defined in fine-detail.
 2. WYSIWYG instruction builder enables  data-scientist to view how labeling interface appears to the annotator.
 
 We believe the quality of work performed by annotators depends on the quality of user experience in annotation tools. We build intuitive user experience for annotators.
-[block:api-header]
-{
-  "title": "WorkForce: Humans-in-the-Loop"
-}
-[/block]
+
+## WorkForce: Humans-in-the-Loop
+
 We partner with highest quality workforce from around the world.
 # FAQ
 **General Questions**
@@ -100,39 +89,13 @@ What sets us apart is our focus on:
 Compare the two workflows in image below:
 
 **Old (current) Work Flow**
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4108b7a-CurrentWorkflow.png",
-        "CurrentWorkflow.png",
-        1182,
-        654,
-        "#f0f0e8"
-      ],
-      "caption": "Old Work Flow"
-    }
-  ]
-}
-[/block]
+
+![Old Work Flow](https://files.readme.io/4108b7a-CurrentWorkflow.png)
+
 **New Work Flow**
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2bbda76-NewWorkflow.png",
-        "NewWorkflow.png",
-        1096,
-        650,
-        "#e3f2eb"
-      ],
-      "caption": "New Work Flow"
-    }
-  ]
-}
-[/block]
+
+![New Work Flow](https://files.readme.io/2bbda76-NewWorkflow.png)
+
 **How do I get started with Trainingdata.io application?**
 You can sign up at [login page](https://app.trainingdata.io/v1/td/login).
 
@@ -223,11 +186,9 @@ Yes, it can be imported. Simply send us the annotated data and we will reformat 
 Open your project then go to settings > Other, and click on the delete button.*
 # Overview
 TrainingData.io application provides high precision training data labeling for Visual AI. Our SaaS solution uses AI assisted features to give machine learning engineers speed up of several orders of magnitude. Our goal is to "empower data scientists to control quality of training data"
-[block:api-header]
-{
-  "title": "Key Benefits"
-}
-[/block]
+
+## Key Benefits
+
 1. High precision labeling tool with Superpixel segmentation, AI-assisted labeling, and active-learning.
 2. Custom labeling instructions for every task - delivers productivity enhancing user-experience for annotators.
 3. Data security and privacy protection using On-premises, In-cloud or hybrid hosting. (using Docker and VPN)
@@ -236,77 +197,41 @@ TrainingData.io application provides high precision training data labeling for V
 6. AI-Assisted annotation using existing ML models.
 7. Out of the box support for medical imaging (DICOM).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2020847-NewWorkflow.png",
-        "NewWorkflow.png",
-        1096,
-        650,
-        "#e3f2eb"
-      ],
-      "caption": "Key Benefits of TrainingData.io"
-    }
-  ]
-}
-[/block]
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/39f6721-CurrentWorkflow.png",
-        "CurrentWorkflow.png",
-        1182,
-        654,
-        "#f0f0e8"
-      ],
-      "caption": "Old Workflow"
-    }
-  ]
-}
-[/block]
+![Key Benefits of TrainingData.io](https://files.readme.io/2020847-NewWorkflow.png)
 
-[block:api-header]
-{
-  "title": ""
-}
-[/block]
+
+
+![Old Workflow](https://files.readme.io/39f6721-CurrentWorkflow.png)
+
+
+
+## 
+
 #[Click Here For Complete Feature Set](https://trainingdata.readme.io/docs/full-feature-set)
 # Quality Management
 At TrainingData.io, we believe, quality of the machine learning model is entirely dependent on the quality of labeling for training data. We help you control quality of data labeling in following ways:
-[block:api-header]
-{
-  "title": "Annotator's Performance Management"
-}
-[/block]
+
+## Annotator's Performance Management
+
 1. Measure, record and analyze annotator's performance on every individual task, asset and label.
 2. Compare performance of multiple annotators on same task.
 3. Distribute labeling work among multiple labelers and observe consensus among their work.
 4. Seed annotation tasks with golden data set. Report performance of annotator on golden data set.
-[block:api-header]
-{
-  "title": "Pixel Accurate tools"
-}
-[/block]
+
+## Pixel Accurate tools
+
 1. We use advanced image processing to build pixel accurate tools like segmentation, freehand, growth tools.
 2. Build high quality user experience for annotators that allows then to do high quality work at fast pace.
 3. Enable smooth collaboration between annotators and data-scientists.
-[block:api-header]
-{
-  "title": "State of the art User Experience (UX)"
-}
-[/block]
+
+## State of the art User Experience (UX)
+
 1. TD.io believes quality of work performed by annotators depends on quality of user experience in annotation tools
 2. We build intuitive user experience for annotators.
-[block:api-header]
-{
-  "title": "Labeling Instruction Builder"
-}
-[/block]
+
+## Labeling Instruction Builder
+
 1. Empowering data scientist to take control user experience of annotators.
 2. Labeling classes and ontology needs to be defined in detail.
 3. Data scientist needs precise view of how labeling interface appears to the annotator.
@@ -324,22 +249,9 @@ TrainingData.io supports single sign-on (SSO), which allows you to log in to Tra
 # On Premises Solution
 We  provide our labeling software as Docker image, it can run as hosted solution in your network. Hosted version of annotation tool can access images that are hosted on local machine, images hosted on local web-server or images hosted in cloud. All training data and resulting labels are saved on local infrastructure. Only project definition sits in cloud.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/819bde1-Docker.png",
-        "Docker.png",
-        884,
-        338,
-        "#096297"
-      ],
-      "caption": "On-Prem Solution using Docker Container and VPN"
-    }
-  ]
-}
-[/block]
+
+![On-Prem Solution using Docker Container and VPN](https://files.readme.io/819bde1-Docker.png)
+
 # Cloud Hosted Solution
 You can upload your assets (images and videos) to our cloud. Our cloud is secure with equivalent of HIPAA compliance. (We sign BAA agreement if needed).
 
