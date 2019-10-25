@@ -52,29 +52,13 @@
 ## Segmentation of Liver using NVIDIA Clara Backend
 
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Ft3rXegVVTE4%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt3rXegVVTE4&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Ft3rXegVVTE4%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=t3rXegVVTE4&feature=youtu.be",
-  "title": "AI Assisted Liver Segmentation",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/t3rXegVVTE4/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 # Segmentation of Spleen
 
 ## Segmentation of Spleen using NVIDIA Clara
 
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FgiFBUSsmJyE%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgiFBUSsmJyE&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FgiFBUSsmJyE%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=giFBUSsmJyE&feature=youtu.be",
-  "title": "AI Assisted Spleen Segmentation",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/giFBUSsmJyE/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 # Collaborators
 
 
@@ -183,15 +167,7 @@ Prepare a CSV file with a list of URLs as shown below:
 }
 [/block]
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FrJK58Ed3kAg%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DrJK58Ed3kAg&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FrJK58Ed3kAg%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=rJK58Ed3kAg&feature=youtu.be",
-  "title": "Local Dataset using CSV File Upload - Edited",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/rJK58Ed3kAg/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ## 2. Add New On-Prem Dataset with Folder Upload
@@ -209,15 +185,7 @@ b) root of webserver serving dataset is same as the uploaded folder
 6. In video below root of webserver is folder name "imageserver"
 7. Enter "File System Path" as base URL: example http://localhost:8000/
 8. Select "Submit"  
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FdPe4nCOB9Y4%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdPe4nCOB9Y4&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FdPe4nCOB9Y4%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=dPe4nCOB9Y4&feature=youtu.be",
-  "title": "Create Local Dataset using \"Upload Folder\" Local - Edited",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/dPe4nCOB9Y4/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ## 3. Upload Archive: zip or tar to TD.io's Cloud Storage
@@ -230,15 +198,7 @@ Alternatively, you can upload an archive:
 5. Select an archive of files and folders (recursive folder structure preserved with image files)
 6. Select "Submit"
 Individual image files will be uploaded to TD.io's cloud storage. Folder structure will be preserved exactly as given in archive.
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FWbTMiDM2b2M%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWbTMiDM2b2M&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FWbTMiDM2b2M%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"640\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=WbTMiDM2b2M&feature=youtu.be",
-  "title": "Archive (zip) Dataset - Edited",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/WbTMiDM2b2M/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ## 4. Upload Individual Files and Folders to TD.io's Cloud
@@ -265,15 +225,7 @@ Alternatively, you can upload video files to TD.io's Cloud:
 6. Inspect video files to be uploaded
 8. Select "Submit"
 Video files will be broken down into individual frames by TD.io's cloud system
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FDvd2DtY1j9s%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DDvd2DtY1j9s&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FDvd2DtY1j9s%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=Dvd2DtY1j9s&feature=youtu.be",
-  "title": "Video File Upload",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/Dvd2DtY1j9s/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ## 6. Upload CSV File with Self Hosted-Cloud URLs
@@ -293,15 +245,7 @@ Prepare a CSV file with a list of URLs as shown below:
 }
 [/block]
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fp8wubMrjpKw%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dp8wubMrjpKw&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fp8wubMrjpKw%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=p8wubMrjpKw&feature=youtu.be",
-  "title": "Self Hosted Cloud Dataset",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/p8wubMrjpKw/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ## Supported File Formats
@@ -361,15 +305,7 @@ Labeling instruction has two parts to it. Left panel and right panel. The left p
 ## How to create a new Labeling Instruction?
 
 As you add a class or an attribute on left panel, you will observe same class and attributes will show up on the right panel in real time. 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FZ1ZYpmFLaRc%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZ1ZYpmFLaRc&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZ1ZYpmFLaRc%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"640\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=Z1ZYpmFLaRc&feature=youtu.be",
-  "title": "LabelingInterface Example",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/Z1ZYpmFLaRc/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ## Step 1: Creating First Class-Type
@@ -442,9 +378,7 @@ Data scientists can use self-hosted datasets as shown in CSV file. Prepare a CSV
 }
 [/block]
 
-[block:embed]
-{}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ## TD.io Hosted Cloud Dataset
@@ -459,15 +393,7 @@ Alternatively, you can upload individual files and Folders to TD.io's Cloud. TD.
 7. Inspect individual files
 8. Select "Submit"
 Individual image files will be uploaded to TD.io's cloud storage. (Folder structure will be preserved exactly as that of selected folder)
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FLT1hnxT_kD0%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLT1hnxT_kD0&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FLT1hnxT_kD0%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"640\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=LT1hnxT_kD0&feature=youtu.be",
-  "title": "TD.io's Cloud Hosted Dataset - Edited",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/LT1hnxT_kD0/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 # Docker and VPN for Secure Training Data
 
 ## Private On-Premises Annotation Tool Using Docker
@@ -495,44 +421,20 @@ Download Docker image that runs annotation tool. Both data and annotations remai
 
 Annotation tool is served using a web server on port 8090. 
 Image server is served on port 8000.
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FX3QOo_lJrjE%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DX3QOo_lJrjE&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FX3QOo_lJrjE%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"640\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=X3QOo_lJrjE&feature=youtu.be",
-  "title": "On Premises Docker Mac OS X",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/X3QOo_lJrjE/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ## Ubuntu: On-Premises Docker Image
 
 Annotation tool is served using a web server on port 8090. 
 Image server is served on port 8000.
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FESAtt73cBLw%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DESAtt73cBLw&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FESAtt73cBLw%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"640\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=ESAtt73cBLw&feature=youtu.be",
-  "title": "Ubuntu",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/ESAtt73cBLw/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ## Project Management on Cloud
 
 Project management, project meta-data, Dataset management, Dataset meta-data, collaborator management happens on cloud. *All your imaging data sets and annotations stay in your private network.* 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F45nKiW8inFM%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D45nKiW8inFM&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F45nKiW8inFM%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=45nKiW8inFM&feature=youtu.be",
-  "title": "May 23, 2019 1:25 PM",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/45nKiW8inFM/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ## Private On-Premises DataSets
@@ -609,15 +511,7 @@ While creating a new dataset select option "Local"
 Enter a name for the new dataset. 
 Select "Upload Folder" and select the folder that contains images. 
 IMPORTANT: image paths will be processed recursively and images will *not* be uploaded to cloud.
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FdPe4nCOB9Y4%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdPe4nCOB9Y4&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FdPe4nCOB9Y4%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=dPe4nCOB9Y4&feature=youtu.be",
-  "title": "Local - Edited",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/dPe4nCOB9Y4/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 ###2. Method two: Upload a CSV file containing list of local urls:
 Let's assume our name of our dataset is TCGA-CA-G4H2. This dataset has three folders: 
      1. Folder name "Drive" with jpeg files
@@ -630,14 +524,7 @@ Arrange folder names and file URLs in following format csv format:
 }
 [/block]
 Upload this csv file while creating a new data set as shown in video below:
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4rKX_mBwUjM&src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F4rKX_mBwUjM%3Ffeature%3Doembed&type=text%2Fhtml&key=f2aa6fc3595946d0afc3d76cbbd25dc3&schema=youtube\" width=\"640\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=4rKX_mBwUjM&feature=youtu.be",
-  "title": "CSV Upload for Local Dataset",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico"
-}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ## What is recommended directory structure?
@@ -785,14 +672,7 @@ If you enter -30 to 30 HU with 10 pixel radius, when you click on a pixel, growt
 ## Video
 
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-LV3co2EFtM&src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F-LV3co2EFtM%3Ffeature%3Doembed&type=text%2Fhtml&key=f2aa6fc3595946d0afc3d76cbbd25dc3&schema=youtube\" width=\"640\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=-LV3co2EFtM&feature=youtu.be",
-  "title": "2DGrowthExample",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico"
-}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ## Accuracy
@@ -886,9 +766,7 @@ Polygon Tool is most versatile tool for adding new labels and editing existing l
 }
 [/block]
 
-[block:embed]
-{}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ![Polygon  Annotation](https://files.readme.io/9c94020-PolygonTool.png)
@@ -943,15 +821,7 @@ A project is a collection of dataset and collaborators working on the project as
 6. Click "Next"
 7. Attach a labelling interface to the project
 8. Click "Complete Setup"
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fi6lhM3HGWTU%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Di6lhM3HGWTU&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fi6lhM3HGWTU%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=i6lhM3HGWTU&feature=youtu.be",
-  "title": "Add New Project with Cloud Hosted Dataset",
-  "favicon": "https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico",
-  "image": "https://i.ytimg.com/vi/i6lhM3HGWTU/hqdefault.jpg"
-}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ![Add Project Name](https://files.readme.io/e287b82-Project1.png)
@@ -1423,9 +1293,7 @@ https://youtu.be/l8XL_b4SIyk
 }
 [/block]
 
-[block:embed]
-{}
-[/block]
+[![undefined](undefined)](undefined)
 
 
 ## 3D Growth Tool
