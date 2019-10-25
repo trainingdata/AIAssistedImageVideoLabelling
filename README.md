@@ -374,7 +374,7 @@ Image below shows admin's view of a task with ability to annotate and review-ann
 
 
 
-[!['How To Review Annotations created by an Annotator TrainingData']('https://i.ytimg.com/vi/UEjkveN3hFg/hqdefault.jpg')]('https://www.youtube.com/embed/UEjkveN3hFg)
+[!['How To Review Annotations created by an Annotator TrainingData']('https://i.ytimg.com/vi/UEjkveN3hFg/hqdefault.jpg')]('https://www.youtube.com/embed/UEjkveN3hFg')
 
 # Roles- Annotator
 
@@ -394,7 +394,7 @@ Image below shows annotator seeing reviews by a reviewer.
 
 
 
-[!['Role: Annotator - How to create annotations']('https://i.ytimg.com/vi/bHrd55nISzY/hqdefault.jpg')]('https://www.youtube.com/embed/bHrd55nISzY)
+[!['Role: Annotator - How to create annotations']('https://i.ytimg.com/vi/bHrd55nISzY/hqdefault.jpg')]('https://www.youtube.com/embed/bHrd55nISzY')
 
 # Roles- Reviewer
 
@@ -407,7 +407,7 @@ In Review mode performance of an annotator can be reviewed for every image or vi
 2. Enter a score between 0 and 10.
 3. Leave a comment for the annotator.
 
-[!['How To Review Annotations created by an Annotator TrainingData']('https://i.ytimg.com/vi/UEjkveN3hFg/hqdefault.jpg')]('https://www.youtube.com/embed/UEjkveN3hFg)
+[!['How To Review Annotations created by an Annotator TrainingData']('https://i.ytimg.com/vi/UEjkveN3hFg/hqdefault.jpg')]('https://www.youtube.com/embed/UEjkveN3hFg')
 
 # On Premises Infrastructure
 
@@ -757,7 +757,7 @@ Brush Settings:
 2. Mouse Drag right -- add (or erase) segments traced by mouse drag in current annotation.
 
 
-[!['Segmentation with Brush & Eraser']('https://i.ytimg.com/vi/xtrJhqoRjhg/hqdefault.jpg')]('https://www.youtube.com/embed/xtrJhqoRjhg)
+[!['Segmentation with Brush & Eraser']('https://i.ytimg.com/vi/xtrJhqoRjhg/hqdefault.jpg')]('https://www.youtube.com/embed/xtrJhqoRjhg')
 
 
 
@@ -783,7 +783,7 @@ Freehand Draw tool can be used with mouse to draw accurate freehand contour.
 * Release the mouse to complete the edit.
 * You may find you wish to make rough edits with a large tool, before making fine adjustments with a finer tool.
 
-[!['Freehand: Sculpt Accurate Shape']('https://i.ytimg.com/vi/sllO1nw_LpI/hqdefault.jpg')]('https://www.youtube.com/embed/sllO1nw_LpI)
+[!['Freehand: Sculpt Accurate Shape']('https://i.ytimg.com/vi/sllO1nw_LpI/hqdefault.jpg')]('https://www.youtube.com/embed/sllO1nw_LpI')
 
 
 
@@ -799,7 +799,7 @@ Polygon Tool is most versatile tool for adding new labels and editing existing l
 * Keep clicking to draw a shape.
 * End the shape by connecting it to the origin node without crossing any lines.
 
-[!['Polygon: Add New Polygon']('https://i.ytimg.com/vi/5VgMAKn7DFs/hqdefault.jpg')]('https://www.youtube.com/embed/5VgMAKn7DFs)
+[!['Polygon: Add New Polygon']('https://i.ytimg.com/vi/5VgMAKn7DFs/hqdefault.jpg')]('https://www.youtube.com/embed/5VgMAKn7DFs')
 
 
 
@@ -820,7 +820,7 @@ Polygon Tool is most versatile tool for adding new labels and editing existing l
 
 * Release Ctrl and drag a handle to move it.
 
-[!['Polygon: Edit']('https://i.ytimg.com/vi/2W7Sg8yxnH8/hqdefault.jpg')]('https://www.youtube.com/embed/2W7Sg8yxnH8)
+[!['Polygon: Edit']('https://i.ytimg.com/vi/2W7Sg8yxnH8/hqdefault.jpg')]('https://www.youtube.com/embed/2W7Sg8yxnH8')
 
 
 
@@ -932,7 +932,7 @@ Classes are abstract-representation of real world objects that machine learning 
 
 
 
-[!['Create First Class']('https://i.ytimg.com/vi/wc6oD7ZWCVo/hqdefault.jpg')]('https://www.youtube.com/embed/wc6oD7ZWCVo)
+[!['Create First Class']('https://i.ytimg.com/vi/wc6oD7ZWCVo/hqdefault.jpg')]('https://www.youtube.com/embed/wc6oD7ZWCVo')
 
 
 
@@ -946,7 +946,7 @@ An attribute is a question that you ask an annotator. There are four different d
 3. Single-select Drop down list: with single select functionality
 4. Single-select Radio button: with single selection functionality
 
-[!['Add Class Attribute']('https://i.ytimg.com/vi/3glJI8KxZng/hqdefault.jpg')]('https://www.youtube.com/embed/3glJI8KxZng)
+[!['Add Class Attribute']('https://i.ytimg.com/vi/3glJI8KxZng/hqdefault.jpg')]('https://www.youtube.com/embed/3glJI8KxZng')
 
 
 
@@ -1155,7 +1155,7 @@ Select a project from the Projects tab. This will open project settings. Under "
 
 Click "Add" to finish.
 
-[!['Add Collaborator']('https://i.ytimg.com/vi/2ZUXOUe30n0/hqdefault.jpg')]('https://www.youtube.com/embed/2ZUXOUe30n0)
+[!['Add Collaborator']('https://i.ytimg.com/vi/2ZUXOUe30n0/hqdefault.jpg')]('https://www.youtube.com/embed/2ZUXOUe30n0')
 
 # Add a Collaborator
 A Collaborator is an individual who works on your labeling task. Collaborators can be your teammates at work, or people in other teams like data-science team, product team, devops team, legal team. Collaborators can also be individuals outside your organization like freelance annotators who would do annotation-work requiring skills not available in your organization.
@@ -1176,7 +1176,7 @@ List of all your projects will populate
 
 Now set role of this new collaborator for each individual project
 
-[!['New Collaborator Project Based']('https://i.ytimg.com/vi/IfDn_GWWQ1w/hqdefault.jpg')]('https://www.youtube.com/embed/IfDn_GWWQ1w)
+[!['New Collaborator Project Based']('https://i.ytimg.com/vi/IfDn_GWWQ1w/hqdefault.jpg')]('https://www.youtube.com/embed/IfDn_GWWQ1w')
 
 
 
@@ -1295,7 +1295,7 @@ Rectangle tool can be used to create **bounding box** annotations.
 **PNG and JPEG**: Segmentation tool provides superpixel segmentation based on color. Segmentation tool works for JPG and PNG image formats.
 https://youtu.be/l8XL_b4SIyk
 
-[!['Segmentation Tool']('https://i.ytimg.com/vi/l8XL_b4SIyk/hqdefault.jpg')]('https://www.youtube.com/embed/l8XL_b4SIyk)
+[!['Segmentation Tool']('https://i.ytimg.com/vi/l8XL_b4SIyk/hqdefault.jpg')]('https://www.youtube.com/embed/l8XL_b4SIyk')
 
 
 
@@ -1305,7 +1305,7 @@ https://youtu.be/l8XL_b4SIyk
 For **DICOM** format: 2D growth and 3D growth works based on HU value (Hounsfield Unit). It grows the region based on HU value within a specified pixel-radius. Video below shows how to create pixel-accurate annotations at very fast pace.
 https://youtu.be/EkKbQQctLfA
 
-[!['3D Growth Tool Using HU Value']('https://i.ytimg.com/vi/EkKbQQctLfA/hqdefault.jpg')]('https://www.youtube.com/embed/EkKbQQctLfA)
+[!['3D Growth Tool Using HU Value']('https://i.ytimg.com/vi/EkKbQQctLfA/hqdefault.jpg')]('https://www.youtube.com/embed/EkKbQQctLfA')
 
 **Section Four: Window Level**
 Contrast: Set contrast of image
