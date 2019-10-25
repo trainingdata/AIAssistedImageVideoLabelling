@@ -74,7 +74,7 @@ TrainingData.io application provides high precision training data labeling for V
 
 ## 
 
-#[Click Here For Complete Feature Set](https://trainingdata.readme.io/docs/full-feature-set)
+#[Click Here For Complete Feature Set](#complete-feature-set)
 
 
 # Complete Feature Set
@@ -90,9 +90,9 @@ TD.io's application supports following types of annotation work:
 ## Pixel Accurate Tools
 
 We use advanced image processing to provide pixel accurate tools like
-1. [Superpixel-segmentation](https://trainingdata.readme.io/docs/segmentation-tool) with brush and eraser,
-2. [Polygon](https://trainingdata.readme.io/docs/polygon-tool) with advanced editing, bounding box, 
-3. [Freehand-draw with sculpter](https://trainingdata.readme.io/docs/freehand-draw), and
+1. [Superpixel-segmentation](#segmentation-with-brush--eraser) with brush and eraser,
+2. [Polygon](#polygon-tool) with advanced editing, bounding box, 
+3. [Freehand-draw with sculpter](#freehand-with-sculpter), and
 4. Region of Interest (ROI) growth tool.
 
 
@@ -115,7 +115,7 @@ On-premises hosting of datasets and annotation tools using Docker and VPN.
 
 ## Labeling Instruction Builder
 
-[Labeling instruction builder](https://trainingdata.readme.io/docs/define-json) empowers data scientist to define user experience of annotators in fine-detail:
+[Labeling instruction builder](#labeling-instruction-builder-2) empowers data scientist to define user experience of annotators in fine-detail:
 1. Labeling classes and ontology can be defined in fine-detail.
 2. WYSIWYG instruction builder enables  data-scientist to view how labeling interface appears to the annotator.
 
@@ -431,7 +431,7 @@ Download Docker image that runs annotation tool. Both data and annotations remai
 4. Run Docker image providing mount point for database and mount point for images folder.
 
 5. Login to https://app.trainingdata.io
-6. Create a local dataset as described here: [https://trainingdata.readme.io/docs/local-datasets](https://trainingdata.readme.io/docs/local-datasets).
+6. Create a local dataset as described [here](#on-prem-datasets).
 5. Create a labeling interface with classes and attributes
 6. Create a project with the dataset in (4) and the labeling-interface in (5).
 7. Start labeling your local hosted project.
