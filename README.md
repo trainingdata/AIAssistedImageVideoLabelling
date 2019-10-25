@@ -52,13 +52,15 @@
 ## Segmentation of Liver using NVIDIA Clara Backend
 
 
-[![undefined](undefined)](undefined)
+
+[![AI Assisted Liver Segmentation](https://i.ytimg.com/vi/t3rXegVVTE4/hqdefault.jpg)](https://www.youtube.com/watch?v=t3rXegVVTE4&feature=youtu.be)
 # Segmentation of Spleen
 
 ## Segmentation of Spleen using NVIDIA Clara
 
 
-[![undefined](undefined)](undefined)
+
+[![AI Assisted Spleen Segmentation](https://i.ytimg.com/vi/giFBUSsmJyE/hqdefault.jpg)](https://www.youtube.com/watch?v=giFBUSsmJyE&feature=youtu.be)
 # Collaborators
 
 
@@ -167,7 +169,8 @@ Prepare a CSV file with a list of URLs as shown below:
 }
 [/block]
 
-[![undefined](undefined)](undefined)
+
+[![Local Dataset using CSV File Upload - Edited](https://i.ytimg.com/vi/rJK58Ed3kAg/hqdefault.jpg)](https://www.youtube.com/watch?v=rJK58Ed3kAg&feature=youtu.be)
 
 
 ## 2. Add New On-Prem Dataset with Folder Upload
@@ -185,7 +188,8 @@ b) root of webserver serving dataset is same as the uploaded folder
 6. In video below root of webserver is folder name "imageserver"
 7. Enter "File System Path" as base URL: example http://localhost:8000/
 8. Select "Submit"  
-[![undefined](undefined)](undefined)
+
+[![Create Local Dataset using "Upload Folder" Local - Edited](https://i.ytimg.com/vi/dPe4nCOB9Y4/hqdefault.jpg)](https://www.youtube.com/watch?v=dPe4nCOB9Y4&feature=youtu.be)
 
 
 ## 3. Upload Archive: zip or tar to TD.io's Cloud Storage
@@ -198,7 +202,8 @@ Alternatively, you can upload an archive:
 5. Select an archive of files and folders (recursive folder structure preserved with image files)
 6. Select "Submit"
 Individual image files will be uploaded to TD.io's cloud storage. Folder structure will be preserved exactly as given in archive.
-[![undefined](undefined)](undefined)
+
+[![Archive (zip) Dataset - Edited](https://i.ytimg.com/vi/WbTMiDM2b2M/hqdefault.jpg)](https://www.youtube.com/watch?v=WbTMiDM2b2M&feature=youtu.be)
 
 
 ## 4. Upload Individual Files and Folders to TD.io's Cloud
@@ -225,7 +230,8 @@ Alternatively, you can upload video files to TD.io's Cloud:
 6. Inspect video files to be uploaded
 8. Select "Submit"
 Video files will be broken down into individual frames by TD.io's cloud system
-[![undefined](undefined)](undefined)
+
+[![Video File Upload](https://i.ytimg.com/vi/Dvd2DtY1j9s/hqdefault.jpg)](https://www.youtube.com/watch?v=Dvd2DtY1j9s&feature=youtu.be)
 
 
 ## 6. Upload CSV File with Self Hosted-Cloud URLs
@@ -245,7 +251,8 @@ Prepare a CSV file with a list of URLs as shown below:
 }
 [/block]
 
-[![undefined](undefined)](undefined)
+
+[![Self Hosted Cloud Dataset](https://i.ytimg.com/vi/p8wubMrjpKw/hqdefault.jpg)](https://www.youtube.com/watch?v=p8wubMrjpKw&feature=youtu.be)
 
 
 ## Supported File Formats
@@ -305,7 +312,8 @@ Labeling instruction has two parts to it. Left panel and right panel. The left p
 ## How to create a new Labeling Instruction?
 
 As you add a class or an attribute on left panel, you will observe same class and attributes will show up on the right panel in real time. 
-[![undefined](undefined)](undefined)
+
+[![LabelingInterface Example](https://i.ytimg.com/vi/Z1ZYpmFLaRc/hqdefault.jpg)](https://www.youtube.com/watch?v=Z1ZYpmFLaRc&feature=youtu.be)
 
 
 ## Step 1: Creating First Class-Type
@@ -378,6 +386,7 @@ Data scientists can use self-hosted datasets as shown in CSV file. Prepare a CSV
 }
 [/block]
 
+
 [![undefined](undefined)](undefined)
 
 
@@ -393,7 +402,8 @@ Alternatively, you can upload individual files and Folders to TD.io's Cloud. TD.
 7. Inspect individual files
 8. Select "Submit"
 Individual image files will be uploaded to TD.io's cloud storage. (Folder structure will be preserved exactly as that of selected folder)
-[![undefined](undefined)](undefined)
+
+[![TD.io's Cloud Hosted Dataset - Edited](https://i.ytimg.com/vi/LT1hnxT_kD0/hqdefault.jpg)](https://www.youtube.com/watch?v=LT1hnxT_kD0&feature=youtu.be)
 # Docker and VPN for Secure Training Data
 
 ## Private On-Premises Annotation Tool Using Docker
@@ -421,20 +431,23 @@ Download Docker image that runs annotation tool. Both data and annotations remai
 
 Annotation tool is served using a web server on port 8090. 
 Image server is served on port 8000.
-[![undefined](undefined)](undefined)
+
+[![On Premises Docker Mac OS X](https://i.ytimg.com/vi/X3QOo_lJrjE/hqdefault.jpg)](https://www.youtube.com/watch?v=X3QOo_lJrjE&feature=youtu.be)
 
 
 ## Ubuntu: On-Premises Docker Image
 
 Annotation tool is served using a web server on port 8090. 
 Image server is served on port 8000.
-[![undefined](undefined)](undefined)
+
+[![Ubuntu](https://i.ytimg.com/vi/ESAtt73cBLw/hqdefault.jpg)](https://www.youtube.com/watch?v=ESAtt73cBLw&feature=youtu.be)
 
 
 ## Project Management on Cloud
 
 Project management, project meta-data, Dataset management, Dataset meta-data, collaborator management happens on cloud. *All your imaging data sets and annotations stay in your private network.* 
-[![undefined](undefined)](undefined)
+
+[![May 23, 2019 1:25 PM](https://i.ytimg.com/vi/45nKiW8inFM/hqdefault.jpg)](https://www.youtube.com/watch?v=45nKiW8inFM&feature=youtu.be)
 
 
 ## Private On-Premises DataSets
@@ -511,7 +524,8 @@ While creating a new dataset select option "Local"
 Enter a name for the new dataset. 
 Select "Upload Folder" and select the folder that contains images. 
 IMPORTANT: image paths will be processed recursively and images will *not* be uploaded to cloud.
-[![undefined](undefined)](undefined)
+
+[![Local - Edited](https://i.ytimg.com/vi/dPe4nCOB9Y4/hqdefault.jpg)](https://www.youtube.com/watch?v=dPe4nCOB9Y4&feature=youtu.be)
 ###2. Method two: Upload a CSV file containing list of local urls:
 Let's assume our name of our dataset is TCGA-CA-G4H2. This dataset has three folders: 
      1. Folder name "Drive" with jpeg files
@@ -524,7 +538,8 @@ Arrange folder names and file URLs in following format csv format:
 }
 [/block]
 Upload this csv file while creating a new data set as shown in video below:
-[![undefined](undefined)](undefined)
+
+[![CSV Upload for Local Dataset](undefined)](https://www.youtube.com/watch?v=4rKX_mBwUjM&feature=youtu.be)
 
 
 ## What is recommended directory structure?
@@ -672,7 +687,8 @@ If you enter -30 to 30 HU with 10 pixel radius, when you click on a pixel, growt
 ## Video
 
 
-[![undefined](undefined)](undefined)
+
+[![2DGrowthExample](undefined)](https://www.youtube.com/watch?v=-LV3co2EFtM&feature=youtu.be)
 
 
 ## Accuracy
@@ -766,6 +782,7 @@ Polygon Tool is most versatile tool for adding new labels and editing existing l
 }
 [/block]
 
+
 [![undefined](undefined)](undefined)
 
 
@@ -821,7 +838,8 @@ A project is a collection of dataset and collaborators working on the project as
 6. Click "Next"
 7. Attach a labelling interface to the project
 8. Click "Complete Setup"
-[![undefined](undefined)](undefined)
+
+[![Add New Project with Cloud Hosted Dataset](https://i.ytimg.com/vi/i6lhM3HGWTU/hqdefault.jpg)](https://www.youtube.com/watch?v=i6lhM3HGWTU&feature=youtu.be)
 
 
 ![Add Project Name](https://files.readme.io/e287b82-Project1.png)
@@ -1292,6 +1310,7 @@ https://youtu.be/l8XL_b4SIyk
   "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/l8XL_b4SIyk\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 }
 [/block]
+
 
 [![undefined](undefined)](undefined)
 
