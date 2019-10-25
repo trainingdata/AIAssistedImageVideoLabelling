@@ -1,11 +1,11 @@
 # Documentation
 
 + [Overview](#overview)
-  + [Complete Feature Set](#completefeatureset)
+  + [Complete Feature Set](#complete-feature-set)
   + [FAQ](#faq)
   + [Overview](#overview)
-  + [Quality Management](#qualitymanagement)
-  + [Security and Privacy](#securityandprivacy)
+  + [Quality Management](#quality-management)
+  + [Security and Privacy](#security-and-privacy)
 
 
 
