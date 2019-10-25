@@ -1,7 +1,8 @@
 ---
 title: "Quality Management"
-excerpt: "At TrainingData.io, we believe, quality of the machine learning model is entirely dependent on the quality of labeling for training data. We help you control quality of data labeling in following ways:"
+excerpt: ""
 ---
+At TrainingData.io, we believe, quality of the machine learning model is entirely dependent on the quality of labeling for training data. We help you control quality of data labeling in following ways:
 [block:api-header]
 {
   "title": "Annotator's Performance Management"

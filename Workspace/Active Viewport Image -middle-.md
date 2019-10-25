@@ -1,7 +1,8 @@
 ---
 title: "Active Viewport Image (middle)"
-excerpt: "Active Viewport shows the current image on which a user is creating annotations."
+excerpt: ""
 ---
+Active Viewport shows the current image on which a user is creating annotations.
 [block:image]
 {
   "images": [

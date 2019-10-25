@@ -11,8 +11,10 @@ TrainingData.io application provides high precision training data labeling for V
 1. High precision labeling tool with Superpixel segmentation, AI-assisted labeling, and active-learning.
 2. Custom labeling instructions for every task - delivers productivity enhancing user-experience for annotators.
 3. Data security and privacy protection using On-premises, In-cloud or hybrid hosting. (using Docker and VPN)
-4. Annotator performance and quality management workflow
-5. Out of the box support for medical imaging (DICOM).
+4. Collaboration with multiple annotator's on same task.
+5. Annotator performance and quality management workflow.
+6. AI-Assisted annotation using existing ML models.
+7. Out of the box support for medical imaging (DICOM).
 
 [block:image]
 {

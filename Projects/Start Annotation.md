@@ -1,7 +1,8 @@
 ---
 title: "Start Annotation"
-excerpt: "To start annotating click on any project entry. You will be taken to the workplace where you can create new annotations."
+excerpt: ""
 ---
+To start annotating click on any project entry. You will be taken to the workplace where you can create new annotations.
 [block:image]
 {
   "images": [

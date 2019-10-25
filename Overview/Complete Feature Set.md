@@ -1,7 +1,8 @@
 ---
 title: "Complete Feature Set"
-excerpt: "At TrainingData.io, we believe quality of the machine learning model is dependent on the quality of labelling. We empower data-scientists to control the quality of data labelling in the following ways:"
+excerpt: ""
 ---
+At TrainingData.io, we believe quality of the machine learning model is dependent on the quality of labelling. We empower data-scientists to control the quality of data labelling in the following ways:
 [block:api-header]
 {
   "title": "Segmentation and Classification"
@@ -37,7 +38,7 @@ We use advanced image processing to provide pixel accurate tools like
 On-premises hosting of datasets and annotation tools using Docker and VPN.
 [block:api-header]
 {
-  "title": "Annotator's Performance Management"
+  "title": "Collaboration: Annotator's Performance Management"
 }
 [/block]
 1. Measure, record and analyze annotator's performance on every individual task, asset and label.

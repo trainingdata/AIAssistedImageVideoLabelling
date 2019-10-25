@@ -1,7 +1,8 @@
 ---
 title: "Label Data (right)"
-excerpt: "Label settings include step-by-step walk through of questionnaire that annotator needs to answer for each label created."
+excerpt: ""
 ---
+Label settings include step-by-step walk through of questionnaire that annotator needs to answer for each label created.
 [block:api-header]
 {
   "title": "Navigation"

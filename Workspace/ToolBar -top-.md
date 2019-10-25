@@ -1,7 +1,16 @@
 ---
 title: "ToolBar (top)"
-excerpt: "Toolbar on the top has four sections.\n\n**Section One and Two: Image Placement**\nFollowing features allow easy accessibility of different sections of the image: Zoom in, Zoom out, Pan\nFollowing features allow you to pixel level detail of the image. In case of PNG or Jpeg you can see RGB values at each pixel, in case of DICOM image format you can see HU value.\n\n\n**Section Three: Annotation Tools**\nDraw tool allows free hand drawing as shown in image below"
+excerpt: ""
 ---
+Toolbar on the top has four sections.
+
+**Section One and Two: Image Placement**
+Following features allow easy accessibility of different sections of the image: Zoom in, Zoom out, Pan
+Following features allow you to pixel level detail of the image. In case of PNG or Jpeg you can see RGB values at each pixel, in case of DICOM image format you can see HU value.
+
+
+**Section Three: Annotation Tools**
+Draw tool allows free hand drawing as shown in image below
 [block:image]
 {
   "images": [
