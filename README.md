@@ -54,6 +54,7 @@
 
 
 [![AI Assisted Liver Segmentation](https://i.ytimg.com/vi/t3rXegVVTE4/hqdefault.jpg)](https://www.youtube.com/watch?v=t3rXegVVTE4&feature=youtu.be)
+
 # Segmentation of Spleen
 
 ## Segmentation of Spleen using NVIDIA Clara
@@ -61,6 +62,7 @@
 
 
 [![AI Assisted Spleen Segmentation](https://i.ytimg.com/vi/giFBUSsmJyE/hqdefault.jpg)](https://www.youtube.com/watch?v=giFBUSsmJyE&feature=youtu.be)
+
 # Collaborators
 
 
@@ -68,11 +70,9 @@
 Select a project from the Projects tab. This will open project settings. Under "Collaborators" sub tab, click "Add a Collaborator". Enter email address of new collaborator, enter role of new collaborator. Role of a collaborator can be "Admin", "Annotator", or "Reviewer".
 
 Click "Add" to finish.
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2ZUXOUe30n0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2ZUXOUe30n0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Add a Collaborator
 A Collaborator is an individual who works on your labeling task. Collaborators can be your teammates at work, or people in other teams like data-science team, product team, devops team, legal team. Collaborators can also be individuals outside your organization like freelance annotators who would do annotation-work requiring skills not available in your organization.
 
@@ -91,11 +91,9 @@ Select Roles as "Project Based"
 List of all your projects will populate
 
 Now set role of this new collaborator for each individual project
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IfDn_GWWQ1w\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IfDn_GWWQ1w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ## How do I Add Collaborator With Same Role for All Projects?
@@ -163,14 +161,13 @@ Prepare a CSV file with a list of URLs as shown below:
 4. Enter name for new Dataset
 5. Select "Remote"
 6. Upload a csv file that arranges URLs like this
-[block:html]
-{
-  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vS0sq3VtQGLMokOyrEuh6sDEnVAkZJeBzFvzsriNSqWZByjFJOgHFp0luJfWEPGqjQYhwOVPhEGo8vk/pubhtml?gid=14120895&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
-}
-[/block]
+
+<iframe width='100%' height='250'  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0sq3VtQGLMokOyrEuh6sDEnVAkZJeBzFvzsriNSqWZByjFJOgHFp0luJfWEPGqjQYhwOVPhEGo8vk/pubhtml?gid=14120895&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
 
 
 [![Local Dataset using CSV File Upload - Edited](https://i.ytimg.com/vi/rJK58Ed3kAg/hqdefault.jpg)](https://www.youtube.com/watch?v=rJK58Ed3kAg&feature=youtu.be)
+
 
 
 ## 2. Add New On-Prem Dataset with Folder Upload
@@ -192,6 +189,7 @@ b) root of webserver serving dataset is same as the uploaded folder
 [![Create Local Dataset using "Upload Folder" Local - Edited](https://i.ytimg.com/vi/dPe4nCOB9Y4/hqdefault.jpg)](https://www.youtube.com/watch?v=dPe4nCOB9Y4&feature=youtu.be)
 
 
+
 ## 3. Upload Archive: zip or tar to TD.io's Cloud Storage
 
 Alternatively, you can upload an archive:
@@ -204,6 +202,7 @@ Alternatively, you can upload an archive:
 Individual image files will be uploaded to TD.io's cloud storage. Folder structure will be preserved exactly as given in archive.
 
 [![Archive (zip) Dataset - Edited](https://i.ytimg.com/vi/WbTMiDM2b2M/hqdefault.jpg)](https://www.youtube.com/watch?v=WbTMiDM2b2M&feature=youtu.be)
+
 
 
 ## 4. Upload Individual Files and Folders to TD.io's Cloud
@@ -234,6 +233,7 @@ Video files will be broken down into individual frames by TD.io's cloud system
 [![Video File Upload](https://i.ytimg.com/vi/Dvd2DtY1j9s/hqdefault.jpg)](https://www.youtube.com/watch?v=Dvd2DtY1j9s&feature=youtu.be)
 
 
+
 ## 6. Upload CSV File with Self Hosted-Cloud URLs
 
 Prepare a CSV file with a list of URLs as shown below: 
@@ -245,14 +245,13 @@ Prepare a CSV file with a list of URLs as shown below:
 6. Upload a csv file that arranges URLs like this
 7. Select "Submit"
 8. Inspect new dataset
-[block:html]
-{
-  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
-}
-[/block]
+
+<iframe width='100%' height='250'  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
 
 
 [![Self Hosted Cloud Dataset](https://i.ytimg.com/vi/p8wubMrjpKw/hqdefault.jpg)](https://www.youtube.com/watch?v=p8wubMrjpKw&feature=youtu.be)
+
 
 
 ## Supported File Formats
@@ -316,6 +315,7 @@ As you add a class or an attribute on left panel, you will observe same class an
 [![LabelingInterface Example](https://i.ytimg.com/vi/Z1ZYpmFLaRc/hqdefault.jpg)](https://www.youtube.com/watch?v=Z1ZYpmFLaRc&feature=youtu.be)
 
 
+
 ## Step 1: Creating First Class-Type
 
 Classes are abstract-representation of real world objects that machine learning model learns about. Each class can have a:
@@ -327,11 +327,11 @@ Classes are abstract-representation of real world objects that machine learning 
 ![New Class-type](https://files.readme.io/bea51e7-CarPolygon.png)
 
 
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wc6oD7ZWCVo\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wc6oD7ZWCVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 
 
 ## Step 2: Adding Attributes to Class-Type
@@ -343,11 +343,9 @@ An attribute is a question that you ask an annotator. There are four different d
 2. Multi-select Checkbox: a list of check boxes with multi-select functionality
 3. Single-select Drop down list: with single select functionality
 4. Single-select Radio button: with single selection functionality
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3glJI8KxZng\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3glJI8KxZng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ## Step 3: Final Labeling Interface
@@ -380,14 +378,13 @@ Data scientists can use self-hosted datasets as shown in CSV file. Prepare a CSV
 6. Upload a csv file that arranges URLs like this
 7. Select "Submit"
 8. Inspect new dataset
-[block:html]
-{
-  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
-}
-[/block]
+
+<iframe width='100%' height='250'  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
 
 
 [![undefined](undefined)](undefined)
+
 
 
 ## TD.io Hosted Cloud Dataset
@@ -404,6 +401,7 @@ Alternatively, you can upload individual files and Folders to TD.io's Cloud. TD.
 Individual image files will be uploaded to TD.io's cloud storage. (Folder structure will be preserved exactly as that of selected folder)
 
 [![TD.io's Cloud Hosted Dataset - Edited](https://i.ytimg.com/vi/LT1hnxT_kD0/hqdefault.jpg)](https://www.youtube.com/watch?v=LT1hnxT_kD0&feature=youtu.be)
+
 # Docker and VPN for Secure Training Data
 
 ## Private On-Premises Annotation Tool Using Docker
@@ -435,6 +433,7 @@ Image server is served on port 8000.
 [![On Premises Docker Mac OS X](https://i.ytimg.com/vi/X3QOo_lJrjE/hqdefault.jpg)](https://www.youtube.com/watch?v=X3QOo_lJrjE&feature=youtu.be)
 
 
+
 ## Ubuntu: On-Premises Docker Image
 
 Annotation tool is served using a web server on port 8090. 
@@ -443,11 +442,13 @@ Image server is served on port 8000.
 [![Ubuntu](https://i.ytimg.com/vi/ESAtt73cBLw/hqdefault.jpg)](https://www.youtube.com/watch?v=ESAtt73cBLw&feature=youtu.be)
 
 
+
 ## Project Management on Cloud
 
 Project management, project meta-data, Dataset management, Dataset meta-data, collaborator management happens on cloud. *All your imaging data sets and annotations stay in your private network.* 
 
 [![May 23, 2019 1:25 PM](https://i.ytimg.com/vi/45nKiW8inFM/hqdefault.jpg)](https://www.youtube.com/watch?v=45nKiW8inFM&feature=youtu.be)
+
 
 
 ## Private On-Premises DataSets
@@ -526,20 +527,20 @@ Select "Upload Folder" and select the folder that contains images.
 IMPORTANT: image paths will be processed recursively and images will *not* be uploaded to cloud.
 
 [![Local - Edited](https://i.ytimg.com/vi/dPe4nCOB9Y4/hqdefault.jpg)](https://www.youtube.com/watch?v=dPe4nCOB9Y4&feature=youtu.be)
+
 ###2. Method two: Upload a CSV file containing list of local urls:
 Let's assume our name of our dataset is TCGA-CA-G4H2. This dataset has three folders: 
      1. Folder name "Drive" with jpeg files
      2. Folder name "PNG" with png files
      3. Folder name "DICOM" with Dicom files
 Arrange folder names and file URLs in following format csv format:
-[block:html]
-{
-  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vS0sq3VtQGLMokOyrEuh6sDEnVAkZJeBzFvzsriNSqWZByjFJOgHFp0luJfWEPGqjQYhwOVPhEGo8vk/pubhtml?gid=14120895&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
-}
-[/block]
+
+<iframe width='100%' height='250'  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0sq3VtQGLMokOyrEuh6sDEnVAkZJeBzFvzsriNSqWZByjFJOgHFp0luJfWEPGqjQYhwOVPhEGo8vk/pubhtml?gid=14120895&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
 Upload this csv file while creating a new data set as shown in video below:
 
 [![CSV Upload for Local Dataset](undefined)](https://www.youtube.com/watch?v=4rKX_mBwUjM&feature=youtu.be)
+
 
 
 ## What is recommended directory structure?
@@ -691,6 +692,7 @@ If you enter -30 to 30 HU with 10 pixel radius, when you click on a pixel, growt
 [![2DGrowthExample](undefined)](https://www.youtube.com/watch?v=-LV3co2EFtM&feature=youtu.be)
 
 
+
 ## Accuracy
 
 
@@ -719,11 +721,9 @@ Freehand Draw tool can be used with mouse to draw accurate freehand contour.
 * New points will be created and deleted as needed.
 * Release the mouse to complete the edit.
 * You may find you wish to make rough edits with a large tool, before making fine adjustments with a finer tool.
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/sllO1nw_LpI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sllO1nw_LpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ![Freehand Annotation](https://files.readme.io/5a79857-Freehand.png)
@@ -753,11 +753,10 @@ Polygon Tool is most versatile tool for adding new labels and editing existing l
 * Click to draw a point.
 * Keep clicking to draw a shape.
 * End the shape by connecting it to the origin node without crossing any lines.
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5VgMAKn7DFs\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5VgMAKn7DFs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 
 ## Edit a Polygon
@@ -776,14 +775,13 @@ Polygon Tool is most versatile tool for adding new labels and editing existing l
 ## Move a Vertex
 
 * Release Ctrl and drag a handle to move it.
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2W7Sg8yxnH8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2W7Sg8yxnH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 [![undefined](undefined)](undefined)
+
 
 
 ![Polygon  Annotation](https://files.readme.io/9c94020-PolygonTool.png)
@@ -813,11 +811,9 @@ Brush Settings:
 1. Mouse Click -- add (or erase) a region to annotation.
 2. Mouse Drag right -- add (or erase) segments traced by mouse drag in current annotation.
 
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xtrJhqoRjhg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xtrJhqoRjhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ![Accuracy of Segmentation Tool](https://files.readme.io/4a708b3-Ptch2.gif)
@@ -840,6 +836,7 @@ A project is a collection of dataset and collaborators working on the project as
 8. Click "Complete Setup"
 
 [![Add New Project with Cloud Hosted Dataset](https://i.ytimg.com/vi/i6lhM3HGWTU/hqdefault.jpg)](https://www.youtube.com/watch?v=i6lhM3HGWTU&feature=youtu.be)
+
 
 
 ![Add Project Name](https://files.readme.io/e287b82-Project1.png)
@@ -884,11 +881,10 @@ In Review mode performance of an annotator can be reviewed for every image or vi
 1. "Accept" "Reject" an annotation: Mandatory 
 2. Give a score between 0 and 10, (optional).
 3. Leave a comment for the annotator (optional).
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UEjkveN3hFg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UEjkveN3hFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 
 ![Graphical User Interface for Reviews](https://files.readme.io/8ec6485-Review.png)
@@ -905,11 +901,10 @@ From project settings page select button "Start Annotating".
 5. Press Button:"Save" to save annotation
 6. Press Button:"Delete" to delete an annotation.
 7. Press left button or right button to move left and right.
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bHrd55nISzY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bHrd55nISzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 # Roles: Admin
 
 ## What is Admin's Role?
@@ -927,21 +922,18 @@ Image below shows admin's view of a task with ability to annotate and review-ann
 ## Admin Mode: How to create annotations
 
 
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bHrd55nISzY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bHrd55nISzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 
 ## Admin Mode: How to review annotations
 
 
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UEjkveN3hFg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UEjkveN3hFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Roles: Annotator
 
 ## What is Annotator's Role?
@@ -959,11 +951,10 @@ Image below shows annotator seeing reviews by a reviewer.
 ## Annotation Mode: How to create annotations
 
 
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bHrd55nISzY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bHrd55nISzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 # Roles: Reviewer
 
 ## What is Reviewer's Role?
@@ -974,11 +965,9 @@ In Review mode performance of an annotator can be reviewed for every image or vi
 1. "Accept" or "Reject" an annotation. 
 2. Enter a score between 0 and 10.
 3. Leave a comment for the annotator.
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UEjkveN3hFg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UEjkveN3hFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Terms and Conditions
 
 
@@ -1305,25 +1294,22 @@ Rectangle tool can be used to create **bounding box** annotations.
 **Pixel Level Accuracy**
 **PNG and JPEG**: Segmentation tool provides superpixel segmentation based on color. Segmentation tool works for JPG and PNG image formats.
 https://youtu.be/l8XL_b4SIyk
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/l8XL_b4SIyk\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l8XL_b4SIyk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 [![undefined](undefined)](undefined)
+
 
 
 ## 3D Growth Tool
 
 For **DICOM** format: 2D growth and 3D growth works based on HU value (Hounsfield Unit). It grows the region based on HU value within a specified pixel-radius. Video below shows how to create pixel-accurate annotations at very fast pace.
 https://youtu.be/EkKbQQctLfA
-[block:html]
-{
-  "html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/EkKbQQctLfA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-}
-[/block]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EkKbQQctLfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Section Four: Window Level**
 Contrast: Set contrast of image
 Brightness: Set brightness in the image
