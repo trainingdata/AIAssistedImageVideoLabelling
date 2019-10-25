@@ -1,6 +1,6 @@
 # Documentation
 
-+ [AI Assisted Annotation](#ai assisted annotation)
++ [AI Assisted Annotation](#ai-assisted-annotation)
   + [Segmentation of Liver](#segmentation-of-liver)
   + [Segmentation of Spleen](#segmentation-of-spleen)
 + [Collaborators](#collaborators)
