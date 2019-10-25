@@ -1,6 +1,6 @@
 # Documentation
 
-+ [AI Assisted Annotation](#ai-assisted-annotation)
++ [AI Assisted Annotation](#ai assisted annotation)
   + [Segmentation of Liver](#segmentation-of-liver)
   + [Segmentation of Spleen](#segmentation-of-spleen)
 + [Collaborators](#collaborators)
@@ -52,13 +52,8 @@
 ## Segmentation of Liver using NVIDIA Clara Backend
 
 
-<div class="embed-container">
 
-{% include youtubePlayer id="2ZUXOUe30n0" %}
-
-</div>
-
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Ft3rXegVVTE4%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt3rXegVVTE4&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Ft3rXegVVTE4%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![AI Assisted Liver Segmentation](https://i.ytimg.com/vi/t3rXegVVTE4/hqdefault.jpg)](https://www.youtube.com/watch?v=t3rXegVVTE4&feature=youtu.be)
 
 # Segmentation of Spleen
 
@@ -66,7 +61,7 @@
 
 
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FgiFBUSsmJyE%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgiFBUSsmJyE&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FgiFBUSsmJyE%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![AI Assisted Spleen Segmentation](https://i.ytimg.com/vi/giFBUSsmJyE/hqdefault.jpg)](https://www.youtube.com/watch?v=giFBUSsmJyE&feature=youtu.be)
 
 # Collaborators
 
@@ -76,7 +71,7 @@ Select a project from the Projects tab. This will open project settings. Under "
 
 Click "Add" to finish.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2ZUXOUe30n0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[!['fixtitle']('https://i.ytimg.com/vi/'2ZUXOUe30n0'/hqdefault.jpg')]('https://www.youtube.com/embed/'2ZUXOUe30n0)
 
 # Add a Collaborator
 A Collaborator is an individual who works on your labeling task. Collaborators can be your teammates at work, or people in other teams like data-science team, product team, devops team, legal team. Collaborators can also be individuals outside your organization like freelance annotators who would do annotation-work requiring skills not available in your organization.
@@ -97,7 +92,7 @@ List of all your projects will populate
 
 Now set role of this new collaborator for each individual project
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IfDn_GWWQ1w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[!['fixtitle']('https://i.ytimg.com/vi/'IfDn_GWWQ1w'/hqdefault.jpg')]('https://www.youtube.com/embed/'IfDn_GWWQ1w)
 
 
 
@@ -166,12 +161,14 @@ Prepare a CSV file with a list of URLs as shown below:
 4. Enter name for new Dataset
 5. Select "Remote"
 6. Upload a csv file that arranges URLs like this
+[block:html]
+{
+  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vS0sq3VtQGLMokOyrEuh6sDEnVAkZJeBzFvzsriNSqWZByjFJOgHFp0luJfWEPGqjQYhwOVPhEGo8vk/pubhtml?gid=14120895&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
+}
+[/block]
 
-<iframe width='100%' height='250'  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0sq3VtQGLMokOyrEuh6sDEnVAkZJeBzFvzsriNSqWZByjFJOgHFp0luJfWEPGqjQYhwOVPhEGo8vk/pubhtml?gid=14120895&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-
-
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FrJK58Ed3kAg%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DrJK58Ed3kAg&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FrJK58Ed3kAg%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![Local Dataset using CSV File Upload - Edited](https://i.ytimg.com/vi/rJK58Ed3kAg/hqdefault.jpg)](https://www.youtube.com/watch?v=rJK58Ed3kAg&feature=youtu.be)
 
 
 
@@ -191,7 +188,7 @@ b) root of webserver serving dataset is same as the uploaded folder
 7. Enter "File System Path" as base URL: example http://localhost:8000/
 8. Select "Submit"  
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FdPe4nCOB9Y4%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdPe4nCOB9Y4&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FdPe4nCOB9Y4%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![Create Local Dataset using "Upload Folder" Local - Edited](https://i.ytimg.com/vi/dPe4nCOB9Y4/hqdefault.jpg)](https://www.youtube.com/watch?v=dPe4nCOB9Y4&feature=youtu.be)
 
 
 
@@ -206,7 +203,7 @@ Alternatively, you can upload an archive:
 6. Select "Submit"
 Individual image files will be uploaded to TD.io's cloud storage. Folder structure will be preserved exactly as given in archive.
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FWbTMiDM2b2M%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWbTMiDM2b2M&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FWbTMiDM2b2M%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="640" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![Archive (zip) Dataset - Edited](https://i.ytimg.com/vi/WbTMiDM2b2M/hqdefault.jpg)](https://www.youtube.com/watch?v=WbTMiDM2b2M&feature=youtu.be)
 
 
 
@@ -235,7 +232,7 @@ Alternatively, you can upload video files to TD.io's Cloud:
 8. Select "Submit"
 Video files will be broken down into individual frames by TD.io's cloud system
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FDvd2DtY1j9s%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DDvd2DtY1j9s&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FDvd2DtY1j9s%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![Video File Upload](https://i.ytimg.com/vi/Dvd2DtY1j9s/hqdefault.jpg)](https://www.youtube.com/watch?v=Dvd2DtY1j9s&feature=youtu.be)
 
 
 
@@ -250,12 +247,14 @@ Prepare a CSV file with a list of URLs as shown below:
 6. Upload a csv file that arranges URLs like this
 7. Select "Submit"
 8. Inspect new dataset
+[block:html]
+{
+  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
+}
+[/block]
 
-<iframe width='100%' height='250'  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-
-
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fp8wubMrjpKw%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dp8wubMrjpKw&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fp8wubMrjpKw%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![Self Hosted Cloud Dataset](https://i.ytimg.com/vi/p8wubMrjpKw/hqdefault.jpg)](https://www.youtube.com/watch?v=p8wubMrjpKw&feature=youtu.be)
 
 
 
@@ -317,7 +316,7 @@ Labeling instruction has two parts to it. Left panel and right panel. The left p
 
 As you add a class or an attribute on left panel, you will observe same class and attributes will show up on the right panel in real time. 
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FZ1ZYpmFLaRc%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZ1ZYpmFLaRc&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZ1ZYpmFLaRc%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="640" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![LabelingInterface Example](https://i.ytimg.com/vi/Z1ZYpmFLaRc/hqdefault.jpg)](https://www.youtube.com/watch?v=Z1ZYpmFLaRc&feature=youtu.be)
 
 
 
@@ -333,9 +332,7 @@ Classes are abstract-representation of real world objects that machine learning 
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wc6oD7ZWCVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+[!['fixtitle']('https://i.ytimg.com/vi/'wc6oD7ZWCVo'/hqdefault.jpg')]('https://www.youtube.com/embed/'wc6oD7ZWCVo)
 
 
 
@@ -349,7 +346,7 @@ An attribute is a question that you ask an annotator. There are four different d
 3. Single-select Drop down list: with single select functionality
 4. Single-select Radio button: with single selection functionality
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3glJI8KxZng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[!['fixtitle']('https://i.ytimg.com/vi/'3glJI8KxZng'/hqdefault.jpg')]('https://www.youtube.com/embed/'3glJI8KxZng)
 
 
 
@@ -383,12 +380,14 @@ Data scientists can use self-hosted datasets as shown in CSV file. Prepare a CSV
 6. Upload a csv file that arranges URLs like this
 7. Select "Submit"
 8. Inspect new dataset
+[block:html]
+{
+  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
+}
+[/block]
 
-<iframe width='100%' height='250'  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-
-
-undefined
+[![undefined](undefined)](undefined)
 
 
 
@@ -405,7 +404,7 @@ Alternatively, you can upload individual files and Folders to TD.io's Cloud. TD.
 8. Select "Submit"
 Individual image files will be uploaded to TD.io's cloud storage. (Folder structure will be preserved exactly as that of selected folder)
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FLT1hnxT_kD0%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLT1hnxT_kD0&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FLT1hnxT_kD0%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="640" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![TD.io's Cloud Hosted Dataset - Edited](https://i.ytimg.com/vi/LT1hnxT_kD0/hqdefault.jpg)](https://www.youtube.com/watch?v=LT1hnxT_kD0&feature=youtu.be)
 
 # Docker and VPN for Secure Training Data
 
@@ -435,7 +434,7 @@ Download Docker image that runs annotation tool. Both data and annotations remai
 Annotation tool is served using a web server on port 8090. 
 Image server is served on port 8000.
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FX3QOo_lJrjE%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DX3QOo_lJrjE&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FX3QOo_lJrjE%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="640" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![On Premises Docker Mac OS X](https://i.ytimg.com/vi/X3QOo_lJrjE/hqdefault.jpg)](https://www.youtube.com/watch?v=X3QOo_lJrjE&feature=youtu.be)
 
 
 
@@ -444,7 +443,7 @@ Image server is served on port 8000.
 Annotation tool is served using a web server on port 8090. 
 Image server is served on port 8000.
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FESAtt73cBLw%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DESAtt73cBLw&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FESAtt73cBLw%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="640" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![Ubuntu](https://i.ytimg.com/vi/ESAtt73cBLw/hqdefault.jpg)](https://www.youtube.com/watch?v=ESAtt73cBLw&feature=youtu.be)
 
 
 
@@ -452,7 +451,7 @@ Image server is served on port 8000.
 
 Project management, project meta-data, Dataset management, Dataset meta-data, collaborator management happens on cloud. *All your imaging data sets and annotations stay in your private network.* 
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F45nKiW8inFM%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D45nKiW8inFM&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F45nKiW8inFM%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![May 23, 2019 1:25 PM](https://i.ytimg.com/vi/45nKiW8inFM/hqdefault.jpg)](https://www.youtube.com/watch?v=45nKiW8inFM&feature=youtu.be)
 
 
 
@@ -531,7 +530,7 @@ Enter a name for the new dataset.
 Select "Upload Folder" and select the folder that contains images. 
 IMPORTANT: image paths will be processed recursively and images will *not* be uploaded to cloud.
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FdPe4nCOB9Y4%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdPe4nCOB9Y4&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FdPe4nCOB9Y4%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![Local - Edited](https://i.ytimg.com/vi/dPe4nCOB9Y4/hqdefault.jpg)](https://www.youtube.com/watch?v=dPe4nCOB9Y4&feature=youtu.be)
 
 ###2. Method two: Upload a CSV file containing list of local urls:
 Let's assume our name of our dataset is TCGA-CA-G4H2. This dataset has three folders: 
@@ -539,12 +538,14 @@ Let's assume our name of our dataset is TCGA-CA-G4H2. This dataset has three fol
      2. Folder name "PNG" with png files
      3. Folder name "DICOM" with Dicom files
 Arrange folder names and file URLs in following format csv format:
-
-<iframe width='100%' height='250'  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0sq3VtQGLMokOyrEuh6sDEnVAkZJeBzFvzsriNSqWZByjFJOgHFp0luJfWEPGqjQYhwOVPhEGo8vk/pubhtml?gid=14120895&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
+[block:html]
+{
+  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vS0sq3VtQGLMokOyrEuh6sDEnVAkZJeBzFvzsriNSqWZByjFJOgHFp0luJfWEPGqjQYhwOVPhEGo8vk/pubhtml?gid=14120895&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
+}
+[/block]
 Upload this csv file while creating a new data set as shown in video below:
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4rKX_mBwUjM&src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F4rKX_mBwUjM%3Ffeature%3Doembed&type=text%2Fhtml&key=f2aa6fc3595946d0afc3d76cbbd25dc3&schema=youtube" width="640" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![CSV Upload for Local Dataset](undefined)](https://www.youtube.com/watch?v=4rKX_mBwUjM&feature=youtu.be)
 
 
 
@@ -694,7 +695,7 @@ If you enter -30 to 30 HU with 10 pixel radius, when you click on a pixel, growt
 
 
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-LV3co2EFtM&src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F-LV3co2EFtM%3Ffeature%3Doembed&type=text%2Fhtml&key=f2aa6fc3595946d0afc3d76cbbd25dc3&schema=youtube" width="640" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![2DGrowthExample](undefined)](https://www.youtube.com/watch?v=-LV3co2EFtM&feature=youtu.be)
 
 
 
@@ -727,7 +728,7 @@ Freehand Draw tool can be used with mouse to draw accurate freehand contour.
 * Release the mouse to complete the edit.
 * You may find you wish to make rough edits with a large tool, before making fine adjustments with a finer tool.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sllO1nw_LpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[!['fixtitle']('https://i.ytimg.com/vi/'sllO1nw_LpI'/hqdefault.jpg')]('https://www.youtube.com/embed/'sllO1nw_LpI)
 
 
 
@@ -759,8 +760,7 @@ Polygon Tool is most versatile tool for adding new labels and editing existing l
 * Keep clicking to draw a shape.
 * End the shape by connecting it to the origin node without crossing any lines.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5VgMAKn7DFs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[!['fixtitle']('https://i.ytimg.com/vi/'5VgMAKn7DFs'/hqdefault.jpg')]('https://www.youtube.com/embed/'5VgMAKn7DFs)
 
 
 
@@ -781,11 +781,11 @@ Polygon Tool is most versatile tool for adding new labels and editing existing l
 
 * Release Ctrl and drag a handle to move it.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2W7Sg8yxnH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[!['fixtitle']('https://i.ytimg.com/vi/'2W7Sg8yxnH8'/hqdefault.jpg')]('https://www.youtube.com/embed/'2W7Sg8yxnH8)
 
 
 
-undefined
+[![undefined](undefined)](undefined)
 
 
 
@@ -817,7 +817,7 @@ Brush Settings:
 2. Mouse Drag right -- add (or erase) segments traced by mouse drag in current annotation.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xtrJhqoRjhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[!['fixtitle']('https://i.ytimg.com/vi/'xtrJhqoRjhg'/hqdefault.jpg')]('https://www.youtube.com/embed/'xtrJhqoRjhg)
 
 
 
@@ -840,7 +840,7 @@ A project is a collection of dataset and collaborators working on the project as
 7. Attach a labelling interface to the project
 8. Click "Complete Setup"
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fi6lhM3HGWTU%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Di6lhM3HGWTU&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fi6lhM3HGWTU%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+[![Add New Project with Cloud Hosted Dataset](https://i.ytimg.com/vi/i6lhM3HGWTU/hqdefault.jpg)](https://www.youtube.com/watch?v=i6lhM3HGWTU&feature=youtu.be)
 
 
 
@@ -887,8 +887,7 @@ In Review mode performance of an annotator can be reviewed for every image or vi
 2. Give a score between 0 and 10, (optional).
 3. Leave a comment for the annotator (optional).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UEjkveN3hFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[!['fixtitle']('https://i.ytimg.com/vi/'UEjkveN3hFg'/hqdefault.jpg')]('https://www.youtube.com/embed/'UEjkveN3hFg)
 
 
 
@@ -907,8 +906,7 @@ From project settings page select button "Start Annotating".
 6. Press Button:"Delete" to delete an annotation.
 7. Press left button or right button to move left and right.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bHrd55nISzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[!['fixtitle']('https://i.ytimg.com/vi/'bHrd55nISzY'/hqdefault.jpg')]('https://www.youtube.com/embed/'bHrd55nISzY)
 
 # Roles: Admin
 
@@ -928,8 +926,7 @@ Image below shows admin's view of a task with ability to annotate and review-ann
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bHrd55nISzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[!['fixtitle']('https://i.ytimg.com/vi/'bHrd55nISzY'/hqdefault.jpg')]('https://www.youtube.com/embed/'bHrd55nISzY)
 
 
 
@@ -937,7 +934,7 @@ Image below shows admin's view of a task with ability to annotate and review-ann
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UEjkveN3hFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[!['fixtitle']('https://i.ytimg.com/vi/'UEjkveN3hFg'/hqdefault.jpg')]('https://www.youtube.com/embed/'UEjkveN3hFg)
 
 # Roles: Annotator
 
@@ -957,8 +954,7 @@ Image below shows annotator seeing reviews by a reviewer.
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bHrd55nISzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[!['fixtitle']('https://i.ytimg.com/vi/'bHrd55nISzY'/hqdefault.jpg')]('https://www.youtube.com/embed/'bHrd55nISzY)
 
 # Roles: Reviewer
 
@@ -971,7 +967,7 @@ In Review mode performance of an annotator can be reviewed for every image or vi
 2. Enter a score between 0 and 10.
 3. Leave a comment for the annotator.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UEjkveN3hFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[!['fixtitle']('https://i.ytimg.com/vi/'UEjkveN3hFg'/hqdefault.jpg')]('https://www.youtube.com/embed/'UEjkveN3hFg)
 
 # Terms and Conditions
 
@@ -1300,11 +1296,11 @@ Rectangle tool can be used to create **bounding box** annotations.
 **PNG and JPEG**: Segmentation tool provides superpixel segmentation based on color. Segmentation tool works for JPG and PNG image formats.
 https://youtu.be/l8XL_b4SIyk
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l8XL_b4SIyk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[!['fixtitle']('https://i.ytimg.com/vi/'l8XL_b4SIyk'/hqdefault.jpg')]('https://www.youtube.com/embed/'l8XL_b4SIyk)
 
 
 
-undefined
+[![undefined](undefined)](undefined)
 
 
 
@@ -1313,7 +1309,7 @@ undefined
 For **DICOM** format: 2D growth and 3D growth works based on HU value (Hounsfield Unit). It grows the region based on HU value within a specified pixel-radius. Video below shows how to create pixel-accurate annotations at very fast pace.
 https://youtu.be/EkKbQQctLfA
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EkKbQQctLfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[!['fixtitle']('https://i.ytimg.com/vi/'EkKbQQctLfA'/hqdefault.jpg')]('https://www.youtube.com/embed/'EkKbQQctLfA)
 
 **Section Four: Window Level**
 Contrast: Set contrast of image
