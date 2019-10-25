@@ -4,21 +4,20 @@
 
 + [Overview](#overview)
   + [Complete Feature Set](#complete-feature-set)
-  + [Overview](#overview)
   + [Quality Management](#quality-management)
   + [Security and Privacy](#security-and-privacy)
   + [FAQ](#faq)
 + [Quality Management Workflow](#quality-management-workflow)
   + [Annotator Performance Management](#annotator-performance-management)
   + [Roles: Admin](#roles--admin)
-  + [Roles: Annotator](#roles:-annotator)
-  + [Roles: Reviewer](#roles:-reviewer)
+  + [Roles: Annotator](#roles--annotator)
+  + [Roles: Reviewer](#roles--reviewer)
 + [On Premises Infrastructure](#on-premises-infrastructure)
-  + [Cloud Hosted Datasets](#cloud-hosted-datasets)
   + [Docker and VPN for Secure Training Data](#docker-and-vpn-for-secure-training-data)
+  + [Ubuntu: Troubleshooting Docker](#ubuntu--troubleshooting-docker)
+  + [Windows: Troubleshooting Docker](#windows--troubleshooting-docker)
   + [On-Prem Datasets](#on-prem-datasets)
-  + [Ubuntu: Troubleshooting Docker](#ubuntu:-troubleshooting-docker)
-  + [Windows: Troubleshooting Docker](#windows:-troubleshooting-docker)
+  + [Cloud Hosted Datasets](#cloud-hosted-datasets)
 + [Pixel Accurate Tools](#pixel-accurate-tools)
   + [2D Growth Tool for DICOM](#2d-growth-tool-for-dicom)
   + [Freehand with Sculpter](#freehand-with-sculpter)
@@ -26,7 +25,7 @@
   + [Polygon Tool](#polygon-tool)
   + [Segmentation with Brush & Eraser](#segmentation-with-brush-&-eraser)
 + [Labeling Instructions](#labeling-instructions)
-  + [KeyBoard Shortcuts: Productivity](#keyboard-shortcuts:-productivity)
+  + [KeyBoard Shortcuts: Productivity](#keyboard-shortcuts--productivity)
   + [Labeling Instruction Builder](#labeling-instruction-builder)
 + [AI Assisted Annotation](#ai-assisted-annotation)
   + [Segmentation of Liver](#segmentation-of-liver)
@@ -42,10 +41,10 @@
   + [Add a Collaborator](#add-a-collaborator)
   + [Collaborators](#collaborators)
 + [Workspace](#workspace)
-  + [Active Viewport Image ()](#active-viewport-image-middle)
-  + [Folder Navigation ()](#folder-navigation-left)
-  + [Label Data ()](#label-data-right)
-  + [ToolBar ()](#toolbar-top)
+  + [Active Viewport Image](#active-viewport-image-middle)
+  + [Folder Navigation](#folder-navigation-left)
+  + [Label Data](#label-data-right)
+  + [ToolBar](#toolbar-top)
 + [Terms and Conditions](#terms-and-conditions)
   + [Privacy Policy](#privacy-policy)
   + [Terms of Use](#terms-of-use)
@@ -380,7 +379,7 @@ Image below shows admin's view of a task with ability to annotate and review-ann
 
 [!['fixtitle']('https://i.ytimg.com/vi/'UEjkveN3hFg'/hqdefault.jpg')]('https://www.youtube.com/embed/'UEjkveN3hFg)
 
-# Roles: Annotator
+# Roles- Annotator
 
 ## What is Annotator's Role?
 
@@ -400,7 +399,7 @@ Image below shows annotator seeing reviews by a reviewer.
 
 [!['fixtitle']('https://i.ytimg.com/vi/'bHrd55nISzY'/hqdefault.jpg')]('https://www.youtube.com/embed/'bHrd55nISzY)
 
-# Roles: Reviewer
+# Roles- Reviewer
 
 ## What is Reviewer's Role?
 
@@ -416,52 +415,6 @@ In Review mode performance of an annotator can be reviewed for every image or vi
 # On Premises Infrastructure
 
 
-# Cloud Hosted Datasets
-
-## Whose Cloud?
-
-TrainingData.io supports any cloud storage that has configurable CORS policy. 
-
-You can use your own cloud storage or upload data to TD.io's cloud storage.
-
-Our cloud storage comes with HIPAA compliance.
-
-## Self Hosted Cloud Datasets
-
-Data scientists can use self-hosted datasets as shown in CSV file. Prepare a CSV file with a list of URLs as shown below: 
-1. login to your TrainingData.io account. 
-2. Select "Data" tab. 
-3. Select "Add New Dataset".
-4. Enter name for new Dataset
-5. Select "Remote"
-6. Upload a csv file that arranges URLs like this
-7. Select "Submit"
-8. Inspect new dataset
-[block:html]
-{
-  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
-}
-[/block]
-
-
-[![undefined](undefined)](undefined)
-
-
-
-## TD.io Hosted Cloud Dataset
-
-Alternatively, you can upload individual files and Folders to TD.io's Cloud. TD.io's cloud hosting is HIPAA compliant.
-1. Add new dataset
-2. Select "Remote"
-3. Enter a name for the dataset
-4. Click "Upload Files"
-5. Select "Upload Files" and select individual files 
-6. Select "Upload Folder" and select individual folder
-7. Inspect individual files
-8. Select "Submit"
-Individual image files will be uploaded to TD.io's cloud storage. (Folder structure will be preserved exactly as that of selected folder)
-
-[![TD.io's Cloud Hosted Dataset - Edited](https://i.ytimg.com/vi/LT1hnxT_kD0/hqdefault.jpg)](https://www.youtube.com/watch?v=LT1hnxT_kD0&feature=youtu.be)
 
 # Docker and VPN for Secure Training Data
 
@@ -544,6 +497,147 @@ docker run --mount src=c:\db,target=/home/user/trainingdataio/tdviewer/db,type=b
 ```shell
 npx http-server --cors -p 8000 ./imageserver
 ```
+
+# Ubuntu- Troubleshooting Docker
+
+## [Error: EACCES: permission denied, open 'db/trainingdata.db']
+
+Or
+
+## Mounted host volume is not writable from container
+
+Your account's uid on host `id -u` is not the same as the uid of the user who is running the docker container. Try this:  
+
+Now run docker image again. If you still get the same error try this:
+
+Now run docker image again.
+##### 
+```shell
+sudo groupadd docker
+sudo usermod -aG docker $USER
+```
+
+##### 
+```shell
+chmod a+rwx -R db/
+
+
+```
+
+# Windows- Troubleshooting Docker
+
+## Run PowerShell in Admin Mode
+
+In Start-Menu search for 'powershell'. To run PowerShell as administrator, right-click (or tap and hold, if you use a touchscreen) on the Windows PowerShell search result, and then click or tap "Run as administrator." (as shown in screenshot below)
+
+## Windows 10
+
+
+
+![Windows 10: Run PowerShell as Admin](https://files.readme.io/e1bdd0c-Powershell.png)
+
+
+
+## Windows 7
+
+
+
+![Windows 7: Run PowerShell as Admin](https://files.readme.io/c3dcf8b-PowerShell-Windows7.png)
+
+
+
+## Restart Docker in PowerShell
+
+Type following six commands in same order as given below:
+
+
+
+## Error Code: open //./pipe/docker_engine: System cannot find file
+
+error during connect: Get http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.29/version: open //./pipe/docker_engine: The system cannot find the file specified. In the default daemon configuration on Windows, the docker client must be run elevated to connect . This error may also indicate that the docker daemon is not running.
+
+
+
+## Stuck in: "Waiting for an IP..." "Creating SSH Keys..."
+
+Docker on Windows has a slew of problems. Here are few things you can try:
+
+
+For more details refer to this article: https://github.com/docker/toolbox/issues/457
+##### 
+```shell
+net stop docker
+net stop com.docker.service
+taskkill /IM "dockerd.exe" /F
+taskkill /IM "Docker for Windows.exe" /F
+net start docker
+net start com.docker.service
+```
+
+##### 
+```shell
+docker-machine create default --virtualbox-no-vtx-check
+docker-machine restart default
+
+
+
+```
+
+##### 
+```shell
+First Disable AntiVirus
+Next Disable FireWall
+Next Run these commands
+docker-machine rm default
+docker-machine create --driver virtualbox --virtualbox-no-vtx-check default
+```
+
+# Cloud Hosted Datasets
+
+## Whose Cloud?
+
+TrainingData.io supports any cloud storage that has configurable CORS policy. 
+
+You can use your own cloud storage or upload data to TD.io's cloud storage.
+
+Our cloud storage comes with HIPAA compliance.
+
+## Self Hosted Cloud Datasets
+
+Data scientists can use self-hosted datasets as shown in CSV file. Prepare a CSV file with a list of URLs as shown below: 
+1. login to your TrainingData.io account. 
+2. Select "Data" tab. 
+3. Select "Add New Dataset".
+4. Enter name for new Dataset
+5. Select "Remote"
+6. Upload a csv file that arranges URLs like this
+7. Select "Submit"
+8. Inspect new dataset
+[block:html]
+{
+  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
+}
+[/block]
+
+
+[![undefined](undefined)](undefined)
+
+
+
+## TD.io Hosted Cloud Dataset
+
+Alternatively, you can upload individual files and Folders to TD.io's Cloud. TD.io's cloud hosting is HIPAA compliant.
+1. Add new dataset
+2. Select "Remote"
+3. Enter a name for the dataset
+4. Click "Upload Files"
+5. Select "Upload Files" and select individual files 
+6. Select "Upload Folder" and select individual folder
+7. Inspect individual files
+8. Select "Submit"
+Individual image files will be uploaded to TD.io's cloud storage. (Folder structure will be preserved exactly as that of selected folder)
+
+[![TD.io's Cloud Hosted Dataset - Edited](https://i.ytimg.com/vi/LT1hnxT_kD0/hqdefault.jpg)](https://www.youtube.com/watch?v=LT1hnxT_kD0&feature=youtu.be)
 
 # On-Prem Datasets
 
@@ -641,130 +735,41 @@ imageserver/
 │                   └── 00016.jpg
 
 7 directories, 19 files
-# Ubuntu: Troubleshooting Docker
-
-## [Error: EACCES: permission denied, open 'db/trainingdata.db']
-
-Or
-
-## Mounted host volume is not writable from container
-
-Your account's uid on host `id -u` is not the same as the uid of the user who is running the docker container. Try this:  
-
-Now run docker image again. If you still get the same error try this:
-
-Now run docker image again.
-##### 
-```shell
-sudo groupadd docker
-sudo usermod -aG docker $USER
-```
-
-##### 
-```shell
-chmod a+rwx -R db/
-
-
-```
-
-# Windows: Troubleshooting Docker
-
-## Run PowerShell in Admin Mode
-
-In Start-Menu search for 'powershell'. To run PowerShell as administrator, right-click (or tap and hold, if you use a touchscreen) on the Windows PowerShell search result, and then click or tap "Run as administrator." (as shown in screenshot below)
-
-## Windows 10
-
-
-
-![Windows 10: Run PowerShell as Admin](https://files.readme.io/e1bdd0c-Powershell.png)
-
-
-
-## Windows 7
-
-
-
-![Windows 7: Run PowerShell as Admin](https://files.readme.io/c3dcf8b-PowerShell-Windows7.png)
-
-
-
-## Restart Docker in PowerShell
-
-Type following six commands in same order as given below:
-
-
-
-## Error Code: open //./pipe/docker_engine: System cannot find file
-
-error during connect: Get http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.29/version: open //./pipe/docker_engine: The system cannot find the file specified. In the default daemon configuration on Windows, the docker client must be run elevated to connect . This error may also indicate that the docker daemon is not running.
-
-
-
-## Stuck in: "Waiting for an IP..." "Creating SSH Keys..."
-
-Docker on Windows has a slew of problems. Here are few things you can try:
-
-
-For more details refer to this article: https://github.com/docker/toolbox/issues/457
-##### 
-```shell
-net stop docker
-net stop com.docker.service
-taskkill /IM "dockerd.exe" /F
-taskkill /IM "Docker for Windows.exe" /F
-net start docker
-net start com.docker.service
-```
-
-##### 
-```shell
-docker-machine create default --virtualbox-no-vtx-check
-docker-machine restart default
-
-
-
-```
-
-##### 
-```shell
-First Disable AntiVirus
-Next Disable FireWall
-Next Run these commands
-docker-machine rm default
-docker-machine create --driver virtualbox --virtualbox-no-vtx-check default
-```
 
 # Pixel Accurate Tools
 
+# Segmentation with Brush & Eraser
+Segmentation tool works for JPEG, PNG and DICOM images
 
-# 2D Growth Tool for DICOM
-2D growth tool ONLY works for DICOM (radiology) files
-2D growth tool grows region based on HU value and pixel-distance
+## How to use Segmentation Tool
 
-## Configuration
+**Configure Segmentation Tool**
 
-Configure: **Growth range in HU**
-Configure: **Distance in Pixel**
-If you enter -30 to 30 HU with 10 pixel radius, when you click on a pixel, growth tool will select all pixels within 10 pixel radius, that have HU value in -30 to +30 range with relative to HU value of selected pixel. If HU value of selected pixel is 450, all pixels within 10 pixel radius in 420 - 480 HU values, will be selected.
-
-## Video
+* Paint mode will turn mouse-pointer into a painting tool.
+* Erase mode will turn mouse-pointer into an eraser.
 
 
+* Segmentation mode will enable Superpixel segmentation. Each superpixel can be filled (or erased) with a single click.
+* Brush mode will turn mouse-pointer into a brush (or eraser)
 
-[![2DGrowthExample](undefined)](https://www.youtube.com/watch?v=-LV3co2EFtM&feature=youtu.be)
-
-
-
-## Accuracy
-
-
-
-![Accuracy of 3D Growth compared to Desktop Tools](https://files.readme.io/7194b7c-HighAccuracyRadiology.gif)
+Brush Settings:
+1. Shape of brush can be round or square.
+2. Radius of brush tool can be configured.
 
 
+![Segmentation Config Controls](https://files.readme.io/c2fb0e7-SegmentationConfig.png)
 
-![Comparison](https://files.readme.io/baa1179-HighPrecision.png)
+**Actions**
+1. Mouse Click -- add (or erase) a region to annotation.
+2. Mouse Drag right -- add (or erase) segments traced by mouse drag in current annotation.
+
+
+[!['fixtitle']('https://i.ytimg.com/vi/'xtrJhqoRjhg'/hqdefault.jpg')]('https://www.youtube.com/embed/'xtrJhqoRjhg)
+
+
+
+![Accuracy of Segmentation Tool](https://files.readme.io/4a708b3-Ptch2.gif)
+
 
 # Freehand with Sculpter
 Freehand Draw tool can be used with mouse to draw accurate freehand contour. 
@@ -791,22 +796,6 @@ Freehand Draw tool can be used with mouse to draw accurate freehand contour.
 
 ![Freehand Annotation](https://files.readme.io/5a79857-Freehand.png)
 
-# Magnify
-While performing any annotation task, users may want to see a Region-Of-Interest on the image at a high magnification level. Magnify tool enables users to see ROI at a very high magnification level.
-
-## How to use Magnification Tool
-
-To use the magnification tool, select "Magnify" Button in the top toolbar.
-
-![Magnify Button](https://files.readme.io/1d8a12d-Magnify.png)
-
-
-
-## Left-Mouse-Button
-
-Hold down left-mouse-button at the Region-of-interest (ROI).
-
-![undefined](https://files.readme.io/3bc0bc4-HowToMagnify_-_Edited.gif)
 
 # Polygon Tool
 Polygon Tool is most versatile tool for adding new labels and editing existing labels. 
@@ -848,42 +837,55 @@ Polygon Tool is most versatile tool for adding new labels and editing existing l
 
 ![Polygon  Annotation](https://files.readme.io/9c94020-PolygonTool.png)
 
-# Segmentation with Brush & Eraser
-Segmentation tool works for JPEG, PNG and DICOM images
+# Magnify
+While performing any annotation task, users may want to see a Region-Of-Interest on the image at a high magnification level. Magnify tool enables users to see ROI at a very high magnification level.
 
-## How to use Segmentation Tool
+## How to use Magnification Tool
 
-**Configure Segmentation Tool**
+To use the magnification tool, select "Magnify" Button in the top toolbar.
 
-* Paint mode will turn mouse-pointer into a painting tool.
-* Erase mode will turn mouse-pointer into an eraser.
-
-
-* Segmentation mode will enable Superpixel segmentation. Each superpixel can be filled (or erased) with a single click.
-* Brush mode will turn mouse-pointer into a brush (or eraser)
-
-Brush Settings:
-1. Shape of brush can be round or square.
-2. Radius of brush tool can be configured.
-
-
-![Segmentation Config Controls](https://files.readme.io/c2fb0e7-SegmentationConfig.png)
-
-**Actions**
-1. Mouse Click -- add (or erase) a region to annotation.
-2. Mouse Drag right -- add (or erase) segments traced by mouse drag in current annotation.
-
-
-[!['fixtitle']('https://i.ytimg.com/vi/'xtrJhqoRjhg'/hqdefault.jpg')]('https://www.youtube.com/embed/'xtrJhqoRjhg)
+![Magnify Button](https://files.readme.io/1d8a12d-Magnify.png)
 
 
 
-![Accuracy of Segmentation Tool](https://files.readme.io/4a708b3-Ptch2.gif)
+## Left-Mouse-Button
+
+Hold down left-mouse-button at the Region-of-interest (ROI).
+
+![undefined](https://files.readme.io/3bc0bc4-HowToMagnify_-_Edited.gif)
+
+# 2D Growth Tool for DICOM
+2D growth tool ONLY works for DICOM (radiology) files
+2D growth tool grows region based on HU value and pixel-distance
+
+## Configuration
+
+Configure: **Growth range in HU**
+Configure: **Distance in Pixel**
+If you enter -30 to 30 HU with 10 pixel radius, when you click on a pixel, growth tool will select all pixels within 10 pixel radius, that have HU value in -30 to +30 range with relative to HU value of selected pixel. If HU value of selected pixel is 450, all pixels within 10 pixel radius in 420 - 480 HU values, will be selected.
+
+## Video
+
+
+
+[![2DGrowthExample](undefined)](https://www.youtube.com/watch?v=-LV3co2EFtM&feature=youtu.be)
+
+
+
+## Accuracy
+
+
+
+![Accuracy of 3D Growth compared to Desktop Tools](https://files.readme.io/7194b7c-HighAccuracyRadiology.gif)
+
+
+
+![Comparison](https://files.readme.io/baa1179-HighPrecision.png)
 
 # Labeling Instructions
 
 
-# KeyBoard Shortcuts: Productivity
+# KeyBoard Shortcuts- Productivity
 
 ## Why do you need shortcuts?
 
