@@ -10,7 +10,7 @@
   + [FAQ](#faq)
 + [Quality Management Workflow](#quality-management-workflow)
   + [Annotator Performance Management](#annotator-performance-management)
-  + [Roles: Admin](#roles:-admin)
+  + [Roles: Admin](#roles--admin)
   + [Roles: Annotator](#roles:-annotator)
   + [Roles: Reviewer](#roles:-reviewer)
 + [On Premises Infrastructure](#on-premises-infrastructure)
@@ -352,7 +352,7 @@ From project settings page select button "Start Annotating".
 
 [!['fixtitle']('https://i.ytimg.com/vi/'bHrd55nISzY'/hqdefault.jpg')]('https://www.youtube.com/embed/'bHrd55nISzY)
 
-# Roles: Admin
+# Roles- Admin
 
 ## What is Admin's Role?
 
