@@ -130,22 +130,22 @@ At TrainingData.io we take data security and privacy very seriously.
 
 We allow you to log in to TrainingData.io application using the same identity provider that you use for other services.
 
-# Data Security
+## Data Security
 We allow data owners to control who accesses their data. Each annotator's (internal or external) activity is recorded and they are not allowed to download training data. We allow data owners to see complete access log of every collaborator's activity. 
 
-# Single Sign-On
+## Single Sign-On
 TrainingData.io supports single sign-on (SSO), which allows you to log in to TrainingData.io application using the same identity provider that you use for other services.
 
-# On Premises Solution
+## On Premises Solution
 We  provide our labeling software as Docker image, it can run as hosted solution in your network. Hosted version of annotation tool can access images that are hosted on local machine, images hosted on local web-server or images hosted in cloud. All training data and resulting labels are saved on local infrastructure. Only project definition sits in cloud.
 
 
 ![On-Prem Solution using Docker Container and VPN](https://files.readme.io/819bde1-Docker.png)
 
-# Cloud Hosted Solution
+## Cloud Hosted Solution
 You can upload your assets (images and videos) to our cloud. Our cloud is secure with equivalent of HIPAA compliance. (We sign BAA agreement if needed).
 
-# Hybrid Solution
+## Hybrid Solution
 We offer hybrid solution where annotation tool is installed on local infrastructure as Docker instance. Training data is hosted in cloud.
 
 # Quality Management
@@ -176,7 +176,7 @@ At TrainingData.io, we believe, quality of the machine learning model is entirel
 3. Data scientist needs precise view of how labeling interface appears to the annotator.
 
 # FAQ
-**General Questions**
+#General Questions
 **What is TrainingData.io?**
 TrainingData.io application is a AI training-data management platform. Our goal is to  empower data science team to control the training data management workflow.
 
@@ -304,9 +304,6 @@ Open your project then go to settings > Other, and click on the delete button.*
 
 # Quality Management Workflow
 
-
-# Annotator Performance Management
-
 ## Annotator Performance Management
 
 Analyze performance of every annotator for every image or video-frame. Following statistics are available:
@@ -330,7 +327,7 @@ In Review mode performance of an annotator can be reviewed for every image or vi
 2. Give a score between 0 and 10, (optional).
 3. Leave a comment for the annotator (optional).
 
-[!['How To Review Annotations created by an Annotator TrainingData']('https://i.ytimg.com/vi/UEjkveN3hFg/hqdefault.jpg')]('https://www.youtube.com/embed/UEjkveN3hFg)
+[!['How To Review Annotations created by an Annotator TrainingData']('https://i.ytimg.com/vi/UEjkveN3hFg/hqdefault.jpg')]('https://www.youtube.com/embed/UEjkveN3hFg')
 
 
 
@@ -349,7 +346,7 @@ From project settings page select button "Start Annotating".
 6. Press Button:"Delete" to delete an annotation.
 7. Press left button or right button to move left and right.
 
-[!['Role: Annotator - How to create annotations']('https://i.ytimg.com/vi/bHrd55nISzY/hqdefault.jpg')]('https://www.youtube.com/embed/bHrd55nISzY)
+[!['Role: Annotator - How to create annotations']('https://i.ytimg.com/vi/bHrd55nISzY/hqdefault.jpg')]('https://www.youtube.com/embed/bHrd55nISzY')
 
 # Roles- Admin
 
@@ -369,7 +366,7 @@ Image below shows admin's view of a task with ability to annotate and review-ann
 
 
 
-[!['Role: Annotator - How to create annotations']('https://i.ytimg.com/vi/bHrd55nISzY/hqdefault.jpg')]('https://www.youtube.com/embed/bHrd55nISzY)
+[!['Role: Annotator - How to create annotations']('https://i.ytimg.com/vi/bHrd55nISzY/hqdefault.jpg')]('https://www.youtube.com/embed/bHrd55nISzY')
 
 
 
@@ -416,7 +413,7 @@ In Review mode performance of an annotator can be reviewed for every image or vi
 
 
 
-# Docker and VPN for Secure Training Data
+## Docker and VPN for Secure Training Data
 
 ## Private On-Premises Annotation Tool Using Docker
 
@@ -613,14 +610,10 @@ Data scientists can use self-hosted datasets as shown in CSV file. Prepare a CSV
 6. Upload a csv file that arranges URLs like this
 7. Select "Submit"
 8. Inspect new dataset
-[block:html]
-{
-  "html": "<iframe width='100%' height='250'  src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true&amp;headers=false\"></iframe>"
-}
-[/block]
+https://docs.google.com/spreadsheets/d/e/2PACX-1vRkA6t3G5QC45Kt7f14ntmhvhptID70YQfjoUZWcHIYYVbBCm96oJmXpjpsJd6cZ56eglJzX1T0P7-Z/pubhtml?gid=1329669182&amp;single=true&amp;widget=true"
 
 
-[![undefined](undefined)](undefined)
+[!['Self Hosted Cloud Dataset'](https://i.ytimg.com/vi/p8wubMrjpKw/hqdefault.jpg)](https://www.youtube.com/embed/p8wubMrjpKw)
 
 
 
@@ -681,7 +674,7 @@ Enter a name for the new dataset.
 Select "Upload Folder" and select the folder that contains images. 
 IMPORTANT: image paths will be processed recursively and images will *not* be uploaded to cloud.
 
-[![Local - Edited](https://i.ytimg.com/vi/dPe4nCOB9Y4/hqdefault.jpg)](https://www.youtube.com/watch?v=dPe4nCOB9Y4&feature=youtu.be)
+[![Local - Edited](https://i.ytimg.com/vi/dPe4nCOB9Y4/hqdefault.jpg)](https://www.youtube.com/embed/dPe4nCOB9Y4)
 
 ###2. Method two: Upload a CSV file containing list of local urls:
 Let's assume our name of our dataset is TCGA-CA-G4H2. This dataset has three folders: 
@@ -696,7 +689,7 @@ Arrange folder names and file URLs in following format csv format:
 [/block]
 Upload this csv file while creating a new data set as shown in video below:
 
-[![CSV Upload for Local Dataset](undefined)](https://www.youtube.com/watch?v=4rKX_mBwUjM&feature=youtu.be)
+[![CSV Upload for Local Dataset](https://i.ytimg.com/vi/4rKX_mBwUjM/hqdefault.jpg)](https://www.youtube.com/embed/4rKX_mBwUjM)
 
 
 
@@ -831,9 +824,6 @@ Polygon Tool is most versatile tool for adding new labels and editing existing l
 
 
 
-[![undefined](undefined)](undefined)
-
-
 
 ![Polygon  Annotation](https://files.readme.io/9c94020-PolygonTool.png)
 
@@ -852,7 +842,7 @@ To use the magnification tool, select "Magnify" Button in the top toolbar.
 
 Hold down left-mouse-button at the Region-of-interest (ROI).
 
-![undefined](https://files.readme.io/3bc0bc4-HowToMagnify_-_Edited.gif)
+![How To Magnify?](https://files.readme.io/3bc0bc4-HowToMagnify_-_Edited.gif)
 
 # 2D Growth Tool for DICOM
 2D growth tool ONLY works for DICOM (radiology) files
@@ -868,7 +858,7 @@ If you enter -30 to 30 HU with 10 pixel radius, when you click on a pixel, growt
 
 
 
-[![2DGrowthExample](undefined)](https://www.youtube.com/watch?v=-LV3co2EFtM&feature=youtu.be)
+[![2DGrowthExample](https://i.ytimg.com/vi/-LV3co2EFtM/hqdefault.jpg)](https://www.youtube.com/watch?v=-LV3co2EFtM&feature=youtu.be)
 
 
 
@@ -1116,7 +1106,7 @@ GZ
 # Delete a Dataset
 Click on the three dots at right end of the Dataset and you will get delete option. Click on same to delete dataset
 
-![undefined](https://files.readme.io/ef68532-DeleteDataset.png)
+![Delete DataSet](https://files.readme.io/ef68532-DeleteDataset.png)
 
 
 
@@ -1147,16 +1137,15 @@ A project is a collection of dataset and collaborators working on the project as
 
 
 
-![undefined](https://files.readme.io/365fb02-Project2.png)
+![Project - Attach a Dataset](https://files.readme.io/365fb02-Project2.png)
 
 
-
-![undefined](https://files.readme.io/0cbe3d5-Project3.png)
+![Project - Attach a Labeling Instruction](https://files.readme.io/0cbe3d5-Project3.png)
 
 # Start Annotation
 To start annotating click on any project entry. You will be taken to the workplace where you can create new annotations.
 
-![Start Labeling a Project](https://files.readme.io/4c5eeb2-StartLabeling.gif)
+![Start Labeling](https://files.readme.io/4c5eeb2-StartLabeling.gif)
 
 # Collaborators
 
@@ -1242,7 +1231,7 @@ The Admin role can add and edit projects, data and Annotators. By default, the u
 # Active Viewport Image (middle)
 Active Viewport shows the current image on which a user is creating annotations.
 
-![undefined](https://files.readme.io/38146cd-Viewport.png)
+![Viewport](https://files.readme.io/38146cd-Viewport.png)
 
 # Folder Navigation (left)
 TrainingData.io workspace allows you to partition your dataset into folders for easy navigation. We advice you to have two levels of folders for easy navigation. As shown in image below, first image in the folder will be used for Thumbnail.
