@@ -1,0 +1,102 @@
+
+site_name: TrainingData.io
+site_description: High Accuracy - Low Effort Image Labeling using Active Learning
+site_url: https://www.trainingdata.io/docs
+
+# Repository
+repo_name: 'radiologyannotation'
+repo_url: 'https://github.com/telylabs/radiologyannotation/'
+edit_uri: edit/documentation-setup/documentation/docs/
+
+# Copyright
+copyright: 'Copyright &copy; 2017 - 2019 TrainingData.io'
+
+nav:
+      - Overview:
+        - Overview: v1.0/Overview/Overview.md
+        - FAQ: v1.0/Overview/FAQ.md
+        - Complete Feature Set: v1.0/Overview/Complete Feature Set.md
+        - Security And Privacy: v1.0/Overview/Data Security.md
+        - Quality Management: v1.0/Overview/Quality Control.md
+      - Quality Management Workflow:
+        - Annotator Performance Management: v1.0/Quality Management Workflow/Annotator Performance Management.md
+        - 'Roles: Annotator': v1.0/Quality Management Workflow/Roles-Annotator.md
+        - 'Roles: Reviewer': v1.0/Quality Management Workflow/Roles-Reviewer.md
+        - 'Roles: Admin': v1.0/Quality Management Workflow/Roles-Admin.md
+      - On Premises Infrastructure:
+        - Docker and VPN for Secure Training Data: v1.0/Premises Infrastructure/Docker And VPN.md
+        - 'Ubuntu: Troubleshooting Docker': v1.0/Premises Infrastructure/Ubuntu Troubleshooting.md
+        - 'Windows: Troubleshooting Docker': v1.0/Premises Infrastructure/Windows Troubleshooting.md
+        - On-Prem Datasets: v1.0/Premises Infrastructure/Prem Datasets.md
+        - Cloud Hosted Datasets: v1.0/Premises Infrastructure/Cloud Hosted Datasets.md
+      - Pixel Accurate Tools:
+        - Segmentation with Brush & Eraser: v1.0/Pixel Accurate Tools/Segmentation.md
+        - Freehand with Sculpter: v1.0/Pixel Accurate Tools/Freehand.md
+        - Polygon Tool: v1.0/Pixel Accurate Tools/Polygon.md
+        - Magnify: v1.0/Pixel Accurate Tools/Magnify.md
+        - 2D Growth Tool for DICOM: v1.0/Pixel Accurate Tools/Growth Tool.md
+      - Labeling Instructions:
+        - 'KeyBoard Shortcuts: Productivity': v1.0/Labelling Interface/Keyboard Shortcuts.md
+        - Labeling Instruction Builder: v1.0/Labelling Interface/Builder.md
+      - AI Assisted Annotation:
+        - Segmentation of Liver: v1.0/AI Assisted Annotation/Segmentation Of Liver.md
+        - Segmentation of Spleen: v1.0/AI Assisted Annotation/Segmentation Of Spleen.md
+      - DataSet:
+        - Create a Dataset: v1.0/DataSet/Create a Dataset.md
+        - Delete a Dataset: v1.0/DataSet/Delete a Dataset.md
+      - Projects:
+        - Add New Project: v1.0/Projects/Create a Project.md
+        - Start Annotation: v1.0/Projects/Start Annotation.md
+      - Collaborators:
+        - Add Collaborators to a Specific Project: v1.0/Collaborators/Add Collaborators to Project.md
+        - Add a Collaborator: v1.0/Collaborators/Add a Collaborator.md
+        - Collaborators: v1.0/Collaborators/Collaborators.md
+      - Workspace:
+        - Active Viewport Image: v1.0/Workspace/Active Viewport Image.md
+        - Folder Navigation: v1.0/Workspace/Folder Navigation.md
+        - Label Data: v1.0/Workspace/Label Settings.md
+        - ToolBar: v1.0/Workspace/ToolBar.md
+      - Terms and Conditions:
+        - Privacy Policy: v1.0/Terms and Conditions/Privacy Policy.md
+        - Terms of Use: v1.0/Terms and Conditions/Terms of Use.md
+
+      # - Accuracy: v1.0/Accurate Annotations/Freehand Draw.md
+      # - Labeling Interface: v1.0/Labelling Interface/Define Labeling Interface.md
+      # - Dataset: v1.0/DataSet/Dataset.md
+      # - Project: v1.0/Projects/Projects.md
+      # - Collaborators: v1.0/Collaborators/Collaborators.md
+      # - Workspace: v1.0/Workspace/Folder Navigation -left-.md
+      # - On Premises Infrastructure: v1.0/Premises Infrastructure/PremisesInfrastructure.md
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'green'
+    accent: 'green'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/annotationtool'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/trainingdata'
+
+# Google Analytics
+#google_analytics:
+#  - 'UA-XXXXXXXX-X'
+#    - 'auto'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
