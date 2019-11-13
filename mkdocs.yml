@@ -4,9 +4,8 @@ site_description: High Accuracy - Low Effort Image Labeling using Active Learnin
 site_url: https://www.trainingdata.io/docs
 
 # Repository
-repo_name: 'radiologyannotation'
-repo_url: 'https://github.com/telylabs/radiologyannotation/'
-edit_uri: edit/documentation-setup/documentation/docs/
+repo_name: 'AIAssistedImageVideoLabelling'
+repo_url: 'https://github.com/trainingdata/AIAssistedImageVideoLabelling/'
 
 # Copyright
 copyright: 'Copyright &copy; 2017 - 2019 TrainingData.io'
