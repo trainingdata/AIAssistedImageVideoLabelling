@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Overview/Overview/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Overview/FAQ/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Overview/Complete Feature Set/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Overview/Data Security/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Overview/Quality Control/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Quality Management Workflow/Annotator Performance Management/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Quality Management Workflow/Roles-Annotator/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Quality Management Workflow/Roles-Reviewer/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Quality Management Workflow/Roles-Admin/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Premises Infrastructure/Docker And VPN/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Premises Infrastructure/Ubuntu Troubleshooting/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Premises Infrastructure/Windows Troubleshooting/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Premises Infrastructure/Prem Datasets/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Premises Infrastructure/Cloud Hosted Datasets/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Pixel Accurate Tools/Segmentation/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Pixel Accurate Tools/Freehand/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Pixel Accurate Tools/Polygon/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Pixel Accurate Tools/Magnify/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Pixel Accurate Tools/Growth Tool/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Labelling Interface/Keyboard Shortcuts/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Labelling Interface/Builder/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/AI Assisted Annotation/Segmentation Of Liver/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/AI Assisted Annotation/Segmentation Of Spleen/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/DataSet/Create a Dataset/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/DataSet/Delete a Dataset/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Projects/Create a Project/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Projects/Start Annotation/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Collaborators/Add Collaborators to Project/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Collaborators/Add a Collaborator/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Collaborators/Collaborators/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Workspace/Active Viewport Image/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Workspace/Folder Navigation/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Workspace/Label Settings/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Workspace/ToolBar/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Terms and Conditions/Privacy Policy/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.trainingdata.io/docs/v1.0/Terms and Conditions/Terms of Use/</loc>
+     <lastmod>2019-11-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+</urlset>
