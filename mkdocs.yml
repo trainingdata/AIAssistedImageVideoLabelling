@@ -76,6 +76,7 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+  logo: 'assets/logo.jpg'
 
 # Customization
 extra:
@@ -85,6 +86,9 @@ extra:
       link: 'https://github.com/trainingdata/AIAssistedImageVideoLabelling/'
     - type: 'linkedin'
       link: 'https://www.linkedin.com/company/trainingdata/'
+
+extra_css:
+- 'assets/extra.css'
 
 # Google Analytics
 #google_analytics:
