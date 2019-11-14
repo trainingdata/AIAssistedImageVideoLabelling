@@ -1,7 +1,7 @@
 
 site_name: TrainingData.io
 site_description: High Accuracy - Low Effort Image Labeling using Active Learning
-site_url: https://www.trainingdata.io/docs
+site_url: https://docs.trainingdata.io/
 
 # Repository
 repo_name: 'AIAssistedImageVideoLabelling'
@@ -12,7 +12,6 @@ copyright: 'Copyright &copy; 2017 - 2019 TrainingData.io'
 
 nav:
       - Overview:
-        - Overview: v1.0/Overview/Overview.md
         - FAQ: v1.0/Overview/FAQ.md
         - Complete Feature Set: v1.0/Overview/Complete Feature Set.md
         - Security And Privacy: v1.0/Overview/Data Security.md
@@ -83,9 +82,9 @@ extra:
   manifest: 'manifest.webmanifest'
   social:
     - type: 'github'
-      link: 'https://github.com/annotationtool'
+      link: 'https://github.com/trainingdata/AIAssistedImageVideoLabelling/'
     - type: 'linkedin'
-      link: 'https://linkedin.com/in/trainingdata'
+      link: 'https://www.linkedin.com/company/trainingdata/'
 
 # Google Analytics
 #google_analytics:

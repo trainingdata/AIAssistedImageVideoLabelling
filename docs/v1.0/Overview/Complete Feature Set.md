@@ -4,6 +4,7 @@ At TrainingData.io, we believe quality of the machine learning model is dependen
 ## Segmentation and Classification
 
 TD.io's application supports following types of annotation work:
+
 1. Segmentation only
 2. Classification only
 3. Segmentation with Classification.
@@ -11,6 +12,7 @@ TD.io's application supports following types of annotation work:
 ## Pixel Accurate Tools
 
 We use advanced image processing to provide pixel accurate tools like
+
 1. [Superpixel-segmentation](#segmentation-with-brush--eraser) with brush and eraser,
 2. [Polygon](#polygon-tool) with advanced editing, bounding box,
 3. [Freehand-draw with sculpter](#freehand-with-sculpter), and
