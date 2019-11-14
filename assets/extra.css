@@ -1,0 +1,16 @@
+.md-header{
+  background-color: #3dbdb6 !important;
+}
+@media only screen and (max-width: 76.1875em) {
+  .md-nav__title--site{
+    background-color: #3dbdb6 !important;
+  }
+}
+.md-content__icon, .md-nav__link:hover, .md-nav__link--active, .headerlink, .md-content__inner  a {
+  color: #3dbdb6 !important;
+}
+
+h2 {
+  border-bottom: 0.5px solid rgba(0,0,0,.54);
+  padding-bottom: 5px;
+}
