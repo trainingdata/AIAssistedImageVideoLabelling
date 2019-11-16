@@ -12,12 +12,32 @@ Download Docker image that runs annotation tool. Both data and annotations remai
 
 1. Use shell on Unix or Mac OS X (or PowerShell on Windows)
 
+#####
+```shell
+ docker pull trainingdataio/tdviewer:v1.7.4
+
+```
+
 2. Create a directory on your disk to store TD.io database. For example "C:\db"
 
+#####
+```shell
+mkdir -p  c:\db
+```
 
 3. (Optional) Create a directory to place images and videos (dataset assets). For example: "C:\images"
 
+#####
+```shell
+mkdir -p c:\Images
+```
+
 4. Run Docker image providing mount point for database and mount point for images folder.
+
+#####
+```shell
+docker run --mount src=c:\db,target=/home/user/trainingdataio/tdviewer/db,type=bind --mount src=c:\Images,target=/home/user/trainingdataio/tdviewer/images,type=bind -p 127.0.0.1:8090:8090 trainingdataio/tdviewer:v1.7.4
+```
 
 5. Login to https://app.trainingdata.io
 6. Create a local dataset as described [here](#on-prem-datasets).
@@ -65,28 +85,6 @@ Project management, project meta-data, Dataset management, Dataset meta-data, co
 Host datasets on any of your favorite web-servers or media servers or PACs for radiology.
 
 For quick testing use node's built in webserver with directory images stored in ./imageserver:
-
-
-#####
-```shell
- docker pull trainingdataio/tdviewer:v1.7.4
-
-```
-
-#####
-```shell
-mkdir -p  c:\db
-```
-
-#####
-```shell
-mkdir -p c:\Images
-```
-
-#####
-```shell
-docker run --mount src=c:\db,target=/home/user/trainingdataio/tdviewer/db,type=bind --mount src=c:\Images,target=/home/user/trainingdataio/tdviewer/images,type=bind -p 127.0.0.1:8090:8090 trainingdataio/tdviewer:v1.7.4
-```
 
 ##### Command Line
 ```shell
