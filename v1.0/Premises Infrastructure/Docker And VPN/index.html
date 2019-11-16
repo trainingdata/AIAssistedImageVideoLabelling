@@ -1096,39 +1096,37 @@
 <p>Download Docker image that runs annotation tool. Both data and annotations remain private with-in local network.</p>
 <p>(Latest release of docker image is v1.7.4)</p>
 <ol>
-<li>Use shell on Unix or Mac OS X (or PowerShell on Windows)</li>
-</ol>
-<h5 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h5>
-<div class="codehilite"><pre><span></span> docker pull trainingdataio/tdviewer:v1.7.4
+<li>
+<p>Use shell on Unix or Mac OS X (or PowerShell on Windows)</p>
+<div class="codehilite"><pre><span></span>docker pull trainingdataio/tdviewer:v1.7.4
 </pre></div>
 
 
-<ol>
-<li>Create a directory on your disk to store TD.io database. For example "C:\db"</li>
-</ol>
-<h5 id="_2"><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h5>
-<div class="codehilite"><pre><span></span>mkdir -p  c:<span class="se">\d</span>b
+</li>
+<li>
+<p>Create a directory on your disk to store TD.io database. For example "C:\db"</p>
+<div class="codehilite"><pre><span></span>mkdir -p  c:\db
 </pre></div>
 
 
-<ol>
-<li>(Optional) Create a directory to place images and videos (dataset assets). For example: "C:\images"</li>
-</ol>
-<h5 id="_3"><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h5>
-<div class="codehilite"><pre><span></span>mkdir -p c:<span class="se">\I</span>mages
+</li>
+<li>
+<p>(Optional) Create a directory to place images and videos (dataset assets). For example: "C:\images"</p>
+<div class="codehilite"><pre><span></span>mkdir -p c:\Images
 </pre></div>
 
 
-<ol>
-<li>Run Docker image providing mount point for database and mount point for images folder.</li>
-</ol>
-<h5 id="_4"><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h5>
-<div class="codehilite"><pre><span></span>docker run --mount <span class="nv">src</span><span class="o">=</span>c:<span class="se">\d</span>b,target<span class="o">=</span>/home/user/trainingdataio/tdviewer/db,type<span class="o">=</span><span class="nb">bind</span> --mount <span class="nv">src</span><span class="o">=</span>c:<span class="se">\I</span>mages,target<span class="o">=</span>/home/user/trainingdataio/tdviewer/images,type<span class="o">=</span><span class="nb">bind</span> -p <span class="m">127</span>.0.0.1:8090:8090 trainingdataio/tdviewer:v1.7.4
+</li>
+<li>
+<p>Run Docker image providing mount point for database and mount point for images folder.</p>
+<div class="codehilite"><pre><span></span>docker run --mount src=c:\db,target=/home/user/trainingdataio/tdviewer/db,type=bind --mount src=c:\Images,target=/home/user/trainingdataio/tdviewer/images,type=bind -p 127.0.0.1:8090:8090 trainingdataio/tdviewer:v1.7.4
 </pre></div>
 
 
-<ol>
-<li>Login to https://app.trainingdata.io</li>
+</li>
+<li>
+<p>Login to https://app.trainingdata.io</p>
+</li>
 <li>Create a local dataset as described <a href="#on-prem-datasets">here</a>.</li>
 <li>Create a labeling interface with classes and attributes</li>
 <li>Create a project with the dataset in (4) and the labeling-interface in (5).</li>
