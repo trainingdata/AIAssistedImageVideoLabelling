@@ -3,7 +3,7 @@ Datasets can be hosted in cloud. Location of datasets can be following:
 1. A dataset can be hosted on your private cloud, or your AWS S3, your Google Firebase storage, your Azure account.
 2. A dataset can be uploaded to TrainingData.io's cloud storage. We use AWS S3.
 
-## 3. Upload Archive: zip or tar to TD.io's Cloud Storage
+## 1. Upload Archive: zip or tar to TD.io's Cloud Storage
 
 Alternatively, you can upload an archive:
 
@@ -21,7 +21,7 @@ Individual image files will be uploaded to TD.io's cloud storage. Folder structu
   <iframe width="1280" height="480" src="https://www.youtube.com/embed/WbTMiDM2b2M" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## 4. Upload Individual Files and Folders to TD.io's Cloud
+## 2. Upload Individual Image Files and Folders to TD.io's Cloud Storage
 
 Alternatively, you can upload individual files and Folders to TD.io's Cloud:
 
@@ -35,7 +35,7 @@ Alternatively, you can upload individual files and Folders to TD.io's Cloud:
 8. Select "Submit"
 Individual image files will be uploaded to TD.io's cloud storage. (Folder structure will be preserved exactly as that of selected folder)
 
-## 5. Upload Video Files to TD.io's Cloud
+## 3. Upload Video Files to TD.io's Cloud
 
 Alternatively, you can upload video files to TD.io's Cloud:
 
@@ -54,7 +54,7 @@ Video files will be broken down into individual frames by TD.io's cloud system
   <iframe width="1280" height="480" src="https://www.youtube.com/embed/Dvd2DtY1j9s" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## 6. Upload CSV File with Self Hosted-Cloud URLs
+## 4. Upload CSV File to Self Hosted-Cloud URLs
 
 Prepare a CSV file with a list of URLs as shown below:
 
