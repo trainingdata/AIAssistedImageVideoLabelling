@@ -1,5 +1,5 @@
 # Overview
-TrainingData.io application provides high precision training data labeling for Visual AI. Our SaaS solution uses AI assisted features to give machine learning engineers speed up of several orders of magnitude. Our goal is to "empower data scientists to control quality of training data"
+TrainingData.io application provides high precision training data labeling for Visual AI. Our SaaS solution uses AI assisted features to give machine learning engineers speed up of several orders of magnitude. Our goal is to "empower data scientists to control quality of training data for their Machine Learning Models"
 
 ## Key Benefits
 
