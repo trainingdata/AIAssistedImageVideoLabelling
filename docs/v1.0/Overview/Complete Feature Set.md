@@ -1,5 +1,5 @@
 # Complete Feature Set
-At TrainingData.io, we believe quality of the machine learning model is dependent on the quality of labelling. We empower data-scientists to control the quality of data labelling in the following ways:
+At TrainingData.io, we believe quality of the machine learning model is dependent on the quality of labelling performed on the training data. We empower data-scientists to control the quality of data labelling by providing highly configurable training data management system:
 
 ## Segmentation and Classification
 
@@ -16,13 +16,13 @@ We use advanced image processing to provide pixel accurate tools like
 1. [Superpixel-segmentation](#segmentation-with-brush--eraser) with brush and eraser,
 2. [Polygon](#polygon-tool) with advanced editing, bounding box,
 3. [Freehand-draw with sculpter](#freehand-with-sculpter), and
-4. Region of Interest (ROI) growth tool.
+4. Region of Interest (ROI) growth tool for DICOM data.
 
 
 ## AI Assisted Annotation
 
-1. AI Assisted Annotation using Data-scientist's ML model
-2. AI Assisted Annotation using NVIDIA Clara
+1. AI Assisted Annotation using Data-scientist's ML model.
+2. AI Assisted Annotation using NVIDIA Clara for radiology.
 
 
 ## Data Security and Privacy Controls
