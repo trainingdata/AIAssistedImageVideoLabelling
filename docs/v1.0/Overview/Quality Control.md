@@ -1,5 +1,5 @@
 # Quality Management
-At TrainingData.io, we believe, quality of the machine learning model is entirely dependent on the quality of labeling for training data. We help you control quality of data labeling in following ways:
+At TrainingData.io, we believe, quality of the machine learning model is entirely dependent on the quality of labeling for training data. We help data-scientists control quality of data labeling in following ways:
 
 ## Annotator's Performance Management
 
