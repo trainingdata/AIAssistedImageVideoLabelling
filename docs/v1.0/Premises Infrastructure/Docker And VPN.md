@@ -30,13 +30,13 @@ Download Docker image that runs annotation tool. Both data and annotations remai
 5. Login to https://app.trainingdata.io
 6. Create a local dataset as described [here](#on-prem-datasets).
 5. Create a labeling interface with classes and attributes
-6. Create a project with the dataset in (4) and the labeling-interface in (5).
-7. Start labeling your local hosted project.
+6. Create a project with a dataset and a labeling-instruction.
+7. Start labeling your local-hosted project.
 
 ## Mac OS X: On-Premises Docker Image
 
 Annotation tool is served using a web server on port 8090.
-Image server is served on port 8000.
+Image server is served on same port 8090, in sub-directory http://localhost:8090/images/.
 
 <!-- [![On Premises Docker Mac OS X](https://i.ytimg.com/vi/X3QOo_lJrjE/hqdefault.jpg)](https://www.youtube.com/watch?v=X3QOo_lJrjE&feature=youtu.be) -->
 
@@ -48,7 +48,7 @@ Image server is served on port 8000.
 ## Ubuntu: On-Premises Docker Image
 
 Annotation tool is served using a web server on port 8090.
-Image server is served on port 8000.
+Image server is served on port 8090, in sub-directory http://localhost:8090/images/.
 
 <!-- [![Ubuntu](https://i.ytimg.com/vi/ESAtt73cBLw/hqdefault.jpg)](https://www.youtube.com/watch?v=ESAtt73cBLw&feature=youtu.be) -->
 
