@@ -13,9 +13,9 @@ TD.io's application supports following types of annotation work:
 
 We use advanced image processing to provide pixel accurate tools like
 
-1. [Superpixel-segmentation](#segmentation-with-brush--eraser) with brush and eraser,
-2. [Polygon](#polygon-tool) with advanced editing, bounding box,
-3. [Freehand-draw with sculpter](#freehand-with-sculpter), and
+1. [Superpixel-segmentation](/v1.0/Pixel Accurate Tools/Segmentation) with brush and eraser,
+2. [Polygon](/v1.0/Pixel Accurate Tools/Polygon) with advanced editing, bounding box,
+3. [Freehand-draw with sculpter](/v1.0/Pixel Accurate Tools/Freehand), and
 4. Region of Interest (ROI) growth tool for DICOM data.
 
 
@@ -38,7 +38,7 @@ On-premises hosting of datasets and annotation tools using Docker and VPN.
 
 ## Labeling Instruction Builder
 
-[Labeling instruction builder](#labeling-instruction-builder-2) empowers data scientist to define user experience of annotators in fine-detail:
+[Labeling instruction builder](/v1.0/Labelling Interface/Builder) empowers data scientist to define user experience of annotators in fine-detail:
 
 1. Labeling classes and ontology can be defined in fine-detail.
 2. WYSIWYG instruction builder enables  data-scientist to view how labeling interface appears to the annotator.
