@@ -1,7 +1,5 @@
 # On Premises Infrastructure
 
-
-
 ## Docker and VPN for Secure Training Data
 
 ## Private On-Premises Annotation Tool Using Docker
@@ -78,3 +76,5 @@ For quick testing use node's built in webserver with directory images stored in 
 ```shell
 npx http-server --cors -p 8000 ./imageserver
 ```
+
+## How to manage On-Premises DataSets in TD.io [https://docs.trainingdata.io/v1.0/DataSet/Create%20Cloud%20Hosted%20Dataset/] 
