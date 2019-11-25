@@ -33,5 +33,4 @@ This can be achieved in many different ways:
 A comprehensive guide to hosting image files and video files can be found [here](https://www.theguardian.com/technology/askjack/2014/jul/31/how-do-i-set-up-a-media-server-to-share-photos-with-phones-and-tablets).
 
 
-## [How do I access and manage local datasets in TrainingData.io application] (https://docs.trainingdata.io/v1.0/DataSet/Create%20On-Prem%20Dataset/)
-
+## [How do I access and manage local datasets in TrainingData.io application](https://docs.trainingdata.io/v1.0/DataSet/Create%20On-Prem%20Dataset/)
