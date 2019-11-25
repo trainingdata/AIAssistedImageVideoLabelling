@@ -40,7 +40,8 @@ nav:
         - Segmentation of Liver: v1.0/AI Assisted Annotation/Segmentation Of Liver.md
         - Segmentation of Spleen: v1.0/AI Assisted Annotation/Segmentation Of Spleen.md
       - DataSet:
-        - Create a Dataset: v1.0/DataSet/Create a Dataset.md
+        - Create Cloud Hosted Dataset: v1.0/DataSet/Create Cloud Hosted Dataset.md
+        - Create On-Prem Dataset: v1.0/DataSet/Create On-Prem Dataset.md
         - Delete a Dataset: v1.0/DataSet/Delete a Dataset.md
       - Projects:
         - Add New Project: v1.0/Projects/Create a Project.md
