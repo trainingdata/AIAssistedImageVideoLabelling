@@ -111,8 +111,13 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>https://docs.trainingdata.io/v1.0/DataSet/Create Cloud Hosted Dataset/</loc>
+     <lastmod>2019-11-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.trainingdata.io/v1.0/DataSet/Create On-Prem Dataset/</loc>
+     <lastmod>2019-11-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
