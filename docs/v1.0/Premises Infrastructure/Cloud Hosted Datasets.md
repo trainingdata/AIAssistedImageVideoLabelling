@@ -50,3 +50,5 @@ Individual image files will be uploaded to TD.io's cloud storage. (Folder struct
 <div class="video-wrapper">
   <iframe width="1280" height="480" src="https://www.youtube.com/embed/LT1hnxT_kD0" frameborder="0" allowfullscreen></iframe>
 </div>
+
+## [How do I access and manage Cloud-hosted datasets in TrainingData.io application?] (https://docs.trainingdata.io/v1.0/DataSet/Create%20Cloud%20Hosted%20Dataset/)
