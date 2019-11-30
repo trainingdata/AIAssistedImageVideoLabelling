@@ -12,8 +12,8 @@ TrainingData.io application provides high precision training data labeling for V
 7. Out of the box support for medical imaging (DICOM).
 
 
-![Key Benefits of TrainingData.io](https://files.readme.io/2020847-NewWorkflow.png)
+![Key Benefits of TrainingData.io](/assets/images/2bbda76-NewWorkflow.png)
 
 
 
-![Old Workflow](https://files.readme.io/39f6721-CurrentWorkflow.png)
+![Old Workflow](/assets/images/4108b7a-CurrentWorkflow.png)
