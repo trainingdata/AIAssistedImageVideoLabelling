@@ -1,4 +1,4 @@
-# COCO Export Format
+# COCO (JSON) Export Format
 
 [COCO data format](http://cocodataset.org/#format-data) uses JSON to store annotations. It has five types of annotations: object detection, keypoint detection, stuff segmentation, panoptic segmentation, and image captioning. Basic higher level data format looks like this:
 ```
