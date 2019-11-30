@@ -113,40 +113,6 @@ license: {
 	}]
 }
 ```
-[Mask File for COCO File above](..\..\assets\images\000045.png)
+![Mask File for COCO File above](/assets/images/000045.png)
 
-```
-## Object Detection
-```
-annotation{
-  "id" : int, 
-  "image_id" : int, 
-  "category_id" : int, 
-  "segmentation" : RLE or [polygon], 
-  "area" : float, 
-  "bbox" : [x,y,width,height], 
-  "iscrowd" : 0 or 1,
-}
-
-categories[{
-  "id" : int, 
-  "name" : str, 
-  "supercategory" : str,
-}]
-```
-## Keypoint Detection
-```
-annotation{
-  "keypoints" : [x1,y1,v1,...], 
-  "num_keypoints" : int, 
-  "[cloned]" : ...,
-}
-
-categories[{
-  "keypoints" : [str], 
-  "skeleton" : [edge], 
-  "[cloned]" : ...,
-}]
-
-"[cloned]": denotes fields copied from object detection annotations defined above.
-```
+## [Click Here for Schema of Object Detection, Keypoint detection, Stuff Segmentation, Panoptic Segmentation, Image Captioning](http://cocodataset.org/#format-data)
