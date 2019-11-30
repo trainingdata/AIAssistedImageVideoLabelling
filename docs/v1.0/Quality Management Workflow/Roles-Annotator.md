@@ -8,7 +8,7 @@ Annotator can only add or modify annotations. They will also see reviews from re
 
 Image below shows annotator seeing reviews by a reviewer.
 
-![Review Comments Visible to Annotator](https://files.readme.io/25655db-AnnotatorReviewComments.png)
+![Review Comments Visible to Annotator](/assets/images/25655db-AnnotatorReviewComments.png)
 
 
 

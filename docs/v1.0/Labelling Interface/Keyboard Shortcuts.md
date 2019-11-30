@@ -13,7 +13,7 @@ Here is how you add keyboard shortcuts:
 3. Click on Text entry "Assign Keyboard shortcut"
 4. Enter keyboard shortcut on you keyboard (for example SHIFT+N)
 
-![How to Add Keyboard Shortcuts](https://files.readme.io/a33ce0c-KeyBoardShortcuts.gif)
+![How to Add Keyboard Shortcuts](/assets/images/a33ce0c-KeyBoardShortcuts.gif)
 
 
 
@@ -21,4 +21,4 @@ Here is how you add keyboard shortcuts:
 
 Click "Information" icon on top right corner of the screen (as shown in image below).
 
-![How to view keyboard ShortCuts.](https://files.readme.io/28c108d-KeyboardShortcuts.png)
+![How to view keyboard ShortCuts.](/assets/images/28c108d-KeyboardShortcuts.png)

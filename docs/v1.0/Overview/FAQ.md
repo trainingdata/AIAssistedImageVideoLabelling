@@ -39,11 +39,11 @@ Compare the two workflows in image below:
 
 **Old (current) Work Flow**
 
-![Old Work Flow](https://files.readme.io/4108b7a-CurrentWorkflow.png)
+![Old Work Flow](/assets/images/4108b7a-CurrentWorkflow.png)
 
 **New Work Flow**
 
-![New Work Flow](https://files.readme.io/2bbda76-NewWorkflow.png)
+![New Work Flow](/assets/images/2bbda76-NewWorkflow.png)
 
 **How do I get started with Trainingdata.io application?**
 

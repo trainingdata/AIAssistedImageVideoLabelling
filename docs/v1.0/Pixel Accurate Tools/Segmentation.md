@@ -18,7 +18,7 @@ Brush Settings:
 2. Radius of brush tool can be configured.
 
 
-![Segmentation Config Controls](https://files.readme.io/c2fb0e7-SegmentationConfig.png)
+![Segmentation Config Controls](/assets/images/c2fb0e7-SegmentationConfig.png)
 
 **Actions**
 
@@ -34,4 +34,4 @@ Brush Settings:
 
 
 
-![Accuracy of Segmentation Tool](https://files.readme.io/4a708b3-Ptch2.gif)
+![Accuracy of Segmentation Tool](/assets/images/4a708b3-Ptch2.gif)

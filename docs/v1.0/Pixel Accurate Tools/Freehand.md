@@ -25,4 +25,4 @@ Freehand Draw tool can be used with mouse to draw accurate freehand contour.
 
 
 
-![Freehand Annotation](https://files.readme.io/5a79857-Freehand.png)
+![Freehand Annotation](/assets/images/5a79857-Freehand.png)

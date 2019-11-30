@@ -13,7 +13,7 @@ TrainingData.io supports single sign-on (SSO), which allows you to log in to Tra
 We  provide our labeling software as Docker image, it can run as hosted solution in your network. Hosted version of annotation tool can access images that are hosted on local machine, images hosted on local web-server or images hosted in cloud. All training data and resulting labels are saved on local infrastructure. Only project definition sits in cloud.
 
 
-![On-Prem Solution using Docker Container and VPN](https://files.readme.io/819bde1-Docker.png)
+![On-Prem Solution using Docker Container and VPN](/assets/images/819bde1-Docker.png)
 
 ## Cloud Hosted Solution
 You can upload your assets (images and videos) to our cloud. Our cloud is secure with equivalent of HIPAA compliance. (We sign BAA agreement if needed).

@@ -7,7 +7,7 @@ Navigation includes left arrow and right arrow. Left arrow will change image in 
 
 Counter shows current index of the image in folder.
 
-![Right Panel with Form](https://files.readme.io/221db3c-RightPanel.png)
+![Right Panel with Form](/assets/images/221db3c-RightPanel.png)
 
 
 
@@ -23,4 +23,4 @@ Some parts of form-data might be "required", i.e. they are mandatory.
 
 If annotator tries to save an annotation without entering "required" data entry, an error will be flashed as shown in image below:
 
-![Error Prompt when trying to save annotation with incomplete form data.](https://files.readme.io/119f6c3-Error.png)
+![Error Prompt when trying to save annotation with incomplete form data.](/assets/images/119f6c3-Error.png)

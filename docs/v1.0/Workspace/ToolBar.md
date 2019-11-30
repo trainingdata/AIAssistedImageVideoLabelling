@@ -9,7 +9,7 @@ Following features allow you to pixel level detail of the image. In case of PNG 
 **Section Three: Annotation Tools**
 Draw tool allows free hand drawing as shown in image below
 
-![Draw Tool](https://files.readme.io/19a0433-DrawTool.gif)
+![Draw Tool](/assets/images/19a0433-DrawTool.gif)
 
 Rectangle tool can be used to create **bounding box** annotations.
 
@@ -17,7 +17,7 @@ Rectangle tool can be used to create **bounding box** annotations.
 
 **Freehand Tool** can be used to create freehand annotations as shown in figure below
 
-![Freehand Tool](https://files.readme.io/03563da-FreeHand_Tool.gif)
+![Freehand Tool](/assets/images/03563da-FreeHand_Tool.gif)
 
 
 
@@ -56,4 +56,4 @@ TrianingData.io workspace allows upto 4 folders to be viewed at the same time. I
 **Stack Scroll**
 For DICOM image format if more than one folder is in viewport, stack scroll will be automatically enabled as shown in image below
 
-![Stack Scroll](https://files.readme.io/8e61c3a-StackScroll.png)
+![Stack Scroll](/assets/images/8e61c3a-StackScroll.png)

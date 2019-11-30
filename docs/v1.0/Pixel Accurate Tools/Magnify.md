@@ -5,7 +5,7 @@ While performing any annotation task, users may want to see a Region-Of-Interest
 
 To use the magnification tool, select "Magnify" Button in the top toolbar.
 
-![Magnify Button](https://files.readme.io/1d8a12d-Magnify.png)
+![Magnify Button](/assets/images/1d8a12d-Magnify.png)
 
 
 
@@ -13,4 +13,4 @@ To use the magnification tool, select "Magnify" Button in the top toolbar.
 
 Hold down left-mouse-button at the Region-of-interest (ROI).
 
-![How To Magnify?](https://files.readme.io/3bc0bc4-HowToMagnify_-_Edited.gif)
+![How To Magnify?](/assets/images/3bc0bc4-HowToMagnify_-_Edited.gif)

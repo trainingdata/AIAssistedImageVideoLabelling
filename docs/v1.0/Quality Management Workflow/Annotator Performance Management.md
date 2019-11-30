@@ -13,7 +13,7 @@ Analyze performance of every annotator for every image or video-frame. Following
 7. Consensus using IOU
 
 
-![Annotator Performance](https://files.readme.io/da2f882-AfterReview1.png)
+![Annotator Performance](/assets/images/da2f882-AfterReview1.png)
 
 
 
@@ -32,7 +32,7 @@ In Review mode performance of an annotator can be reviewed for every image or vi
 </div>
 
 
-![Graphical User Interface for Reviews](https://files.readme.io/8ec6485-Review.png)
+![Graphical User Interface for Reviews](/assets/images/8ec6485-Review.png)
 
 
 

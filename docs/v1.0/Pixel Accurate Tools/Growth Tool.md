@@ -23,8 +23,8 @@ If you enter -30 to 30 HU with 10 pixel radius, when you click on a pixel, growt
 
 
 
-![Accuracy of 3D Growth compared to Desktop Tools](https://files.readme.io/7194b7c-HighAccuracyRadiology.gif)
+![Accuracy of 3D Growth compared to Desktop Tools](/assets/images/7194b7c-HighAccuracyRadiology.gif)
 
 
 
-![Comparison](https://files.readme.io/baa1179-HighPrecision.png)
+![Comparison](/assets/images/baa1179-HighPrecision.png)

@@ -8,7 +8,7 @@ In Start-Menu search for 'powershell'. To run PowerShell as administrator, right
 
 
 
-![Windows 10: Run PowerShell as Admin](https://files.readme.io/e1bdd0c-Powershell.png)
+![Windows 10: Run PowerShell as Admin](/assets/images/e1bdd0c-Powershell.png)
 
 
 
@@ -16,7 +16,7 @@ In Start-Menu search for 'powershell'. To run PowerShell as administrator, right
 
 
 
-![Windows 7: Run PowerShell as Admin](https://files.readme.io/c3dcf8b-PowerShell-Windows7.png)
+![Windows 7: Run PowerShell as Admin](/assets/images/c3dcf8b-PowerShell-Windows7.png)
 
 
 

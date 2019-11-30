@@ -39,4 +39,4 @@ Polygon Tool is most versatile tool for adding new labels and editing existing l
 </div>
 
 
-![Polygon  Annotation](https://files.readme.io/9c94020-PolygonTool.png)
+![Polygon  Annotation](/assets/images/9c94020-PolygonTool.png)

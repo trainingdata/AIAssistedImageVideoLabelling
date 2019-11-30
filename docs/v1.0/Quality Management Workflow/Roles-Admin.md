@@ -8,7 +8,7 @@
 Image below shows admin's view of a task with ability to annotate and review-annotations.
 
 
-![Admin's view to project settings](https://files.readme.io/2ecdb5f-Admin.png)
+![Admin's view to project settings](/assets/images/2ecdb5f-Admin.png)
 
 
 

@@ -6,7 +6,7 @@ In order to give labeling task to freelance annotators, data science team needs 
 
 Labeling instruction has two parts to it. Left panel and right panel. The left panel shows list of classes, their attributes and image-attributes. The right-panel shows how annotation-user-experience appear to the annotator (exactly).
 
-![Sample Labeling Instruction](https://files.readme.io/4413682-LabelingInstruction1.png)
+![Sample Labeling Instruction](/assets/images/4413682-LabelingInstruction1.png)
 
 
 
@@ -29,7 +29,7 @@ Classes are abstract-representation of real world objects that machine learning 
 3. Tool to be used to draw each object-instance belonging to that class
 4. Sub-attributes are the properties of that class type
 
-![New Class-type](https://files.readme.io/bea51e7-CarPolygon.png)
+![New Class-type](/assets/images/bea51e7-CarPolygon.png)
 
 
 
@@ -60,4 +60,4 @@ An attribute is a question that you ask an annotator. There are four different d
 
 After adding all classes and attributes to a labelling interface, a complete labelling interface will look like this:
 
-![New Attribute](https://files.readme.io/de94b8b-LabelingInterface.png)
+![New Attribute](/assets/images/de94b8b-LabelingInterface.png)

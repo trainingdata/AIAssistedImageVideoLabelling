@@ -27,11 +27,11 @@ A project is a collection of dataset and collaborators working on the project as
 </div>
 
 
-![Add Project Name](https://files.readme.io/e287b82-Project1.png)
+![Add Project Name](/assets/images/e287b82-Project1.png)
 
 
 
-![Project - Attach a Dataset](https://files.readme.io/365fb02-Project2.png)
+![Project - Attach a Dataset](/assets/images/365fb02-Project2.png)
 
 
-![Project - Attach a Labeling Instruction](https://files.readme.io/0cbe3d5-Project3.png)
+![Project - Attach a Labeling Instruction](/assets/images/0cbe3d5-Project3.png)
