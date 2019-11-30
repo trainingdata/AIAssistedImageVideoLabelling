@@ -1,11 +1,12 @@
-# Segmentation of Spleen
+# Segmentation of Liver
 
-## Segmentation of Spleen using NVIDIA Clara
+## Segmentation of Liver using NVIDIA Clara
 
 
 
-<!-- [![AI Assisted Spleen Segmentation](https://i.ytimg.com/vi/giFBUSsmJyE/hqdefault.jpg)](https://www.youtube.com/watch?v=giFBUSsmJyE&feature=youtu.be) -->
+
+<!-- [![AI Assisted Spleen Segmentation](https://i.ytimg.com/vi/t3rXegVVTE4/hqdefault.jpg)](https://www.youtube.com/watch?v=t3rXegVVTE4&feature=youtu.be) -->
 
 <div class="video-wrapper">
-  <iframe width="1280" height="480" src="https://www.youtube.com/embed/giFBUSsmJyE" frameborder="0" allowfullscreen></iframe>
+  <iframe width="1280" height="480" src="https://www.youtube.com/embed/t3rXegVVTE4" frameborder="0" allowfullscreen></iframe>
 </div>

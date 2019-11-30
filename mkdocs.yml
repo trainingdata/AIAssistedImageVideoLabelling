@@ -39,6 +39,10 @@ nav:
       - AI Assisted Annotation:
         - Segmentation of Liver: v1.0/AI Assisted Annotation/Segmentation Of Liver.md
         - Segmentation of Spleen: v1.0/AI Assisted Annotation/Segmentation Of Spleen.md
+      - Export Format:
+        - COCO (JSON): v1.0/Export Format/COCO.md
+        - Mask (PNG): v1.0/Export Format/Mask.md
+        - Tensorflow Records: v1.0/Export Format/TensorFlow Record.md
       - DataSet:
         - Create Cloud Hosted Dataset: v1.0/DataSet/Create Cloud Hosted Dataset.md
         - Create On-Prem Dataset: v1.0/DataSet/Create On-Prem Dataset.md
@@ -46,10 +50,6 @@ nav:
       - Projects:
         - Add New Project: v1.0/Projects/Create a Project.md
         - Start Annotation: v1.0/Projects/Start Annotation.md
-      - Export Format:
-        - COCO (JSON): v1.0/Export Format/COCO.md
-        - Complete Feature Set: v1.0/Export Format/Mask.md
-        - Security And Privacy: v1.0/Export Format/TensorFlow Record.md
       - Collaborators:
         - Add Collaborators to a Specific Project: v1.0/Collaborators/Add Collaborators to Project.md
         - Add a Collaborator: v1.0/Collaborators/Add a Collaborator.md
