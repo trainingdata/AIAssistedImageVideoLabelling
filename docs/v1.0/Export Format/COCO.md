@@ -35,7 +35,7 @@ license: {
   "url" : str,
 }
 ```
-## Sample COCO Format File
+## Sample COCO Format Export Output For Mask Shown Below
 ```
 {
 	"images": [{
