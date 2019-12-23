@@ -6,11 +6,11 @@
 
 Download Docker image that runs annotation tool. Both data and annotations remain private with-in local network.
 
-(Latest release of docker image is v1.7.4)
+(Latest release of docker image is v1.7.6)
 
 1. Use shell on Unix or Mac OS X (or PowerShell on Windows)
 
-        docker pull trainingdataio/tdviewer:v1.7.4
+        docker pull trainingdataio/tdviewer:v1.7.6
 
 
 2. Create a directory on your disk to store TD.io database. For example "C:\db"
@@ -23,7 +23,7 @@ Download Docker image that runs annotation tool. Both data and annotations remai
 
 4. Run Docker image providing mount point for database and mount point for images folder.
 
-        docker run --mount src=c:\db,target=/home/user/trainingdataio/tdviewer/db,type=bind --mount src=c:\Images,target=/home/user/trainingdataio/tdviewer/images,type=bind -p 127.0.0.1:8090:8090 trainingdataio/tdviewer:v1.7.4
+        docker run --mount src=c:\db,target=/home/user/trainingdataio/tdviewer/db,type=bind --mount src=c:\Images,target=/home/user/trainingdataio/tdviewer/images,type=bind -p 8090:8090 trainingdataio/tdviewer:v1.7.6
 
 5. Login to https://app.trainingdata.io
 6. Create a local dataset as described [here](/v1.0/Premises Infrastructure/Prem Datasets).
@@ -77,4 +77,4 @@ For quick testing use node's built in webserver with directory images stored in 
 npx http-server --cors -p 8000 ./imageserver
 ```
 
-## [How to manage On-Premises DataSets in TD.io] (https://docs.trainingdata.io/v1.0/DataSet/Create%20Cloud%20Hosted%20Dataset/)
+## [How to manage On-Premises DataSets in TD.io?](https://docs.trainingdata.io/v1.0/DataSet/Create%20Cloud%20Hosted%20Dataset/)
