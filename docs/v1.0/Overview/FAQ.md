@@ -1,18 +1,56 @@
 
 # FAQ
-#General Questions
+
+## General Questions
 
 **What is TrainingData.io?**
 
-TrainingData.io application is a AI training-data management platform. Our goal is to  empower data science team to control the training data management workflow.
+TrainingData.io application is a AI training-data management platform. TrainingData.io empowers data science team to control the quality of training data for machine learning. It also empowers AI-teams with data-collaboration.
+
+**How do I start using your annotation tool?**
+
+Login to [app.trainingdata.io](https://app.trainingdata.io)
+
+**How do I create a labeling job for annotators?**
+
+Once you have created a [TrainingData.io](https://app.trainingdata.io) account use the instructions [here](https://docs.trainingdata.io/v1.0/Projects/Create%20a%20Project) to create a labeling job.
+
+**Why should I not build home-grown labeling solution?**
+
+When building home-grown data labeling infrastructure, consider the following:
+
+* <b>Total Cost of Ownership</b>:
+Homegrown tools are built to exist and serve a particular function, but with new business, demands come to the cost of upgrades. There is a high cost of ongoing maintenance, both in time and money. Technical debt accrues over time due to engineer turn-over, product neglect, and evolving product demands.
+
+* <b>Unknown and Evolving Scope</b>:
+Developing an internal product requires planning, resource allocation, and preparing for the unknown. Because feature flagging platforms are relatively new, it can be difficult to accurately define the scope and construct a solution for needs across engineering and product groups.
+
+* <b>Minimum Viable Functionality</b>:
+Internal tools are generally not built for usability, scalability, or cross-team support. They are built to solve an immediate pain point or provide minimum viable functionality as quickly as possible.
+
+* <b>Data Labeling is Cross Functional</b>:
+Turning raw data into accurate and consistent training data is a team effort. Engineers, domain experts (annotators), and managers must work together while playing different roles. Data annotation infrastructure must facilitate this by providing information and interfaces unique to these roles.
+
+* <b>Enterprise Readiness</b>:
+Productizing AI systems takes fast, reliable, and scaled infrastructure across raw data collection, data labeling, and compute.
+
+## Pricing Questions
+
+**How much does TrainingData.io cost?**
+For organizations building enterprise grade AI systems, we offer Enterprise pricing model. For small businesses and startups we offer Pro license. We offer free trial for developers and data-scientists who want to try our product with a limitation of 2500 labels per year. Free trial does not include on-premises installation of the labeling tool.
+
+**Do you offer discount for research organizations?**
+For organizations building non-commercial, or not-for-profit research, we offer discounted or free license. Please reach us at [info@trainingdata.io](mailto:info@trainingdata.io) 
+
+## Other Questions
 
 **What is Data annotation?**
 
 In order to train machines to make decisions on behalf of humans, they must learn to make those decisions. In order to learn about the world around us, machines take input in form of images and text that is labeled for representative features. A label in an image is clearly marked bounding region that represents a real world entity or object. Managing data labeling at very large scale is time consuming and requires special software.
 
-**What can I annotate with TrainingData.io application?**
+**What kind of data can I annotate with TrainingData.io application?**
 
-With our labeling solution you can label any visual dataset including images and videos. We support medical imaging format - DICOM.
+With our labeling solution you can label any visual dataset including images and videos. We natively support medical imaging format - DICOM.
 
 **What kind of data formats are supported by TrainingData.io? **
 
@@ -26,14 +64,14 @@ Trainingdata.io is a place where you can start small and scale-up your data mana
 
 **How is Trainingdata.io different from managed labeling services?**
 
-Managed Labeling services produce error rates as high as 65%. This is due to low quality and inconsistency of labeling tools. Quality of labels produced by workforce depends on quality of user experience for the human labelers. We empower data science team to control user-experience of human labelers.
+Managed Labeling services produce error rates as high as 35%. This is due to low quality and inconsistency of labeling tools. Quality of labels produced by workforce depends on quality of user experience for the human labelers. We empower data science team to control user-experience of human labelers.
 
 What sets us apart is our focus on:
 
 1. Pixel accurate annotation tools
-2. Customizable labeling interface for every task
-3. Quality and performance management
-4. Data security and privacy protection with on-premises solution.
+2. Customizable labeling instruction for every task
+3. Quality and performance management system (QMS)
+4. Data security and privacy protection with on-premises solution using Docker.
 
 Compare the two workflows in image below:
 
@@ -45,17 +83,13 @@ Compare the two workflows in image below:
 
 ![New Work Flow](/assets/images/2bbda76-NewWorkflow.png)
 
-**How do I get started with Trainingdata.io application?**
-
-You can sign up at [login page](https://app.trainingdata.io/v1/td/login).
-
 **Does Trainingdata.io provide support?**
 
 Trainingdata.io provides support to all users.
 
 **Does TrainingData.io have a discount for academic users?**
 
-Yes, we do
+Yes, we do if your research is non-commercial. Please reach us at [info@trainingdata.io](mailto:info@trainingdata.io)
 
 **I have my data annotated by a service. Why would I use TrainingData.io?**
 
@@ -63,26 +97,9 @@ With TrainingData.io you can still outsource your annotating projects as well as
 
 TrainingData.io does not provide in-house annotating services but we do work with several annotating companies (BPO Firms) that we have vetted and currently work with many of our customers in TrainingData.io. We simply recommend them as a third party to help our customers so you are always free to choose any annotating services company that meets your requirements.
 
-**My company built an internal labeling tool that seems to work okay. Why would I use TrainingData.io?**
+**My company hacked a open-source tool that seems to work okay. Why would I use TrainingData.io?**
 
 It's quick and easy to start annotating data using locally installed tools. For most simple annotation tasks being performed by a single annotator, this solution architecture annotates well. As data annotation needs scale, data management and quality control processes are needed to produce accurate and consistent training data. A common cause of under performing AI systems is low accuracy training data.
-
-**When building data labeling infrastructure, consider the following:**
-
-  * Total Cost of Ownership
-Homegrown tools are built to exist and serve a particular function, but with new business, demands come to the cost of upgrades. There is a high cost of ongoing maintenance, both in time and money. Technical debt accrues over time due to engineer turn-over, product neglect, and evolving product demands.
-
-  * Unknown and Evolving Scope
-Developing an internal product requires planning, resource allocation, and preparing for the unknown. Because feature flagging platforms are relatively new, it can be difficult to accurately define the scope and construct a solution for needs across engineering and product groups.
-
-  * Minimum Viable Functionality
-Internal tools are generally not built for usability, scalability, or cross-team support. They are built to solve an immediate pain point or provide minimum viable functionality as quickly as possible.
-
-  * Data Labeling is Cross Functional
-Turning raw data into accurate and consistent training data is a team effort. Engineers, domain experts (annotators), and managers must work together while playing different roles. Data annotation infrastructure must facilitate this by providing information and interfaces unique to these roles.
-
-  * Enterprise Readiness
-Productizing AI systems takes fast, reliable, and scaled infrastructure across raw data collection, data labeling, and compute.
 
 **Will TrainingData.io improve the quality and consistency of my labeled data?**
 
@@ -125,9 +142,9 @@ Yes, unless your network has a restrictive firewall, or you have internet connec
 
 **Does Trainingdata.io application work without an internet connection?**
 
-No, you must have an internet connection to use trainingdata.io application.
+No, you must have an internet connection to use TrainingData.io application.
 
-**What browser do you recommend for trainingdata.io application?**
+**What browser do you recommend for TrainingData.io application?**
 
 We recommend Chrome. We do not recommend Internet Explorer or Safari due to compatibility issues.
 
