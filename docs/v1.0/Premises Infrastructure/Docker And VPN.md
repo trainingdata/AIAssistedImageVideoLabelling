@@ -8,11 +8,11 @@ Pre-requisite: Install Docker on Windows Pro, Ubuntu 16.04 or 16.05, Mac Os X.
 
 To download and run Docker image follow these steps:
 
-(Latest release of docker image is v1.7.6)
+(Latest release of docker image is v1.7.8)
 
 1. Use shell on Unix or Mac OS X (or PowerShell on Windows)
 
-        docker pull trainingdataio/tdviewer:v1.7.6
+        docker pull trainingdataio/tdviewer:v1.7.8
 
 2. Create a directory on your disk to store TD.io database. For example "C:\db"
    
@@ -26,7 +26,7 @@ To download and run Docker image follow these steps:
 
 4. Run Docker image providing mount point for database and mount point for images folder.
 
-        docker run --mount src=c:\db,target=/home/user/trainingdataio/tdviewer/db,type=bind --mount src=c:\Images,target=/home/user/trainingdataio/tdviewer/images,type=bind -p 8090:8090 trainingdataio/tdviewer:v1.7.6
+        docker run --mount src=c:\db,target=/home/user/trainingdataio/tdviewer/db,type=bind --mount src=c:\Images,target=/home/user/trainingdataio/tdviewer/images,type=bind -p 8090:8090 trainingdataio/tdviewer:v1.7.8
 
 5. Login to https://app.trainingdata.io
 6. Create a on-premises dataset as described [here](/v1.0/Premises Infrastructure/Prem Datasets).
