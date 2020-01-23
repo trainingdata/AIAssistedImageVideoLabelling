@@ -27,15 +27,16 @@ nav:
         - 'Windows: Troubleshooting Docker': v1.0/Premises Infrastructure/Windows Troubleshooting.md
         - On-Prem Datasets: v1.0/Premises Infrastructure/Prem Datasets.md
         - Cloud Hosted Datasets: v1.0/Premises Infrastructure/Cloud Hosted Datasets.md
-      - Pixel Accurate Tools:
+      - Tools:
         - Segmentation with Brush & Eraser: v1.0/Pixel Accurate Tools/Segmentation.md
+        - Bounding Box: v1.0/Pixel Accurate Tools/BoundingBox.md
         - Freehand with Sculpter: v1.0/Pixel Accurate Tools/Freehand.md
         - Polygon Tool: v1.0/Pixel Accurate Tools/Polygon.md
         - Magnify: v1.0/Pixel Accurate Tools/Magnify.md
         - 2D Growth Tool for DICOM: v1.0/Pixel Accurate Tools/Growth Tool.md
       - Labeling Instructions:
-        - 'KeyBoard Shortcuts: Productivity': v1.0/Labelling Interface/Keyboard Shortcuts.md
         - Labeling Instruction Builder: v1.0/Labelling Interface/Builder.md
+        - 'KeyBoard Shortcuts: Productivity': v1.0/Labelling Interface/Keyboard Shortcuts.md
       - AI Assisted Annotation:
         - Segmentation of Liver: v1.0/AI Assisted Annotation/Segmentation Of Liver.md
         - Segmentation of Spleen: v1.0/AI Assisted Annotation/Segmentation Of Spleen.md

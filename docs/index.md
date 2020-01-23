@@ -6,7 +6,7 @@ TrainingData.io application provides high precision training data labeling for V
 TrainingData.io's enterprise-ready SaaS solution is designed for <b>machine learning teams</b> that use deep-learning for computer vision.
 
 1. Teams that want to <b>accelerate their deep learning training by upto 20X using</b> active learning.
-2. Teams who understand building data-pipeline is not worth their time. <b>Teams who understand free open-source tools are good for 1000 images, free open-source tools don't scale for 100,000 images.</b>
+2. <b>Teams who understand free open-source tools are good for 1000 images, free open-source tools don't scale for 100,000 images.</b> Teams who believe building data-pipeline is not worth their time. 
 3. <b>Teams who want to use AI to train better AI</b>
 4. Teams who would rather spend their time in <b>fine tuning hyper-parameters, and serving ML models</b> to their customers.
 5. Teams who want <b>highest quality training data</b>, who will not compromise on quality.
