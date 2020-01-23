@@ -71,6 +71,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://docs.trainingdata.io/v1.0/Pixel Accurate Tools/Freehand/</loc>
      <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
@@ -91,12 +96,12 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.trainingdata.io/v1.0/Labelling Interface/Keyboard Shortcuts/</loc>
+     <loc>https://docs.trainingdata.io/v1.0/Labelling Interface/Builder/</loc>
      <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.trainingdata.io/v1.0/Labelling Interface/Builder/</loc>
+     <loc>https://docs.trainingdata.io/v1.0/Labelling Interface/Keyboard Shortcuts/</loc>
      <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
