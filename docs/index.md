@@ -14,18 +14,18 @@ TrainingData.io's enterprise-ready SaaS solution is designed for <b>machine lear
 
 ## Build vs. Rent?
 
-Imagine building picture-sharing software-infrastucture for Facebook(TM). Now estimate man-months of R&D effort required for continues-development & maintenance of such software infrastructure. Building image/video data pipeline can be deceptively resource intensive. To help you decide whether to build or rent a data-pipeline here is a short quiz:
+Imagine building picture-sharing software-infrastucture for Facebook(TM). Now estimate man-months of R&D effort required for continues-development & maintenance of such software infrastructure. Building image/video data pipeline can be deceptively resource intensive. To help you decide whether to build or rent a data-pipeline we have prepared a short quiz:
 
-<div class="typeform-widget" data-url="https://gauravgupta643490.typeform.com/to/PRt03s" style="width: 100%; height: 400px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=PRt03s&utm_source=typeform.com-01D8JX6M71PNHS6C4XNPQ4S2EK-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div> 
+<div class="typeform-widget" data-url="https://gauravgupta643490.typeform.com/to/PRt03s" style="width: 100%; height: 600px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=PRt03s&utm_source=typeform.com-01D8JX6M71PNHS6C4XNPQ4S2EK-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div> 
 
 ## Key Benefits of TrainingData.io's SaaS Solution
 
 1. High precision labeling tool with <b>Superpixel segmentation with brush-and-eraser, growth-tool, AI-assisted labeling, and active-learning</b>.
 2. <b>Custom labeling instructions</b> for every task - delivers productivity enhancing user-experience for annotators.
 3. Data security and privacy protection using <b>On-premises, In-cloud or hybrid hosting</b>. (using Docker and VPN)
-4. Collaboration with multiple annotator's on same task.
-5. Annotator performance and Quality Management System (QMS).
-6. AI-Assisted annotation using existing ML models.
+4. <b>Collaboration with multiple annotator's</b> on same task.
+5. Annotator performance and <b>Quality Management System (QMS).</b>
+6. <b>AI-Assisted annotation</b> using existing ML models.
 7. Out-of-the-box support for medical imaging (DICOM).
 ![Key Benefits of TrainingData.io](/assets/images/2bbda76-NewWorkflow.png)
 
