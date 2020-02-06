@@ -1,5 +1,7 @@
 # TrainingData.io: AI Assisted Image & Video Training Data Labeling @ Scale
 
+TrainingData.io is fast and easy way to label image and video training data for computer vision and deep learning. TrainingData.io's solution scales to hundred thousands of images very quickly.
+
 # Table Of Contents
 
 + [Overview](#overview)
