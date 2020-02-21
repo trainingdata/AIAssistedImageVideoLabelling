@@ -10,7 +10,7 @@ Bounding Box is the most commonly used tool for object detection.
 <!-- [![Bounding Box: Add New Bounding Box](https://i.ytimg.com/vi/5VgMAKn7DFs/hqdefault.jpg)](https://www.youtube.com/embed/5VgMAKn7DFs) -->
 
 <div class="video-wrapper">
-  <iframe width="1280" height="480" src="https://youtu.be/wtc_-q2-tXc" frameborder="0" allowfullscreen></iframe>
+  <iframe width="1280" height="480" src="https://www.youtube.com/embed/wtc_-q2-tXc" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
@@ -24,7 +24,7 @@ Bounding Box is the most commonly used tool for object detection.
 * *Click left mouse* hold-and-drag to expand a bounding box. Release the left mouse button where you wish to finish expansion.   
 
 <div class="video-wrapper">
-  <iframe width="1280" height="480" src="https://www.youtube.com/watch?v=WHDokobjDlk" frameborder="0" allowfullscreen></iframe>
+  <iframe width="1280" height="480" src="https://www.youtube.com/embed/WHDokobjDlk" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Move a Bounding Box
@@ -32,6 +32,6 @@ Bounding Box is the most commonly used tool for object detection.
 * *Click left mouse button* on the edge of the bounding box, away from left-top handle, away from the right-bottom handle. Drag the mouse to where you want to place the bounding box and release left-mouse button.    
 
 <div class="video-wrapper">
-  <iframe width="1280" height="480" src="https://www.youtube.com/watch?v=rO-xLwvFOgM" frameborder="0" allowfullscreen></iframe>
+  <iframe width="1280" height="480" src="https://www.youtube.com/embed/rO-xLwvFOgM" frameborder="0" allowfullscreen></iframe>
 </div>
 

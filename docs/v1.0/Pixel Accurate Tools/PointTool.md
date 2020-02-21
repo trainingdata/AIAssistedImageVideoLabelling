@@ -8,7 +8,7 @@ Key Point tool is used to label fixed points in an image.
 * To add a new keypoint, click with left mouse button on the x,y point where there is keypoint. 
 
 <div class="video-wrapper">
-  <iframe width="1280" height="480" src="https://www.youtube.com/watch?v=kO0DFrQ6Ev4" frameborder="0" allowfullscreen></iframe>
+  <iframe width="1280" height="480" src="https://www.youtube.com/embed/kO0DFrQ6Ev4" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Move a Key Point
@@ -18,6 +18,6 @@ Key Point tool is used to label fixed points in an image.
 * Release the mouse at the new position.
 
 <div class="video-wrapper">
-  <iframe width="1280" height="480" src="https://www.youtube.com/watch?v=kO0DFrQ6Ev4" frameborder="0" allowfullscreen></iframe>
+  <iframe width="1280" height="480" src="https://www.youtube.com/embed/kO0DFrQ6Ev4" frameborder="0" allowfullscreen></iframe>
 </div>
 
