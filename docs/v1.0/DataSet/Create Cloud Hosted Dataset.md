@@ -85,10 +85,18 @@ JPEG
 
 BMP
 
-DCM
+DICOM (natively)
+
+NIFTI (natively)
+
+MOV (H.264, H.265, VP8/9 natively)
+
+MP4 (H.264, H.265, VP8/9 natively)
 
 TAR
 
 ZIP
 
 GZ
+
+CSV

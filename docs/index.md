@@ -32,10 +32,10 @@ Imagine building picture-sharing software-infrastucture for Facebook(TM). Now es
 ![Old Workflow](/assets/images/4108b7a-CurrentWorkflow.png)
 
 ## Quick start guide
-1. Login to [app.trainingdata.io](https://app.trainingdata.io)
-2. [Create a dataset](https://app.trainingdata.io/dataset/add)
-3. [Add labeling instructions](https://app.trainingdata.io/label/add)
-4. [Add collaborators](https://app.trainingdata.io/collaborators/add)
-5. [Create a new labeling job](https://app.trainingdata.io/task/add)
+1. Login to [app.trainingdata.io](https://app.trainingdata.io/v1/td)
+2. [Create a dataset](https://app.trainingdata.io/v1/td/datasets/add)
+3. [Add labeling instructions](https://app.trainingdata.io/v1/td/labeling/add)
+4. [Add collaborators](https://app.trainingdata.io/v1/td/collaborators/add)
+5. [Create a new labeling job](https://app.trainingdata.io/v1/td/projects/add)
 6. Start labeling with internal labeling team or external workforce.
 

@@ -54,7 +54,7 @@ With our labeling solution you can label any visual dataset including images and
 
 **What kind of data formats are supported by TrainingData.io? **
 
-Our annotation tools support JPEG, PNG, DICOM, mov, avi, mp4, zip, tar, gz
+Our annotation tools support JPEG, PNG, DICOM (natively), NIFTI (natively), MOV (H.264, H.265, VP8/9 natively), MP4 (H.264, H.265, VP8/9 natively), TAR, ZIP, GZ, CSV
 
 **How Trainingdata.io application will help my data science team deploy Machine Learning/Artificial Intelligence?**
 
