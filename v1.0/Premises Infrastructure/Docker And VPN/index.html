@@ -1221,11 +1221,11 @@
 <p>Pre-requisite: Install Docker on Windows Pro, Ubuntu 16.04 or 16.05, Mac Os X.</p>
 <h2 id="how-to-install-on-premises-annotation-tool-using-docker">How to Install On-Premises Annotation Tool Using Docker?<a class="headerlink" href="#how-to-install-on-premises-annotation-tool-using-docker" title="Permanent link">&para;</a></h2>
 <p>To download and run Docker image follow these steps:</p>
-<p>(Latest release of docker image is v1.7.8)</p>
+<p>(Latest release of docker image is v1.9.0)</p>
 <ol>
 <li>
 <p>Use shell on Unix or Mac OS X (or PowerShell on Windows)</p>
-<div class="codehilite"><pre><span></span>docker pull trainingdataio/tdviewer:v1.7.8
+<div class="codehilite"><pre><span></span>docker pull trainingdataio/tdviewer:v1.9.0
 </pre></div>
 
 
@@ -1248,7 +1248,7 @@ unix: $ mkdir -p /path/to/directory/images
 </li>
 <li>
 <p>Run Docker image providing mount point for database and mount point for images folder.</p>
-<div class="codehilite"><pre><span></span>docker run --mount src=c:\db,target=/home/user/trainingdataio/tdviewer/db,type=bind --mount src=c:\Images,target=/home/user/trainingdataio/tdviewer/images,type=bind -p 8090:8090 trainingdataio/tdviewer:v1.7.8
+<div class="codehilite"><pre><span></span>docker run --mount src=c:\db,target=/home/user/trainingdataio/tdviewer/db,type=bind --mount src=c:\Images,target=/home/user/trainingdataio/tdviewer/images,type=bind -p 8090:8090 trainingdataio/tdviewer:v1.9.0
 </pre></div>
 
 
